@@ -1,5 +1,40 @@
-.titulo {
-    font-size: 4rem;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-decoration: underline;
+.header {
+
+    background-color: $cor-header;
+    padding-bottom: 2rem;
+
+        // .logo__cabecalho {
+        //     background-color: chocolate;
+        // }
+
+        .logo {
+            width: 31.2rem;
+            margin: 0 auto;
+            display: flex;
+            justify-content: center;
+        }
+
+        .nav__bloco {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            justify-content: center;
+        }
+
+        .nav__link {
+            display: flex;
+            gap: .2rem;
+        }
+
+        .nav__icone {
+            color: #fff;
+        }
+
+        .nav__item {
+            color: #fff;
+        }
+
+
+
+
 }

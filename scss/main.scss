@@ -1,1 +1,29 @@
+/* FONTES - CORES*/
+$cor-header: #042A8F;
+$cor-section1: #778DA9;
+$cor-botoes: #C33C54;
+
+
+
+/* RESET - CONFIGURAÇÃO */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box
+}
+
+img {
+    width: 100%
+}
+
+a {
+    text-decoration: none;
+}
+
+ul, li {
+    list-style: none;
+}
+
+
+
 @import "header";
