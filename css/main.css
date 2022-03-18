@@ -9,17 +9,22 @@
 }
 
 /* line 16, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/main.scss */
+html {
+  scroll-behavior: smooth;
+}
+
+/* line 20, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/main.scss */
 img {
   width: 100%;
   height: auto;
 }
 
-/* line 21, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/main.scss */
+/* line 25, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/main.scss */
 a {
   text-decoration: none;
 }
 
-/* line 25, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/main.scss */
+/* line 29, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/main.scss */
 ul, li {
   list-style: none;
 }
@@ -89,8 +94,25 @@ ul, li {
 
 /* line 1, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_slider-promo.scss */
 .slider__promo {
-  position: relative;
+  width: 100%;
   background-color: #778DA9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+/* line 9, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_slider-promo.scss */
+.slider__promo .slider {
+  position: absolute;
+  padding: 1rem;
+  display: none;
+  height: 100vh;
+}
+
+/* line 16, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_slider-promo.scss */
+.slider__promo .selected {
+  display: block;
 }
 
 /*# sourceMappingURL=main.css.map */

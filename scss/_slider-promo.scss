@@ -1,7 +1,20 @@
 .slider__promo {
-    position: relative;
+    width: 100%;
     background-color: $cor-section1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
     
-    
+        .slider {
+            position: absolute;
+            padding: 1rem;
+            display: none;
+            height: 100vh;
+        }
+
+        .selected {
+            display: block;
+        }
 }
 
