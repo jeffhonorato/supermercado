@@ -2,8 +2,9 @@
 $cor-header: #042A8F;
 $cor-section1: #778DA9;
 $cor-botoes: #C33C54;
-
-
+$fonte-menu: 'Gurajada', serif;
+$fonte-titulo: 'Marcellus SC', serif;
+$fonte-corpo: 'Thasadith', sans-serif;
 
 /* RESET - CONFIGURAÇÃO */
 * {
@@ -24,6 +25,7 @@ ul, li {
     list-style: none;
 }
 
+/* MIXINS */
 
-
+/* PÁGINA - ARQUITETURA */
 @import "header";
