@@ -1,0 +1,14 @@
+{
+	"version": 3,
+	"file": "main.css",
+	"sources": [
+		"../scss/main.scss",
+		"../scss/_header.scss"
+	],
+	"sourcesContent": [
+		"@import \"header\";",
+		".titulo {\r\n    font-size: 4rem;\r\n    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;\r\n    text-decoration: underline;\r\n}"
+	],
+	"names": [],
+	"mappings": ";;ACAA,AAAA,OAAO,CAAC;EACJ,SAAS,EAAE,IAAI;EACf,WAAW,EAAE,gEAAgE;EAC7E,eAAe,EAAE,SAAS;CAC7B"
+}
