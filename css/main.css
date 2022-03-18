@@ -11,14 +11,15 @@
 /* line 16, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/main.scss */
 img {
   width: 100%;
+  height: auto;
 }
 
-/* line 20, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/main.scss */
+/* line 21, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/main.scss */
 a {
   text-decoration: none;
 }
 
-/* line 24, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/main.scss */
+/* line 25, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/main.scss */
 ul, li {
   list-style: none;
 }
@@ -89,13 +90,6 @@ ul, li {
 /* line 1, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_slider-promo.scss */
 .slider__promo {
   position: relative;
-}
-
-/* line 5, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_slider-promo.scss */
-.slider__promo .slider {
-  position: absolute;
-  height: 100vh;
-  padding: 1rem;
   background-color: #778DA9;
 }
 
