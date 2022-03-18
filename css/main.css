@@ -96,9 +96,6 @@ ul, li {
 .slider__promo {
   width: 100%;
   background-color: #778DA9;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   position: relative;
 }
 
