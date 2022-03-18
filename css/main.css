@@ -86,4 +86,17 @@ ul, li {
   font-size: 2rem;
 }
 
+/* line 1, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_slider-promo.scss */
+.slider__promo {
+  position: relative;
+}
+
+/* line 5, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_slider-promo.scss */
+.slider__promo .slider {
+  position: absolute;
+  height: 100vh;
+  padding: 1rem;
+  background-color: #778DA9;
+}
+
 /*# sourceMappingURL=main.css.map */

@@ -1,0 +1,12 @@
+.slider__promo {
+    position: relative;
+    // width: 80%;
+    
+    .slider {
+        position: absolute;
+        height: 100vh;
+        padding: 1rem;
+        background-color: $cor-section1;
+    }
+}
+
