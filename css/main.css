@@ -54,12 +54,13 @@ ul, li {
   gap: .2rem;
   box-shadow: 0px 1px 10px 1px #fff;
   padding: 0rem .4rem;
+  border-radius: 8px;
 }
 
-/* line 32, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_header.scss */
+/* line 33, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_header.scss */
 .header .nav__link:hover {
   background-color: #fff;
-  transition: all .6s;
+  transition: all .8s;
 }
 
 /* line 38, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_header.scss */
