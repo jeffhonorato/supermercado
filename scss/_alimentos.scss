@@ -45,15 +45,16 @@
         }
 
         /***** SESSÂO ARROZ *****/
+        .arroz__box {
+            padding: 3rem 0rem;
+        }
+
         .arroz__titulo {
             font-family: $fonte-titulo;
             text-align: center;
             margin-bottom: 2rem;
             font-size: 3rem;
             text-decoration: underline;
-        }
-        .arroz__box {
-            padding: 3rem 0rem;
         }
 
         .arroz__cards {
@@ -87,6 +88,47 @@
         }
 
         /***** SESSÂO FEIJÃO *****/
+        .feijao__box {
+            padding: 3rem 0rem;
+        }
+
+        .feijao__titulo {
+            font-family: $fonte-titulo;
+            text-align: center;
+            margin-bottom: 2rem;
+            font-size: 3rem;
+            text-decoration: underline;
+        }
+        
+        .feijao__cards {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2rem;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .feijao__item {
+            @include card-info-config;
+        }
+
+        .feijao__img {
+            width: 180px;
+        }
+
+        .feijao__desc {
+            font-family: $fonte-titulo;
+            font-size: 1.2rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .feijao__preco {
+            @include card-preco-config;
+        }
+
+        .feijao__strong {
+            font-size: 1.2rem;
+        }
 
 
 }
