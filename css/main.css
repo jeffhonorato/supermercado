@@ -178,9 +178,10 @@ ul, li {
 .promocao .card__desc {
   font-family: "Marcellus SC", serif;
   font-size: 1.2rem;
+  margin-bottom: 0.5rem;
 }
 
-/* line 57, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_promocao.scss */
+/* line 58, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_promocao.scss */
 .promocao .card__preco {
   font-family: "Thasadith", sans-serif;
   font-weight: bold;
@@ -190,7 +191,7 @@ ul, li {
   border-radius: 4px;
 }
 
-/* line 66, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_promocao.scss */
+/* line 67, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_promocao.scss */
 .promocao .preco__strong {
   font-size: 1.2rem;
 }
