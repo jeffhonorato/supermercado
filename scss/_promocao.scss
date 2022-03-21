@@ -1,26 +1,69 @@
 .promocao {
     background-color: $cor-background;
 
+        .promo__titulo {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 5rem;
+            background-color: $cor-header;
+            padding: 1rem;
+        }
+
+        .img__titulo {
+            width: 12.5rem;
+        }
+
+        .titulo {
+            color: #fff;
+            font-size: 3rem;
+        }
+
+        .titulo {
+            font-family: $fonte-titulo;
+        }
+
         .card__itens {
             display: flex;
             flex-wrap: wrap;
             gap: 2rem;
             justify-content: center;
             align-items: center;
+            margin-top: 3rem;
         }
 
         .card {
             text-align: center;
             padding: 1rem;
-            box-shadow: 2px 2px 2px 1px #000;
+            box-shadow: 1px 1px 10px 1px #000;
+            background-color: #fff;
+            border-radius: 4px;
 
                 &:hover {
                     box-shadow: 1px 1px 1px 1px #000;
-                    transition: all;
+                    transition: all .4s;
                 }
         }
 
         .card__img {
-            width: 200px;
+            width: 180px;
+        }
+
+        .card__desc {
+            font-family: $fonte-titulo;
+            font-size: 1.2rem;
+        }
+
+        .card__preco {
+            font-family: $fonte-corpo;
+            font-weight: bold;
+            background-color: $cor-header;
+            padding: 0.5rem;
+            color: #fff;
+            border-radius: 4px;
+        }
+
+        .preco__strong {
+            font-size: 1.2rem;
         }
 }

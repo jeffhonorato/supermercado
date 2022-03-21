@@ -101,7 +101,7 @@ ul, li {
 
 /* line 6, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_slider-promo.scss */
 .slider__promo .slide {
-  height: 95vh;
+  height: 100vh;
   padding: 1rem;
   position: absolute;
   opacity: 0;
@@ -115,34 +115,84 @@ ul, li {
 
 /* line 1, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_promocao.scss */
 .promocao {
-  background-color: #F5F5F5;
+  background-color: #dfdddd;
 }
 
 /* line 4, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_promocao.scss */
+.promocao .promo__titulo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  background-color: #042A8F;
+  padding: 1rem;
+}
+
+/* line 13, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_promocao.scss */
+.promocao .img__titulo {
+  width: 12.5rem;
+}
+
+/* line 17, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_promocao.scss */
+.promocao .titulo {
+  color: #fff;
+  font-size: 3rem;
+}
+
+/* line 22, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_promocao.scss */
+.promocao .titulo {
+  font-family: "Marcellus SC", serif;
+}
+
+/* line 26, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_promocao.scss */
 .promocao .card__itens {
   display: flex;
   flex-wrap: wrap;
   gap: 2rem;
   justify-content: center;
   align-items: center;
+  margin-top: 3rem;
 }
 
-/* line 12, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_promocao.scss */
+/* line 35, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_promocao.scss */
 .promocao .card {
   text-align: center;
   padding: 1rem;
-  box-shadow: 2px 2px 2px 1px #000;
+  box-shadow: 1px 1px 10px 1px #000;
+  background-color: #fff;
+  border-radius: 4px;
 }
 
-/* line 17, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_promocao.scss */
+/* line 42, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_promocao.scss */
 .promocao .card:hover {
   box-shadow: 1px 1px 1px 1px #000;
-  transition: all;
+  transition: all .4s;
 }
 
-/* line 23, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_promocao.scss */
+/* line 48, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_promocao.scss */
 .promocao .card__img {
-  width: 200px;
+  width: 180px;
+}
+
+/* line 52, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_promocao.scss */
+.promocao .card__desc {
+  font-family: "Marcellus SC", serif;
+  font-size: 1.2rem;
+}
+
+/* line 57, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_promocao.scss */
+.promocao .card__preco {
+  font-family: "Thasadith", sans-serif;
+  font-weight: bold;
+  background-color: #042A8F;
+  padding: 0.5rem;
+  color: #fff;
+  border-radius: 4px;
+}
+
+/* line 66, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_promocao.scss */
+.promocao .preco__strong {
+  font-size: 1.2rem;
 }
 
 /*# sourceMappingURL=main.css.map */
