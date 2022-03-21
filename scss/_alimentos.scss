@@ -130,5 +130,47 @@
             font-size: 1.2rem;
         }
 
+        /***** SESSÂO BISCOITOS *****/
+        .biscoito__box {
+            padding: 3rem 0rem;
+        }
+
+        .biscoito__titulo {
+            font-family: $fonte-titulo;
+            text-align: center;
+            margin-bottom: 2rem;
+            font-size: 3rem;
+            text-decoration: underline;
+        }
+
+        .biscoito__cards {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2rem;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .biscoito__item {
+            @include card-info-config;
+        }
+
+        .biscoito__img {
+            width: 180px;
+        }
+
+        .biscoito__desc {
+            font-family: $fonte-titulo;
+            font-size: 1.2rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .biscoito__preco {
+            @include card-preco-config;
+        }
+
+        .biscoito__strong {
+            font-size: 1.2rem;
+        }
 
 }
