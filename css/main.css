@@ -203,6 +203,7 @@ ul, li {
   /***** SESSÂO ARROZ *****/
   /***** SESSÂO FEIJÃO *****/
   /***** SESSÂO BISCOITOS *****/
+  /***** SESSÂO FRUTAS *****/
 }
 
 /* line 4, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_alimentos.scss */
@@ -447,6 +448,71 @@ ul, li {
 
 /* line 172, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_alimentos.scss */
 .alimentos .biscoito__strong {
+  font-size: 1.2rem;
+}
+
+/* line 177, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_alimentos.scss */
+.alimentos .frutas__box {
+  padding: 3rem 0rem;
+}
+
+/* line 181, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_alimentos.scss */
+.alimentos .frutas__titulo {
+  font-family: "Marcellus SC", serif;
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 3rem;
+  text-decoration: underline;
+}
+
+/* line 189, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_alimentos.scss */
+.alimentos .frutas__cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+/* line 197, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_alimentos.scss */
+.alimentos .fruta__item {
+  text-align: center;
+  padding: 1rem;
+  box-shadow: 1px 1px 10px 1px #000;
+  background-color: #fff;
+  border-radius: 4px;
+}
+
+/* line 51, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/main.scss */
+.alimentos .fruta__item:hover {
+  box-shadow: 1px 1px 1px 1px #000;
+  transition: all .4s;
+}
+
+/* line 201, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_alimentos.scss */
+.alimentos .fruta__img {
+  width: 180px;
+}
+
+/* line 205, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_alimentos.scss */
+.alimentos .fruta__desc {
+  font-family: "Marcellus SC", serif;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+/* line 211, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_alimentos.scss */
+.alimentos .fruta__preco {
+  font-family: "Thasadith", sans-serif;
+  font-weight: bold;
+  background-color: #042A8F;
+  padding: 0.5rem;
+  color: #fff;
+  border-radius: 4px;
+}
+
+/* line 215, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_alimentos.scss */
+.alimentos .fruta__strong {
   font-size: 1.2rem;
 }
 
