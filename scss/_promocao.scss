@@ -29,16 +29,7 @@
         }
 
         .card {
-            text-align: center;
-            padding: 1rem;
-            box-shadow: 1px 1px 10px 1px #000;
-            background-color: #fff;
-            border-radius: 4px;
-
-                &:hover {
-                    box-shadow: 1px 1px 1px 1px #000;
-                    transition: all .4s;
-                }
+            @include card-info-config;
         }
 
         .card__img {
@@ -52,12 +43,7 @@
         }
 
         .card__preco {
-            font-family: $fonte-corpo;
-            font-weight: bold;
-            background-color: $cor-header;
-            padding: 0.5rem;
-            color: #fff;
-            border-radius: 4px;
+            @include card-preco-config;
         }
 
         .preco__strong {

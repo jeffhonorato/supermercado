@@ -1,4 +1,5 @@
 .alimentos {
+    background-color: $cor-background;
     
         .alimentos__titulo {
             @include titulo-section;
@@ -13,5 +14,62 @@
             font-size: 4rem;
             color: #fff;
             text-align: center;
+        }
+
+        .menu__alimentos {
+            display: flex;
+            justify-content: center;
+            gap: 3rem;
+            background-color: $cor-header;
+            padding: 2rem 0rem;
+        }
+
+        .menu__item {
+            color: #fff;
+            font-family: $fonte-titulo;
+            font-size: 1.5rem;
+            background-color: $cor-section1;
+            padding: .5rem;
+            border-radius: 4px;
+            box-shadow: 1px 1px 10px 1px #fff;
+
+                &:hover {
+                    box-shadow: 0px 0px 2px 1px #fff;
+                }
+        }
+
+        /***** SESSÂO ARROZ *****/
+        .arroz__box {
+            padding: 3rem 0rem;
+        }
+
+        .arroz__cards {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2rem;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .arroz__item {
+            @include card-info-config;
+        }
+
+        .arroz__img {
+            width: 180px;
+        }
+
+       .arroz__desc {
+            font-family: $fonte-titulo;
+            font-size: 1.2rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .arroz__preco {
+            @include card-preco-config;
+        }
+
+        .arroz__strong {
+            font-size: 1.2rem;
         }
 }
