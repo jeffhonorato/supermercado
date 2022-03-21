@@ -1,13 +1,9 @@
 .promocao {
     background-color: $cor-background;
+    padding-bottom: 4rem;
 
         .promo__titulo {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            gap: 5rem;
-            background-color: $cor-header;
-            padding: 1rem;
+            @include titulo-section;
         }
 
         .img__titulo {

@@ -1,0 +1,17 @@
+.alimentos {
+    
+        .alimentos__titulo {
+            @include titulo-section;
+        }
+
+        .img__alimentos {
+            width: 12.5rem;
+        }
+
+        .titulo {
+            font-family: $fonte-titulo;
+            font-size: 4rem;
+            color: #fff;
+            text-align: center;
+        }
+}

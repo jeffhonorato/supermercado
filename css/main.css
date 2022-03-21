@@ -116,9 +116,10 @@ ul, li {
 /* line 1, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_promocao.scss */
 .promocao {
   background-color: #dfdddd;
+  padding-bottom: 4rem;
 }
 
-/* line 4, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_promocao.scss */
+/* line 5, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_promocao.scss */
 .promocao .promo__titulo {
   display: flex;
   justify-content: center;
@@ -128,23 +129,23 @@ ul, li {
   padding: 1rem;
 }
 
-/* line 13, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_promocao.scss */
+/* line 9, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_promocao.scss */
 .promocao .img__titulo {
   width: 12.5rem;
 }
 
-/* line 17, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_promocao.scss */
+/* line 13, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_promocao.scss */
 .promocao .titulo {
   color: #fff;
   font-size: 3rem;
 }
 
-/* line 22, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_promocao.scss */
+/* line 18, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_promocao.scss */
 .promocao .titulo {
   font-family: "Marcellus SC", serif;
 }
 
-/* line 26, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_promocao.scss */
+/* line 22, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_promocao.scss */
 .promocao .card__itens {
   display: flex;
   flex-wrap: wrap;
@@ -154,7 +155,7 @@ ul, li {
   margin-top: 3rem;
 }
 
-/* line 35, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_promocao.scss */
+/* line 31, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_promocao.scss */
 .promocao .card {
   text-align: center;
   padding: 1rem;
@@ -163,25 +164,25 @@ ul, li {
   border-radius: 4px;
 }
 
-/* line 42, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_promocao.scss */
+/* line 38, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_promocao.scss */
 .promocao .card:hover {
   box-shadow: 1px 1px 1px 1px #000;
   transition: all .4s;
 }
 
-/* line 48, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_promocao.scss */
+/* line 44, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_promocao.scss */
 .promocao .card__img {
   width: 180px;
 }
 
-/* line 52, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_promocao.scss */
+/* line 48, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_promocao.scss */
 .promocao .card__desc {
   font-family: "Marcellus SC", serif;
   font-size: 1.2rem;
   margin-bottom: 0.5rem;
 }
 
-/* line 58, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_promocao.scss */
+/* line 54, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_promocao.scss */
 .promocao .card__preco {
   font-family: "Thasadith", sans-serif;
   font-weight: bold;
@@ -191,9 +192,32 @@ ul, li {
   border-radius: 4px;
 }
 
-/* line 67, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_promocao.scss */
+/* line 63, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_promocao.scss */
 .promocao .preco__strong {
   font-size: 1.2rem;
+}
+
+/* line 3, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_alimentos.scss */
+.alimentos .alimentos__titulo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  background-color: #042A8F;
+  padding: 1rem;
+}
+
+/* line 7, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_alimentos.scss */
+.alimentos .img__alimentos {
+  width: 12.5rem;
+}
+
+/* line 11, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_alimentos.scss */
+.alimentos .titulo {
+  font-family: "Marcellus SC", serif;
+  font-size: 4rem;
+  color: #fff;
+  text-align: center;
 }
 
 /*# sourceMappingURL=main.css.map */

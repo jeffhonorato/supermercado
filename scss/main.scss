@@ -32,7 +32,14 @@ ul, li {
 }
 
 /* MIXINS */
-
+@mixin titulo-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    background-color: $cor-header;
+    padding: 1rem;
+}
 
 
 
@@ -40,3 +47,4 @@ ul, li {
 @import "header";
 @import "slider-promo";
 @import "promocao";
+@import "alimentos";
