@@ -94,22 +94,22 @@ ul, li {
 
 /* line 1, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_slider-promo.scss */
 .slider__promo {
-  width: 100%;
-  background-color: #778DA9;
+  height: 100vh;
   position: relative;
 }
 
-/* line 9, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_slider-promo.scss */
-.slider__promo .slider {
-  position: absolute;
+/* line 5, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_slider-promo.scss */
+.slider__promo .slide {
+  height: 95vh;
   padding: 1rem;
-  display: none;
-  height: 100vh;
+  position: absolute;
+  opacity: 0;
+  transition: opacity 800ms;
 }
 
-/* line 16, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_slider-promo.scss */
+/* line 13, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_slider-promo.scss */
 .slider__promo .selected {
-  display: block;
+  opacity: 1;
 }
 
 /*# sourceMappingURL=main.css.map */
