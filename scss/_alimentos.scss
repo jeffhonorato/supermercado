@@ -1,5 +1,13 @@
 .alimentos {
     background-color: $cor-background;
+
+    .js-conteudo-alimentos {
+        display: none;
+    }
+
+    .js-conteudo-alimentos.ativo {
+        display: block;
+    }
     
         .alimentos__titulo {
             @include titulo-section;
@@ -32,6 +40,7 @@
             padding: .5rem;
             border-radius: 4px;
             box-shadow: 1px 1px 10px 1px #fff;
+            cursor: pointer;
 
                 &:hover {
                     box-shadow: 0px 0px 2px 1px #fff;
@@ -50,11 +59,7 @@
         }
 
         .arroz__titulo {
-            font-family: $fonte-titulo;
-            text-align: center;
-            margin-bottom: 2rem;
-            font-size: 3rem;
-            text-decoration: underline;
+            @include card-titulo;
         }
 
         .arroz__cards {
@@ -66,7 +71,7 @@
         }
 
         .arroz__item {
-            @include card-info-config;
+            @include card-config;
         }
 
         .arroz__img {
@@ -80,7 +85,7 @@
         }
 
         .arroz__preco {
-            @include card-preco-config;
+            @include card-preco;
         }
 
         .arroz__strong {
@@ -109,7 +114,7 @@
         }
 
         .feijao__item {
-            @include card-info-config;
+            @include card-config;
         }
 
         .feijao__img {
@@ -123,7 +128,7 @@
         }
 
         .feijao__preco {
-            @include card-preco-config;
+            @include card-preco;
         }
 
         .feijao__strong {
@@ -152,7 +157,7 @@
         }
 
         .biscoito__item {
-            @include card-info-config;
+            @include card-config;
         }
 
         .biscoito__img {
@@ -166,7 +171,7 @@
         }
 
         .biscoito__preco {
-            @include card-preco-config;
+            @include card-preco;
         }
 
         .biscoito__strong {
@@ -195,7 +200,7 @@
         }
 
         .fruta__item {
-            @include card-info-config;
+            @include card-config;
         }
 
         .fruta__img {
@@ -209,12 +214,59 @@
         }
 
         .fruta__preco {
-            @include card-preco-config;
+            @include card-preco;
         }
 
         .fruta__strong {
             font-size: 1.2rem;
         }
+
+        /***** SESSÂO ENLATADOS *****/
+        .enlatados__box {
+            padding: 3rem 0rem;
+        }
+
+        .enlatados__titulo {
+            font-family: $fonte-titulo;
+            text-align: center;
+            margin-bottom: 2rem;
+            font-size: 3rem;
+            text-decoration: underline;
+        }
+
+        .enlatados__cards {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2rem;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .enlatados__item {
+            @include card-config;
+        }
+
+        .enlatado__img {
+            width: 180px;
+        }
+
+        .enlatado__desc {
+            font-family: $fonte-titulo;
+            font-size: 1.2rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .enlatado__preco {
+            @include card-preco;
+        }
+
+        .enlatado__strong {
+            font-size: 1.2rem;
+        }
+
+
+
+
 
 
 

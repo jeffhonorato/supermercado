@@ -41,7 +41,7 @@ ul, li {
     padding: 1rem;
 }
 
-@mixin card-info-config {
+@mixin card-config {
     text-align: center;
     padding: 1rem;
     box-shadow: 1px 1px 10px 1px #000;
@@ -54,7 +54,15 @@ ul, li {
         }
 }
 
-@mixin card-preco-config {
+@mixin card-titulo {
+    font-family: $fonte-titulo;
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 3rem;
+    text-decoration: underline;
+}
+
+@mixin card-preco {
     font-family: $fonte-corpo;
     font-weight: bold;
     background-color: $cor-header;
