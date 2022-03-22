@@ -1,5 +1,7 @@
 const tabmenu = document.querySelectorAll(".js-menu-alimentos a");
 const tabConteudo = document.querySelectorAll(".alimentos section");
+tabConteudo[0].classList.add("ativo")
+
 
 function activeTab(index) {
 
