@@ -7,19 +7,40 @@
 
         .promo__titulo {
             @include titulo-section;
+
+                @include mobile {
+                    gap: 1rem;
+                }
+
+                @include tablet {
+                    gap: 2rem;
+                }
         }
 
         .img__titulo {
             width: 12.5rem;
+
+                @include mobile {
+                    width: 8rem;
+                }
+
+                @include tablet {
+                    width: 10rem;
+                }
         }
 
         .titulo {
             color: #fff;
             font-size: 3rem;
-        }
-
-        .titulo {
             font-family: $fonte-titulo;
+
+                @include mobile {
+                    font-size: 1.5rem;
+                }
+
+                @include tablet {
+                    font-size: 2rem;
+                }
         }
 
         .card__itens {

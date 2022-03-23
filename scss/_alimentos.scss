@@ -26,14 +26,19 @@
     
         .alimentos__titulo {
             @include titulo-section;
+
+                @include mobile {
+                    gap: 1rem;
+                    padding: 0.5rem;
+                }
         }
 
         .img__alimentos {
             width: 12.5rem;
 
-            @include mobile {
-                width: 5rem;    
-            }
+                @include mobile {
+                    width: 8rem;
+                }
         }
 
         .titulo {
