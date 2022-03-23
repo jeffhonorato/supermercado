@@ -1,5 +1,8 @@
 .promocao {
-    background-color: $cor-background;
+    background-image: url("../img/background-section.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     padding-bottom: 4rem;
 
         .promo__titulo {
