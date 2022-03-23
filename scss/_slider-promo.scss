@@ -6,12 +6,37 @@
     background-repeat: no-repeat;
     background-size: cover;
 
+        @include mobile {
+            height: 30vh
+        }
+
+        @include tablet {
+            height: 35vh
+        }
+
+        @include desktop {
+            height: 70vh
+        }
+
+
         .slide {
             height: 100vh;
             padding: 1rem;
             position: absolute;
             opacity: 0;
             transition: opacity 800ms;
+
+            @include mobile {
+                height: 30vh
+            }
+
+            @include tablet {
+                height: 35vh
+            }
+
+            @include desktop {
+                height: 70vh
+            }
         }
 
         .selected {
