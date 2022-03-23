@@ -190,6 +190,13 @@ ul, li {
 }
 
 /* line 48, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_promocao.scss */
+.promocao .card__peso {
+  font-family: "Marcellus SC", serif;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+/* line 54, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_promocao.scss */
 .promocao .card__preco {
   font-family: "Thasadith", sans-serif;
   font-weight: bold;
@@ -200,9 +207,9 @@ ul, li {
   font-size: 1.2rem;
 }
 
-/* line 52, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_promocao.scss */
+/* line 58, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_promocao.scss */
 .promocao .preco__strong {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
 }
 
 /* line 1, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_alimentos.scss */
@@ -420,7 +427,7 @@ ul, li {
 
 /* line 149, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_alimentos.scss */
 .alimentos .feijao__strong {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
 }
 
 /* line 154, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_alimentos.scss */
@@ -486,7 +493,7 @@ ul, li {
 
 /* line 192, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_alimentos.scss */
 .alimentos .biscoito__strong {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
 }
 
 /* line 197, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_alimentos.scss */
@@ -552,7 +559,7 @@ ul, li {
 
 /* line 235, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_alimentos.scss */
 .alimentos .fruta__strong {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
 }
 
 /* line 240, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_alimentos.scss */
@@ -618,7 +625,7 @@ ul, li {
 
 /* line 278, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_alimentos.scss */
 .alimentos .enlatado__strong {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
 }
 
 /*# sourceMappingURL=main.css.map */

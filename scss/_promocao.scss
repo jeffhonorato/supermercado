@@ -45,11 +45,17 @@
             margin-bottom: 0.5rem;
         }
 
+        .card__peso {
+            font-family: $fonte-titulo;
+            font-size: 1.2rem;
+            margin-bottom: 0.5rem;
+        }
+
         .card__preco {
             @include card-preco;
         }
 
         .preco__strong {
-            font-size: 1.2rem;
+            font-size: 1.4rem;
         }
 }
