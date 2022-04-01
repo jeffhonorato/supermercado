@@ -174,7 +174,7 @@ ul, li {
 @media (min-width: 768px) and (max-width: 1280px) {
   /* line 1, ../../../Documents/GitHub/supermercado/scss/_slider-promo.scss */
   .slider__promo {
-    height: 70vh;
+    height: 90vh;
   }
 }
 
@@ -204,7 +204,7 @@ ul, li {
 @media (min-width: 768px) and (max-width: 1280px) {
   /* line 22, ../../../Documents/GitHub/supermercado/scss/_slider-promo.scss */
   .slider__promo .slide {
-    height: 70vh;
+    height: 90vh;
   }
 }
 
