@@ -303,9 +303,10 @@ ul, li {
   box-shadow: 1px 1px 10px 1px #000;
   background-color: #fff;
   border-radius: 4px;
+  width: 300px;
 }
 
-/* line 51, ../../../Documents/GitHub/supermercado/scss/main.scss */
+/* line 52, ../../../Documents/GitHub/supermercado/scss/main.scss */
 .promocao .card:hover {
   box-shadow: 1px 1px 1px 1px #000;
   transition: all .4s;
@@ -357,6 +358,7 @@ ul, li {
   /***** SESSÂO BISCOITOS *****/
   /***** SESSÂO FRUTAS *****/
   /***** SESSÂO ENLATADOS *****/
+  /***** SWIPER CONFIG *****/
 }
 
 /* line 7, ../../../Documents/GitHub/supermercado/scss/_alimentos.scss */
@@ -513,9 +515,10 @@ ul, li {
   box-shadow: 1px 1px 10px 1px #000;
   background-color: #fff;
   border-radius: 4px;
+  width: 300px;
 }
 
-/* line 51, ../../../Documents/GitHub/supermercado/scss/main.scss */
+/* line 52, ../../../Documents/GitHub/supermercado/scss/main.scss */
 .alimentos .arroz__item:hover {
   box-shadow: 1px 1px 1px 1px #000;
   transition: all .4s;
@@ -586,9 +589,10 @@ ul, li {
   box-shadow: 1px 1px 10px 1px #000;
   background-color: #fff;
   border-radius: 4px;
+  width: 300px;
 }
 
-/* line 51, ../../../Documents/GitHub/supermercado/scss/main.scss */
+/* line 52, ../../../Documents/GitHub/supermercado/scss/main.scss */
 .alimentos .feijao__item:hover {
   box-shadow: 1px 1px 1px 1px #000;
   transition: all .4s;
@@ -659,9 +663,10 @@ ul, li {
   box-shadow: 1px 1px 10px 1px #000;
   background-color: #fff;
   border-radius: 4px;
+  width: 300px;
 }
 
-/* line 51, ../../../Documents/GitHub/supermercado/scss/main.scss */
+/* line 52, ../../../Documents/GitHub/supermercado/scss/main.scss */
 .alimentos .biscoito__item:hover {
   box-shadow: 1px 1px 1px 1px #000;
   transition: all .4s;
@@ -725,9 +730,10 @@ ul, li {
   box-shadow: 1px 1px 10px 1px #000;
   background-color: #fff;
   border-radius: 4px;
+  width: 300px;
 }
 
-/* line 51, ../../../Documents/GitHub/supermercado/scss/main.scss */
+/* line 52, ../../../Documents/GitHub/supermercado/scss/main.scss */
 .alimentos .fruta__item:hover {
   box-shadow: 1px 1px 1px 1px #000;
   transition: all .4s;
@@ -791,9 +797,10 @@ ul, li {
   box-shadow: 1px 1px 10px 1px #000;
   background-color: #fff;
   border-radius: 4px;
+  width: 300px;
 }
 
-/* line 51, ../../../Documents/GitHub/supermercado/scss/main.scss */
+/* line 52, ../../../Documents/GitHub/supermercado/scss/main.scss */
 .alimentos .enlatados__item:hover {
   box-shadow: 1px 1px 1px 1px #000;
   transition: all .4s;
@@ -825,6 +832,21 @@ ul, li {
 /* line 321, ../../../Documents/GitHub/supermercado/scss/_alimentos.scss */
 .alimentos .enlatado__strong {
   font-size: 1.4rem;
+}
+
+/* line 327, ../../../Documents/GitHub/supermercado/scss/_alimentos.scss */
+.alimentos .swiper {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+/* line 333, ../../../Documents/GitHub/supermercado/scss/_alimentos.scss */
+.alimentos .swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 300px;
 }
 
 /*# sourceMappingURL=main.css.map */
