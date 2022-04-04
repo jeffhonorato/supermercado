@@ -138,10 +138,6 @@
             @include card-preco;
         }
 
-        .arroz__strong {
-            font-size: 1.4rem;
-        }
-
         /***** SESSÂO FEIJÃO *****/
         .feijao__box {
             padding: 3rem 0rem;
@@ -187,10 +183,6 @@
             @include card-preco;
         }
 
-        .feijao__strong {
-            font-size: 1.4rem;
-        }
-
         /***** SESSÂO BISCOITOS *****/
         .biscoito__box {
             padding: 3rem 0rem;
@@ -228,10 +220,6 @@
 
         .biscoito__preco {
             @include card-preco;
-        }
-
-        .biscoito__strong {
-            font-size: 1.4rem;
         }
 
         /***** SESSÂO FRUTAS *****/
@@ -273,10 +261,6 @@
             @include card-preco;
         }
 
-        .fruta__strong {
-            font-size: 1.4rem;
-        }
-
         /***** SESSÂO ENLATADOS *****/
         .enlatados__box {
             padding: 3rem 0rem;
@@ -314,10 +298,6 @@
 
         .enlatado__preco {
             @include card-preco;
-        }
-
-        .enlatado__strong {
-            font-size: 1.4rem;
         }
 
 
