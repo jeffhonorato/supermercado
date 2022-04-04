@@ -29,27 +29,38 @@
 
         }
 
-        .icone__mobile {
-            display: flex;
-            justify-content: center;
-            width: 60px;
-            margin: 0 auto;
-            display: none;
+        // .icone__mobile {
+        //     display: flex;
+        //     justify-content: center;
+        //     width: 60px;
+        //     margin: 0 auto;
+        //     display: none;
 
-                @include mobile {
-                    display: flex;
-                    justify-content: center;
-                    width: 60px;
-                    padding-bottom: 1rem;
-                    display: block;
-                }
-        }
+        //         @include mobile {
+        //             display: flex;
+        //             justify-content: center;
+        //             width: 60px;
+        //             padding-bottom: 1rem;
+        //             display: block;
+        //         }
+        // }
+
+        // .nav {
+        //     position: fixed;
+        //     top: 420px;
+        //     width: 100%;
+
+        // }
 
         .nav__bloco {
             display: flex;
             flex-wrap: wrap;
             gap: 2rem;
             justify-content: center;
+
+                @include mobile {
+                    gap: 1rem;
+                }
         }
 
         .nav__link {
@@ -90,7 +101,7 @@
             font-size: 2rem;
 
             @include mobile {
-                font-size: 1rem;
+                font-size: 1.2rem;
             }
         }
 

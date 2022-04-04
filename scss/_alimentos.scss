@@ -78,7 +78,7 @@
         .menu__item {
             color: #fff;
             font-family: $fonte-titulo;
-            font-size: 1.5rem;
+            font-size: 1.7rem;
             background-color: $cor-botoes;
             padding: .5rem;
             border-radius: 4px;
@@ -86,7 +86,7 @@
             cursor: pointer;
 
                 @include mobile {
-                    font-size: 1rem;
+                    font-size: 1.2rem;
                     
                 }
 
