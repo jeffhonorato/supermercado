@@ -1,0 +1,78 @@
+.bebidas {
+    background-image: url("../img/background-section.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+        .bebidas__titulo {
+            @include titulo-section;
+
+            @include mobile {
+                gap: 1rem;
+            }
+
+            @include tablet {
+                gap: 1.4rem;
+            }
+        }
+
+        .img__bebidas {
+            width: 12.5rem;
+
+            @include mobile {
+                width: 8rem;
+            }
+        }
+
+        .titulo {
+            font-family: $fonte-titulo;
+            font-size: 4rem;
+            color: #fff;
+            text-align: center;
+
+                @include mobile {
+                    font-size: 2rem;    
+                }
+
+                @include tablet {
+                    font-size: 2.8rem;    
+                }
+        }
+
+        .menu__bebidas {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 3rem;
+            background-color: $cor-header;
+            padding: 2rem 0rem;
+
+                @include mobile {
+                    gap: 1rem;
+                    padding: 2rem 0.5rem;
+                }
+        }
+
+        .menu__item {
+            color: #fff;
+            font-family: $fonte-titulo;
+            font-size: 1.7rem;
+            background-color: $cor-botoes;
+            padding: .5rem;
+            border-radius: 4px;
+            box-shadow: 1px 1px 10px 1px #fff;
+            cursor: pointer;
+
+                @include mobile {
+                    font-size: 1.2rem;
+                    
+                }
+
+                &:hover {
+                    box-shadow: 0px 0px 2px 1px #fff;
+                    color: #000;
+                    transition: .4s;
+                }    
+        }
+}
