@@ -75,4 +75,66 @@
                     transition: .4s;
                 }    
         }
+
+        /***** SESSÂO ÁGUA *****/
+        .agua__box {
+            padding: 3rem 0rem;
+        }
+
+        .agua__titulo {
+            @include card-titulo;
+        }
+
+        .agua__cards {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2rem;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .agua__item {
+            @include card-config;
+        }
+
+        .agua__img {
+            width: 180px;
+        }
+
+        .agua__desc {
+            font-family: $fonte-titulo;
+            font-size: 1.2rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .agua__peso {
+            font-family: $fonte-titulo;
+            font-size: 1.2rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .agua__preco {
+            @include card-preco;
+        }
+
+
+        
+        /***** SWIPER CONFIG *****/
+        .swiper {
+            width: 100%;
+            padding-top: 50px;
+            padding-bottom: 50px;
+          }
+    
+          .swiper-slide {
+            background-position: center;
+            background-size: cover;
+            width: 300px;
+            height: 300px;
+          }
+
+
+
+
+
 }

@@ -861,6 +861,8 @@ ul, li {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  /***** SESSÂO ÁGUA *****/
+  /***** SWIPER CONFIG *****/
 }
 
 /* line 8, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_bebidas.scss */
@@ -963,6 +965,90 @@ ul, li {
   box-shadow: 0px 0px 2px 1px #fff;
   color: #000;
   transition: .4s;
+}
+
+/* line 80, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_bebidas.scss */
+.bebidas .agua__box {
+  padding: 3rem 0rem;
+}
+
+/* line 84, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_bebidas.scss */
+.bebidas .agua__titulo {
+  font-family: "Marcellus SC", serif;
+  text-align: center;
+  margin-bottom: 1rem;
+  font-size: 3rem;
+  text-decoration: underline;
+}
+
+/* line 88, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_bebidas.scss */
+.bebidas .agua__cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+/* line 96, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_bebidas.scss */
+.bebidas .agua__item {
+  text-align: center;
+  padding: 1rem;
+  box-shadow: 1px 1px 10px 1px #000;
+  background-color: #fff;
+  border-radius: 4px;
+  width: 300px;
+}
+
+/* line 52, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/main.scss */
+.bebidas .agua__item:hover {
+  box-shadow: 1px 1px 1px 1px #000;
+  transition: all .4s;
+}
+
+/* line 100, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_bebidas.scss */
+.bebidas .agua__img {
+  width: 180px;
+}
+
+/* line 104, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_bebidas.scss */
+.bebidas .agua__desc {
+  font-family: "Marcellus SC", serif;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+/* line 110, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_bebidas.scss */
+.bebidas .agua__peso {
+  font-family: "Marcellus SC", serif;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+/* line 116, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_bebidas.scss */
+.bebidas .agua__preco {
+  font-family: "Thasadith", sans-serif;
+  font-weight: bold;
+  background-color: #042A8F;
+  padding: 0.5rem;
+  color: #fff;
+  border-radius: 4px;
+  font-size: 1.4rem;
+}
+
+/* line 123, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_bebidas.scss */
+.bebidas .swiper {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+/* line 129, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_bebidas.scss */
+.bebidas .swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 300px;
 }
 
 /*# sourceMappingURL=main.css.map */
