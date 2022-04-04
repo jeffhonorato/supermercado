@@ -306,7 +306,7 @@ ul, li {
   font-family: "Thasadith", sans-serif;
   position: absolute;
   top: 0;
-  left: -10px;
+  left: -15px;
   padding: .5rem;
   width: 100px;
   color: #fff;
@@ -337,17 +337,19 @@ ul, li {
 
 /* line 91, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_promocao.scss */
 .promocao .card__preco {
+  font-family: "Marcellus SC", serif;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+/* line 98, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_promocao.scss */
+.promocao .preco__strong {
   font-family: "Thasadith", sans-serif;
   font-weight: bold;
   background-color: #042A8F;
   padding: 0.5rem;
   color: #fff;
   border-radius: 4px;
-  font-size: 1.1rem;
-}
-
-/* line 95, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_promocao.scss */
-.promocao .preco__strong {
   font-size: 1.4rem;
 }
 
@@ -555,7 +557,7 @@ ul, li {
   padding: 0.5rem;
   color: #fff;
   border-radius: 4px;
-  font-size: 1.1rem;
+  font-size: 1.4rem;
 }
 
 /* line 143, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_alimentos.scss */
@@ -629,7 +631,7 @@ ul, li {
   padding: 0.5rem;
   color: #fff;
   border-radius: 4px;
-  font-size: 1.1rem;
+  font-size: 1.4rem;
 }
 
 /* line 192, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_alimentos.scss */
@@ -696,7 +698,7 @@ ul, li {
   padding: 0.5rem;
   color: #fff;
   border-radius: 4px;
-  font-size: 1.1rem;
+  font-size: 1.4rem;
 }
 
 /* line 235, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_alimentos.scss */
@@ -763,7 +765,7 @@ ul, li {
   padding: 0.5rem;
   color: #fff;
   border-radius: 4px;
-  font-size: 1.1rem;
+  font-size: 1.4rem;
 }
 
 /* line 278, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_alimentos.scss */
@@ -830,7 +832,7 @@ ul, li {
   padding: 0.5rem;
   color: #fff;
   border-radius: 4px;
-  font-size: 1.1rem;
+  font-size: 1.4rem;
 }
 
 /* line 321, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_alimentos.scss */

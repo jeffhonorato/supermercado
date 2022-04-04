@@ -62,7 +62,7 @@
             font-family: $fonte-corpo;
             position: absolute;
             top: 0;
-            left: -10px;
+            left: -15px;
             padding: .5rem;
             width: 100px;
             color: #fff;
@@ -89,10 +89,13 @@
         }
 
         .card__preco {
-            @include card-preco;
+            font-family: $fonte-titulo;
+            font-size: 1.2rem;
+            margin-bottom: 0.5rem;
+            // @include card-preco;
         }
 
         .preco__strong {
-            font-size: 1.4rem;
+            @include card-preco;
         }
 }
