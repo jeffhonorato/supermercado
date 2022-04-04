@@ -464,7 +464,7 @@ ul, li {
   color: #fff;
   font-family: "Marcellus SC", serif;
   font-size: 1.5rem;
-  background-color: #778DA9;
+  background-color: #C33C54;
   padding: .5rem;
   border-radius: 4px;
   box-shadow: 1px 1px 10px 1px #fff;
@@ -494,7 +494,7 @@ ul, li {
 .alimentos .arroz__titulo {
   font-family: "Marcellus SC", serif;
   text-align: center;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   font-size: 3rem;
   text-decoration: underline;
 }
