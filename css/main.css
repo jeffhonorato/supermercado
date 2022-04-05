@@ -189,6 +189,7 @@ ul, li {
   /* line 22, ../../../Documents/GitHub/supermercado/scss/_slider-promo.scss */
   .slider__promo .slide {
     height: 30vh;
+    padding: .3rem;
   }
 }
 
@@ -206,7 +207,7 @@ ul, li {
   }
 }
 
-/* line 42, ../../../Documents/GitHub/supermercado/scss/_slider-promo.scss */
+/* line 43, ../../../Documents/GitHub/supermercado/scss/_slider-promo.scss */
 .slider__promo .selected {
   opacity: 1;
 }

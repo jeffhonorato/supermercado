@@ -27,15 +27,16 @@
             transition: opacity 800ms;
 
             @include mobile {
-                height: 30vh
+                height: 30vh;
+                padding: .3rem;
             }
 
             @include tablet {
-                height: 60vh
+                height: 60vh;
             }
 
             @include desktop {
-                height: 90vh
+                height: 90vh;
             }
         }
 
