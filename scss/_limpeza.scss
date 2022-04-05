@@ -116,6 +116,24 @@
             @include card-preco;
          }
 
+         /***** SESSÂO LIMPEZA DE COZINHA *****/
+         .cozinha__box {
+            padding: 3rem 0rem;
+         }
+
+         .cozinha__titulo {
+            @include card-titulo;
+         }
+
+         
+
+
+
+
+
+
+
+
 
         /***** SWIPER CONFIG *****/
         .swiper {
