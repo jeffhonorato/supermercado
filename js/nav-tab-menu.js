@@ -4,7 +4,7 @@ const tabConteudo = document.querySelectorAll(".alimentos section");
 tabConteudo[0].classList.add("ativo");
 
 
-function activeTab(index) {
+function activeTabAlimentos(index) {
 
     tabConteudo.forEach((section) => {
         section.classList.remove("ativo");
@@ -15,7 +15,7 @@ function activeTab(index) {
 
 tabmenu.forEach((itemMenu, index) => {
     itemMenu.addEventListener("click", () => {
-        activeTab(index);
+        activeTabAlimentos(index);
     });
 });
 
@@ -25,7 +25,7 @@ const tabConteudoBebidas = document.querySelectorAll(".bebidas section");
 tabConteudoBebidas[0].classList.add("ativo")
 
 
-function activeTab(index) {
+function activeTabBebidas(index) {
     tabConteudoBebidas.forEach((section) => {
         section.classList.remove("ativo");
     })
@@ -35,6 +35,6 @@ function activeTab(index) {
 
 tabMenuBebidas.forEach((itemMenu, index) => {
     itemMenu.addEventListener("click", () => {
-        activeTab(index);
+        activeTabBebidas(index);
     });
 });
