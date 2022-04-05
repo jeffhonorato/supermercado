@@ -117,6 +117,89 @@
             @include card-preco;
         }
 
+        /***** SESSÂO REFRIGERANTE *****/
+        .refri__box {
+            padding: 3rem 0rem;
+        }
+
+        .refri__titulo {
+            @include card-titulo;
+        }
+
+        .refri__cards {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2rem;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .refri__item {
+            @include card-config;
+        }
+
+        .refri__img {
+            width: 180px;
+        }
+
+        .refri__desc {
+            font-family: $fonte-titulo;
+            font-size: 1.2rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .refri__peso {
+            font-family: $fonte-titulo;
+            font-size: 1.2rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .refri__preco {
+            @include card-preco;
+        }
+
+        /***** SESSÂO CERVEJA *****/
+        .cerveja__box {
+            padding: 3rem 0rem;
+        }
+
+        .cerveja__titulo {
+            @include card-titulo;
+        }
+
+        .cerveja__cards {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2rem;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .cerveja__item {
+            @include card-config;
+        }
+
+        .cerveja__img {
+            width: 180px;
+        }
+
+        .cerveja__desc {
+            font-family: $fonte-titulo;
+            font-size: 1.2rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .cerveja__peso {
+            font-family: $fonte-titulo;
+            font-size: 1.2rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .cerveja__preco {
+            @include card-preco;
+        }
+
+
 
         /***** SWIPER CONFIG *****/
         .swiper {

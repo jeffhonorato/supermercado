@@ -837,6 +837,8 @@ ul, li {
   background-repeat: no-repeat;
   background-size: cover;
   /***** SESSÂO ÁGUA *****/
+  /***** SESSÂO REFRIGERANTE *****/
+  /***** SESSÂO CERVEJA *****/
   /***** SWIPER CONFIG *****/
 }
 
@@ -1011,14 +1013,152 @@ ul, li {
   font-size: 1.4rem;
 }
 
-/* line 122, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_bebidas.scss */
+/* line 121, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_bebidas.scss */
+.bebidas .refri__box {
+  padding: 3rem 0rem;
+}
+
+/* line 125, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_bebidas.scss */
+.bebidas .refri__titulo {
+  font-family: "Marcellus SC", serif;
+  text-align: center;
+  margin-bottom: 1rem;
+  font-size: 3rem;
+  text-decoration: underline;
+}
+
+/* line 129, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_bebidas.scss */
+.bebidas .refri__cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+/* line 137, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_bebidas.scss */
+.bebidas .refri__item {
+  text-align: center;
+  padding: 1rem;
+  box-shadow: 1px 1px 10px 1px #000;
+  background-color: #fff;
+  border-radius: 4px;
+  width: 300px;
+}
+
+/* line 52, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/main.scss */
+.bebidas .refri__item:hover {
+  box-shadow: 1px 1px 1px 1px #000;
+  transition: all .4s;
+}
+
+/* line 141, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_bebidas.scss */
+.bebidas .refri__img {
+  width: 180px;
+}
+
+/* line 145, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_bebidas.scss */
+.bebidas .refri__desc {
+  font-family: "Marcellus SC", serif;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+/* line 151, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_bebidas.scss */
+.bebidas .refri__peso {
+  font-family: "Marcellus SC", serif;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+/* line 157, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_bebidas.scss */
+.bebidas .refri__preco {
+  font-family: "Thasadith", sans-serif;
+  font-weight: bold;
+  background-color: #042A8F;
+  padding: 0.5rem;
+  color: #fff;
+  border-radius: 4px;
+  font-size: 1.4rem;
+}
+
+/* line 162, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_bebidas.scss */
+.bebidas .cerveja__box {
+  padding: 3rem 0rem;
+}
+
+/* line 166, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_bebidas.scss */
+.bebidas .cerveja__titulo {
+  font-family: "Marcellus SC", serif;
+  text-align: center;
+  margin-bottom: 1rem;
+  font-size: 3rem;
+  text-decoration: underline;
+}
+
+/* line 170, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_bebidas.scss */
+.bebidas .cerveja__cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+/* line 178, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_bebidas.scss */
+.bebidas .cerveja__item {
+  text-align: center;
+  padding: 1rem;
+  box-shadow: 1px 1px 10px 1px #000;
+  background-color: #fff;
+  border-radius: 4px;
+  width: 300px;
+}
+
+/* line 52, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/main.scss */
+.bebidas .cerveja__item:hover {
+  box-shadow: 1px 1px 1px 1px #000;
+  transition: all .4s;
+}
+
+/* line 182, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_bebidas.scss */
+.bebidas .cerveja__img {
+  width: 180px;
+}
+
+/* line 186, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_bebidas.scss */
+.bebidas .cerveja__desc {
+  font-family: "Marcellus SC", serif;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+/* line 192, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_bebidas.scss */
+.bebidas .cerveja__peso {
+  font-family: "Marcellus SC", serif;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+/* line 198, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_bebidas.scss */
+.bebidas .cerveja__preco {
+  font-family: "Thasadith", sans-serif;
+  font-weight: bold;
+  background-color: #042A8F;
+  padding: 0.5rem;
+  color: #fff;
+  border-radius: 4px;
+  font-size: 1.4rem;
+}
+
+/* line 205, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_bebidas.scss */
 .bebidas .swiper {
   width: 100%;
   padding-top: 50px;
   padding-bottom: 50px;
 }
 
-/* line 128, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_bebidas.scss */
+/* line 211, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_bebidas.scss */
 .bebidas .swiper-slide {
   background-position: center;
   background-size: cover;
