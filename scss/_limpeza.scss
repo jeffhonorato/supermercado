@@ -38,4 +38,64 @@
                     font-size: 2.8rem;    
                 }
         }
+
+        .menu__limpeza {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 3rem;
+            background-color: $cor-header;
+            padding: 2rem 0rem;
+
+                @include mobile {
+                    gap: 1rem;
+                    padding: 2rem 0.5rem;
+                }
+        }
+
+        .menu__item {
+            color: #fff;
+            font-family: $fonte-titulo;
+            font-size: 1.7rem;
+            background-color: $cor-botoes;
+            padding: .5rem;
+            border-radius: 4px;
+            box-shadow: 1px 1px 10px 1px #fff;
+            cursor: pointer;
+
+                @include mobile {
+                    font-size: 1.2rem;
+                    
+                }
+
+                &:hover {
+                    box-shadow: 0px 0px 2px 1px #fff;
+                    color: #000;
+                    transition: .4s;
+                } 
+        }
+
+         /***** SESSÂO SABÃO *****/
+         .sabao__box {
+            padding: 3rem 0rem;
+         }
+
+         .sabao__titulo {
+            @include card-titulo;
+         }
+
+
+        /***** SWIPER CONFIG *****/
+        .swiper {
+            width: 100%;
+            padding-top: 50px;
+            padding-bottom: 50px;
+          }
+    
+          .swiper-slide {
+            background-position: center;
+            background-size: cover;
+            width: 300px;
+            height: 300px;
+          }
 }
