@@ -76,89 +76,128 @@
         }
 
          /***** SESSÂO SABÃO *****/
-         .sabao__box {
+        .sabao__box {
             padding: 3rem 0rem;
-         }
+        }
 
-         .sabao__titulo {
+        .sabao__titulo {
             @include card-titulo;
-         }
+        }
 
-         .sabao__cards {
+        .sabao__cards {
             display: flex;
             flex-wrap: wrap;
             gap: 2rem;
             justify-content: center;
             align-items: center;
-         }
+        }
 
-         .sabao__item {
+        .sabao__item {
             @include card-config;
-         }
+        }
 
-         .sabao__img {
+        .sabao__img {
              width: 180px;
-         }
+        }
 
-         .sabao__desc {
+        .sabao__desc {
             font-family: $fonte-titulo;
             font-size: 1.2rem;
             margin-bottom: 0.5rem;
-         }
+        }
 
-         .sabao__peso {
+        .sabao__peso {
             font-family: $fonte-titulo;
             font-size: 1.2rem;
             margin-bottom: 0.5rem;
-         }
+        }
 
-         .sabao__preco {
+        .sabao__preco {
             @include card-preco;
-         }
+        }
 
          /***** SESSÂO LIMPEZA DE COZINHA *****/
-         .cozinha__box {
+        .cozinha__box {
             padding: 3rem 0rem;
-         }
+        }
 
-         .cozinha__titulo {
+        .cozinha__titulo {
             @include card-titulo;
-         }
+        }
 
-         .cozinha__cards {
+        .cozinha__cards {
             display: flex;
             flex-wrap: wrap;
             gap: 2rem;
             justify-content: center;
             align-items: center;
-         }
+        }
 
-         .cozinha__item {
+        .cozinha__item {
             @include card-config;
-         }
+        }
 
-         .cozinha__img {
+        .cozinha__img {
              width: 180px;
          }
 
-         .cozinha__desc {
+        .cozinha__desc {
             font-family: $fonte-titulo;
             font-size: 1.2rem;
             margin-bottom: 0.5rem;
-         }
+        }
 
-         .cozinha__peso {
+        .cozinha__peso {
             font-family: $fonte-titulo;
             font-size: 1.2rem;
             margin-bottom: 0.5rem;
-         }
+        }
 
-         .cozinha__preco {
+        .cozinha__preco {
             @include card-preco;
-         }
+        }
 
 
+    /***** SESSÂO LIMPEZA GERAL *****/
+        .limpeza-geral__box {
+            padding: 3rem 0rem;
+        }
 
+        .limpeza-geral__titulo {
+            @include card-titulo;
+        }
+
+        .limpeza-geral__cards {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2rem;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .limpeza-geral__item {
+            @include card-config;
+        }
+
+        .limpeza-geral__img {
+            width: 180px;
+        }
+
+        .limpeza-geral__desc {
+            font-family: $fonte-titulo;
+            font-size: 1.2rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .limpeza-geral__peso {
+            font-family: $fonte-titulo;
+            font-size: 1.2rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .limpeza-geral__preco {
+            @include card-preco;
+        }
 
 
 
