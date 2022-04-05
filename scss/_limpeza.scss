@@ -1,0 +1,41 @@
+.limpeza {
+    background-image: url("../img/background-section.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+        .limpeza__titulo {
+            @include titulo-section;
+
+            @include mobile {
+                gap: 1rem;
+            }
+
+            @include tablet {
+                gap: 1.4rem;
+            }
+        }
+
+        .img__limpeza {
+            width: 12.5rem;
+
+            @include mobile {
+                width: 8rem;
+            }
+        }
+
+        .titulo {
+            font-family: $fonte-titulo;
+            font-size: 4rem;
+            color: #fff;
+            text-align: center;
+
+                @include mobile {
+                    font-size: 2rem;    
+                }
+
+                @include tablet {
+                    font-size: 2.8rem;    
+                }
+        }
+}
