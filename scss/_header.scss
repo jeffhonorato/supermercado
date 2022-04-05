@@ -59,7 +59,10 @@
             justify-content: center;
 
                 @include mobile {
-                    gap: 1rem;
+                    gap: .5rem;
+                    display: grid;
+                    grid-template-columns: 1fr;
+                    justify-items: center;
                 }
         }
 
@@ -84,6 +87,11 @@
                     color: #000;
                 }
 
+                @include mobile {
+                    margin-bottom: .7rem;
+                    width: 150px;
+                }
+
         }
 
         .nav__icone {
@@ -91,7 +99,7 @@
             font-size: 1.3rem;
 
             @include mobile {
-                font-size: 1rem;
+                font-size: 1.4rem;
             }
         }
 
@@ -101,7 +109,7 @@
             font-size: 2rem;
 
             @include mobile {
-                font-size: 1.2rem;
+                font-size: 1.4rem;
             }
         }
 

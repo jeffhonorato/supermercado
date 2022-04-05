@@ -38,3 +38,5 @@ tabMenuBebidas.forEach((itemMenu, index) => {
         activeTabBebidas(index);
     });
 });
+
+// SESSÃO TAB LIMPEZA 
