@@ -1395,14 +1395,69 @@ ul, li {
   text-decoration: underline;
 }
 
-/* line 139, ../../../Documents/GitHub/supermercado/scss/_limpeza.scss */
+/* line 128, ../../../Documents/GitHub/supermercado/scss/_limpeza.scss */
+.limpeza .cozinha__cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+/* line 136, ../../../Documents/GitHub/supermercado/scss/_limpeza.scss */
+.limpeza .cozinha__item {
+  text-align: center;
+  padding: 1rem;
+  box-shadow: 1px 1px 10px 1px #000;
+  background-color: #fff;
+  border-radius: 4px;
+  width: 300px;
+}
+
+/* line 52, ../../../Documents/GitHub/supermercado/scss/main.scss */
+.limpeza .cozinha__item:hover {
+  box-shadow: 1px 1px 1px 1px #000;
+  transition: all .4s;
+}
+
+/* line 140, ../../../Documents/GitHub/supermercado/scss/_limpeza.scss */
+.limpeza .cozinha__img {
+  width: 180px;
+}
+
+/* line 144, ../../../Documents/GitHub/supermercado/scss/_limpeza.scss */
+.limpeza .cozinha__desc {
+  font-family: "Marcellus SC", serif;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+/* line 150, ../../../Documents/GitHub/supermercado/scss/_limpeza.scss */
+.limpeza .cozinha__peso {
+  font-family: "Marcellus SC", serif;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+/* line 156, ../../../Documents/GitHub/supermercado/scss/_limpeza.scss */
+.limpeza .cozinha__preco {
+  font-family: "Thasadith", sans-serif;
+  font-weight: bold;
+  background-color: #042A8F;
+  padding: 0.5rem;
+  color: #fff;
+  border-radius: 4px;
+  font-size: 1.4rem;
+}
+
+/* line 173, ../../../Documents/GitHub/supermercado/scss/_limpeza.scss */
 .limpeza .swiper {
   width: 100%;
   padding-top: 50px;
   padding-bottom: 50px;
 }
 
-/* line 145, ../../../Documents/GitHub/supermercado/scss/_limpeza.scss */
+/* line 179, ../../../Documents/GitHub/supermercado/scss/_limpeza.scss */
 .limpeza .swiper-slide {
   background-position: center;
   background-size: cover;

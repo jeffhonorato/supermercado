@@ -125,7 +125,41 @@
             @include card-titulo;
          }
 
-         
+         .cozinha__cards {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2rem;
+            justify-content: center;
+            align-items: center;
+         }
+
+         .cozinha__item {
+            @include card-config;
+         }
+
+         .cozinha__img {
+             width: 180px;
+         }
+
+         .cozinha__desc {
+            font-family: $fonte-titulo;
+            font-size: 1.2rem;
+            margin-bottom: 0.5rem;
+         }
+
+         .cozinha__peso {
+            font-family: $fonte-titulo;
+            font-size: 1.2rem;
+            margin-bottom: 0.5rem;
+         }
+
+         .cozinha__preco {
+            @include card-preco;
+         }
+
+
+
+
 
 
 
