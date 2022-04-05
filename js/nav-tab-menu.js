@@ -22,7 +22,7 @@ tabmenu.forEach((itemMenu, index) => {
 // SESSÃO TAB BEBIDAS
 const tabMenuBebidas = document.querySelectorAll(".js-menu-bebidas a");
 const tabConteudoBebidas = document.querySelectorAll(".bebidas section");
-tabConteudoBebidas[0].classList.add("ativo")
+tabConteudoBebidas[0].classList.add("ativo");
 
 
 function activeTabBebidas(index) {
@@ -40,3 +40,22 @@ tabMenuBebidas.forEach((itemMenu, index) => {
 });
 
 // SESSÃO TAB LIMPEZA 
+
+const tabMenuLimpeza = document.querySelectorAll(".js-menu-limpeza a");
+const tabConteudoLimpeza = document.querySelectorAll(".limpeza section");
+tabConteudoLimpeza[0].classList.add("ativo");
+
+
+function activeTabLimpeza(index) {
+    tabConteudoLimpeza.forEach((section) => {
+        section.classList.remove("ativo");
+    })
+
+    tabConteudoLimpeza[index].classList.add("ativo");
+}
+
+tabMenuLimpeza.forEach((itemMenu, index) => {
+    itemMenu.addEventListener("click", () => {
+        activeTabLimpeza(index);
+    });
+});
