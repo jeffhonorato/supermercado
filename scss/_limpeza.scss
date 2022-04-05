@@ -84,6 +84,38 @@
             @include card-titulo;
          }
 
+         .sabao__cards {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2rem;
+            justify-content: center;
+            align-items: center;
+         }
+
+         .sabao__item {
+            @include card-config;
+         }
+
+         .sabao__img {
+             width: 180px;
+         }
+
+         .sabao__desc {
+            font-family: $fonte-titulo;
+            font-size: 1.2rem;
+            margin-bottom: 0.5rem;
+         }
+
+         .sabao__peso {
+            font-family: $fonte-titulo;
+            font-size: 1.2rem;
+            margin-bottom: 0.5rem;
+         }
+
+         .sabao__preco {
+            @include card-preco;
+         }
+
 
         /***** SWIPER CONFIG *****/
         .swiper {

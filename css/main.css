@@ -1325,14 +1325,69 @@ ul, li {
   text-decoration: underline;
 }
 
-/* line 89, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_limpeza.scss */
+/* line 87, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_limpeza.scss */
+.limpeza .sabao__cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+/* line 95, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_limpeza.scss */
+.limpeza .sabao__item {
+  text-align: center;
+  padding: 1rem;
+  box-shadow: 1px 1px 10px 1px #000;
+  background-color: #fff;
+  border-radius: 4px;
+  width: 300px;
+}
+
+/* line 52, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/main.scss */
+.limpeza .sabao__item:hover {
+  box-shadow: 1px 1px 1px 1px #000;
+  transition: all .4s;
+}
+
+/* line 99, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_limpeza.scss */
+.limpeza .sabao__img {
+  width: 180px;
+}
+
+/* line 103, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_limpeza.scss */
+.limpeza .sabao__desc {
+  font-family: "Marcellus SC", serif;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+/* line 109, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_limpeza.scss */
+.limpeza .sabao__peso {
+  font-family: "Marcellus SC", serif;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+/* line 115, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_limpeza.scss */
+.limpeza .sabao__preco {
+  font-family: "Thasadith", sans-serif;
+  font-weight: bold;
+  background-color: #042A8F;
+  padding: 0.5rem;
+  color: #fff;
+  border-radius: 4px;
+  font-size: 1.4rem;
+}
+
+/* line 121, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_limpeza.scss */
 .limpeza .swiper {
   width: 100%;
   padding-top: 50px;
   padding-bottom: 50px;
 }
 
-/* line 95, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_limpeza.scss */
+/* line 127, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_limpeza.scss */
 .limpeza .swiper-slide {
   background-position: center;
   background-size: cover;
