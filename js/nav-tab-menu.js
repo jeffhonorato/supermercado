@@ -1,4 +1,5 @@
 // SESSÃO TAB ALIMENTOS
+
 const tabmenu = document.querySelectorAll(".js-menu-alimentos a");
 const tabConteudo = document.querySelectorAll(".alimentos section");
 tabConteudo[0].classList.add("ativo");
@@ -20,6 +21,7 @@ tabmenu.forEach((itemMenu, index) => {
 });
 
 // SESSÃO TAB BEBIDAS
+
 const tabMenuBebidas = document.querySelectorAll(".js-menu-bebidas a");
 const tabConteudoBebidas = document.querySelectorAll(".bebidas section");
 tabConteudoBebidas[0].classList.add("ativo");
