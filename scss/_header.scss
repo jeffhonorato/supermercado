@@ -1,17 +1,30 @@
 .header {
-
+    height: 70vh;
     background-color: $cor-header;
     padding-bottom: 2rem;
+
+        @include mobile {
+            height: 115vh;
+        }
+
+        @include tablet {
+            height: 100vh;
+        }
+
+        @include desktop {
+            height: 90vh;
+        }
 
         // .logo__cabecalho {
         //     background-color: chocolate;
         // }
 
         .logo {
-            width: 31.2rem;
+            width: 400px;
             margin: 0 auto;
             display: flex;
             justify-content: center;
+            padding-top: 40px;
 
             @include mobile {
                 width: 18rem;
@@ -45,12 +58,9 @@
         //         }
         // }
 
-        // .nav {
-        //     position: fixed;
-        //     top: 420px;
-        //     width: 100%;
-
-        // }
+        .nav {
+            margin-top: 4rem;
+        }
 
         .nav__bloco {
             display: flex;
