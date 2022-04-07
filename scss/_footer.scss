@@ -95,7 +95,10 @@
         .dev__titulo {
             font-family: $fonte-menu;
             font-size: 1.5rem;
-            
+
+                @include mobile {
+                    color: #fff;
+                }
         }
 
         // .dev__link {

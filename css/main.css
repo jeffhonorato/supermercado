@@ -1687,13 +1687,20 @@ ul, li {
   font-size: 1.5rem;
 }
 
-/* line 106, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_footer.scss */
+@media (max-width: 480px) {
+  /* line 95, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_footer.scss */
+  .footer .dev__titulo {
+    color: #fff;
+  }
+}
+
+/* line 109, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_footer.scss */
 .footer .dev__name {
   color: #fff;
   text-decoration: underline;
 }
 
-/* line 110, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_footer.scss */
+/* line 113, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_footer.scss */
 .footer .dev__name:hover {
   text-decoration: none;
   transition: all .6s;
