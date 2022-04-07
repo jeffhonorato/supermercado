@@ -96,9 +96,7 @@
             font-family: $fonte-menu;
             font-size: 1.5rem;
 
-                @include mobile {
-                    color: #fff;
-                }
+                
         }
 
         // .dev__link {
@@ -113,6 +111,10 @@
                 &:hover {
                     text-decoration: none;
                     transition: all .6s;
+                }
+
+                @include mobile {
+                    color: #fff;
                 }
         }
 

@@ -1687,23 +1687,23 @@ ul, li {
   font-size: 1.5rem;
 }
 
-@media (max-width: 480px) {
-  /* line 95, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_footer.scss */
-  .footer .dev__titulo {
-    color: #fff;
-  }
-}
-
-/* line 109, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_footer.scss */
+/* line 107, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_footer.scss */
 .footer .dev__name {
   color: #fff;
   text-decoration: underline;
 }
 
-/* line 113, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_footer.scss */
+/* line 111, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_footer.scss */
 .footer .dev__name:hover {
   text-decoration: none;
   transition: all .6s;
+}
+
+@media (max-width: 480px) {
+  /* line 107, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_footer.scss */
+  .footer .dev__name {
+    color: #fff;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
