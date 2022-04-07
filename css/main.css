@@ -1,30 +1,30 @@
 @charset "UTF-8";
 /* FONTES - CORES*/
 /* RESET - CONFIGURAÇÃO */
-/* line 11, ../../../Documents/GitHub/supermercado/scss/main.scss */
+/* line 11, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/main.scss */
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 
-/* line 17, ../../../Documents/GitHub/supermercado/scss/main.scss */
+/* line 17, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/main.scss */
 html {
   scroll-behavior: smooth;
 }
 
-/* line 21, ../../../Documents/GitHub/supermercado/scss/main.scss */
+/* line 21, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/main.scss */
 img {
   width: 100%;
   height: auto;
 }
 
-/* line 26, ../../../Documents/GitHub/supermercado/scss/main.scss */
+/* line 26, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/main.scss */
 a {
   text-decoration: none;
 }
 
-/* line 30, ../../../Documents/GitHub/supermercado/scss/main.scss */
+/* line 30, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/main.scss */
 ul, li {
   list-style: none;
 }
@@ -32,13 +32,13 @@ ul, li {
 /* MIXINS */
 /****** RESPONSIVIDADE ******/
 /* PÁGINA - ARQUITETURA */
-/* line 1, ../../../Documents/GitHub/supermercado/scss/_header.scss */
+/* line 1, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_header.scss */
 .header {
   background-color: #042A8F;
   padding-bottom: 2rem;
 }
 
-/* line 10, ../../../Documents/GitHub/supermercado/scss/_header.scss */
+/* line 10, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_header.scss */
 .header .logo {
   width: 31.2rem;
   margin: 0 auto;
@@ -47,7 +47,7 @@ ul, li {
 }
 
 @media (max-width: 480px) {
-  /* line 10, ../../../Documents/GitHub/supermercado/scss/_header.scss */
+  /* line 10, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_header.scss */
   .header .logo {
     width: 18rem;
     margin: 0 auto;
@@ -57,7 +57,7 @@ ul, li {
 }
 
 @media (min-width: 480px) and (max-width: 768px) {
-  /* line 10, ../../../Documents/GitHub/supermercado/scss/_header.scss */
+  /* line 10, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_header.scss */
   .header .logo {
     width: 24rem;
     margin: 0 auto;
@@ -66,7 +66,7 @@ ul, li {
   }
 }
 
-/* line 55, ../../../Documents/GitHub/supermercado/scss/_header.scss */
+/* line 55, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_header.scss */
 .header .nav__bloco {
   display: flex;
   flex-wrap: wrap;
@@ -75,7 +75,7 @@ ul, li {
 }
 
 @media (max-width: 480px) {
-  /* line 55, ../../../Documents/GitHub/supermercado/scss/_header.scss */
+  /* line 55, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_header.scss */
   .header .nav__bloco {
     gap: .5rem;
     display: grid;
@@ -84,7 +84,7 @@ ul, li {
   }
 }
 
-/* line 69, ../../../Documents/GitHub/supermercado/scss/_header.scss */
+/* line 69, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_header.scss */
 .header .nav__link {
   display: flex;
   align-items: center;
@@ -94,44 +94,44 @@ ul, li {
   border-radius: 8px;
 }
 
-/* line 77, ../../../Documents/GitHub/supermercado/scss/_header.scss */
+/* line 77, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_header.scss */
 .header .nav__link:hover {
   background-color: #fff;
   transition: all .8s;
 }
 
-/* line 82, ../../../Documents/GitHub/supermercado/scss/_header.scss */
+/* line 82, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_header.scss */
 .header .nav__link:hover .nav__item {
   color: #000;
 }
 
-/* line 86, ../../../Documents/GitHub/supermercado/scss/_header.scss */
+/* line 86, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_header.scss */
 .header .nav__link:hover .nav__icone {
   color: #000;
 }
 
 @media (max-width: 480px) {
-  /* line 69, ../../../Documents/GitHub/supermercado/scss/_header.scss */
+  /* line 69, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_header.scss */
   .header .nav__link {
     margin-bottom: .7rem;
     width: 150px;
   }
 }
 
-/* line 97, ../../../Documents/GitHub/supermercado/scss/_header.scss */
+/* line 97, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_header.scss */
 .header .nav__icone {
   color: #fff;
   font-size: 1.3rem;
 }
 
 @media (max-width: 480px) {
-  /* line 97, ../../../Documents/GitHub/supermercado/scss/_header.scss */
+  /* line 97, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_header.scss */
   .header .nav__icone {
     font-size: 1.4rem;
   }
 }
 
-/* line 106, ../../../Documents/GitHub/supermercado/scss/_header.scss */
+/* line 106, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_header.scss */
 .header .nav__item {
   color: #fff;
   font-family: "Gurajada", serif;
@@ -139,13 +139,13 @@ ul, li {
 }
 
 @media (max-width: 480px) {
-  /* line 106, ../../../Documents/GitHub/supermercado/scss/_header.scss */
+  /* line 106, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_header.scss */
   .header .nav__item {
     font-size: 1.4rem;
   }
 }
 
-/* line 1, ../../../Documents/GitHub/supermercado/scss/_slider-promo.scss */
+/* line 1, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_slider-promo.scss */
 .slider__promo {
   height: 100vh;
   position: relative;
@@ -156,27 +156,27 @@ ul, li {
 }
 
 @media (max-width: 480px) {
-  /* line 1, ../../../Documents/GitHub/supermercado/scss/_slider-promo.scss */
+  /* line 1, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_slider-promo.scss */
   .slider__promo {
     height: 30vh;
   }
 }
 
 @media (min-width: 480px) and (max-width: 768px) {
-  /* line 1, ../../../Documents/GitHub/supermercado/scss/_slider-promo.scss */
+  /* line 1, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_slider-promo.scss */
   .slider__promo {
     height: 60vh;
   }
 }
 
 @media (min-width: 768px) and (max-width: 1280px) {
-  /* line 1, ../../../Documents/GitHub/supermercado/scss/_slider-promo.scss */
+  /* line 1, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_slider-promo.scss */
   .slider__promo {
     height: 90vh;
   }
 }
 
-/* line 22, ../../../Documents/GitHub/supermercado/scss/_slider-promo.scss */
+/* line 22, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_slider-promo.scss */
 .slider__promo .slide {
   height: 100vh;
   padding: 1rem;
@@ -186,7 +186,7 @@ ul, li {
 }
 
 @media (max-width: 480px) {
-  /* line 22, ../../../Documents/GitHub/supermercado/scss/_slider-promo.scss */
+  /* line 22, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_slider-promo.scss */
   .slider__promo .slide {
     height: 30vh;
     padding: .3rem;
@@ -194,25 +194,25 @@ ul, li {
 }
 
 @media (min-width: 480px) and (max-width: 768px) {
-  /* line 22, ../../../Documents/GitHub/supermercado/scss/_slider-promo.scss */
+  /* line 22, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_slider-promo.scss */
   .slider__promo .slide {
     height: 60vh;
   }
 }
 
 @media (min-width: 768px) and (max-width: 1280px) {
-  /* line 22, ../../../Documents/GitHub/supermercado/scss/_slider-promo.scss */
+  /* line 22, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_slider-promo.scss */
   .slider__promo .slide {
     height: 90vh;
   }
 }
 
-/* line 43, ../../../Documents/GitHub/supermercado/scss/_slider-promo.scss */
+/* line 43, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_slider-promo.scss */
 .slider__promo .selected {
   opacity: 1;
 }
 
-/* line 1, ../../../Documents/GitHub/supermercado/scss/_promocao.scss */
+/* line 1, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_promocao.scss */
 .promocao {
   background-image: url("../img/background-section.png");
   background-position: center;
@@ -221,7 +221,7 @@ ul, li {
   padding-bottom: 4rem;
 }
 
-/* line 8, ../../../Documents/GitHub/supermercado/scss/_promocao.scss */
+/* line 8, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_promocao.scss */
 .promocao .promo__titulo {
   display: flex;
   justify-content: center;
@@ -232,39 +232,39 @@ ul, li {
 }
 
 @media (max-width: 480px) {
-  /* line 8, ../../../Documents/GitHub/supermercado/scss/_promocao.scss */
+  /* line 8, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_promocao.scss */
   .promocao .promo__titulo {
     gap: 1rem;
   }
 }
 
 @media (min-width: 480px) and (max-width: 768px) {
-  /* line 8, ../../../Documents/GitHub/supermercado/scss/_promocao.scss */
+  /* line 8, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_promocao.scss */
   .promocao .promo__titulo {
     gap: 2rem;
   }
 }
 
-/* line 20, ../../../Documents/GitHub/supermercado/scss/_promocao.scss */
+/* line 20, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_promocao.scss */
 .promocao .img__titulo {
   width: 12.5rem;
 }
 
 @media (max-width: 480px) {
-  /* line 20, ../../../Documents/GitHub/supermercado/scss/_promocao.scss */
+  /* line 20, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_promocao.scss */
   .promocao .img__titulo {
     width: 8rem;
   }
 }
 
 @media (min-width: 480px) and (max-width: 768px) {
-  /* line 20, ../../../Documents/GitHub/supermercado/scss/_promocao.scss */
+  /* line 20, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_promocao.scss */
   .promocao .img__titulo {
     width: 10rem;
   }
 }
 
-/* line 32, ../../../Documents/GitHub/supermercado/scss/_promocao.scss */
+/* line 32, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_promocao.scss */
 .promocao .titulo {
   color: #fff;
   font-size: 3rem;
@@ -272,20 +272,20 @@ ul, li {
 }
 
 @media (max-width: 480px) {
-  /* line 32, ../../../Documents/GitHub/supermercado/scss/_promocao.scss */
+  /* line 32, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_promocao.scss */
   .promocao .titulo {
     font-size: 1.5rem;
   }
 }
 
 @media (min-width: 480px) and (max-width: 768px) {
-  /* line 32, ../../../Documents/GitHub/supermercado/scss/_promocao.scss */
+  /* line 32, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_promocao.scss */
   .promocao .titulo {
     font-size: 2rem;
   }
 }
 
-/* line 46, ../../../Documents/GitHub/supermercado/scss/_promocao.scss */
+/* line 46, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_promocao.scss */
 .promocao .card__itens {
   display: flex;
   flex-wrap: wrap;
@@ -295,7 +295,7 @@ ul, li {
   margin-top: 3rem;
 }
 
-/* line 55, ../../../Documents/GitHub/supermercado/scss/_promocao.scss */
+/* line 55, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_promocao.scss */
 .promocao .card {
   text-align: center;
   padding: 1rem;
@@ -306,13 +306,13 @@ ul, li {
   position: relative;
 }
 
-/* line 52, ../../../Documents/GitHub/supermercado/scss/main.scss */
+/* line 52, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/main.scss */
 .promocao .card:hover {
   box-shadow: 1px 1px 1px 1px #000;
   transition: all .4s;
 }
 
-/* line 60, ../../../Documents/GitHub/supermercado/scss/_promocao.scss */
+/* line 60, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_promocao.scss */
 .promocao .card__promocao {
   background-color: #C33C54;
   font-family: "Thasadith", sans-serif;
@@ -328,33 +328,33 @@ ul, li {
   text-transform: uppercase;
 }
 
-/* line 75, ../../../Documents/GitHub/supermercado/scss/_promocao.scss */
+/* line 75, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_promocao.scss */
 .promocao .card__img {
   width: 180px;
 }
 
-/* line 79, ../../../Documents/GitHub/supermercado/scss/_promocao.scss */
+/* line 79, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_promocao.scss */
 .promocao .card__desc {
   font-family: "Marcellus SC", serif;
   font-size: 1.4rem;
   margin-bottom: 0.5rem;
 }
 
-/* line 85, ../../../Documents/GitHub/supermercado/scss/_promocao.scss */
+/* line 85, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_promocao.scss */
 .promocao .card__peso {
   font-family: "Marcellus SC", serif;
   font-size: 1.2rem;
   margin-bottom: 0.5rem;
 }
 
-/* line 91, ../../../Documents/GitHub/supermercado/scss/_promocao.scss */
+/* line 91, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_promocao.scss */
 .promocao .card__preco {
   font-family: "Marcellus SC", serif;
   font-size: 1.2rem;
   margin-bottom: 0.5rem;
 }
 
-/* line 98, ../../../Documents/GitHub/supermercado/scss/_promocao.scss */
+/* line 98, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_promocao.scss */
 .promocao .preco__strong {
   font-family: "Thasadith", sans-serif;
   font-weight: bold;
@@ -365,7 +365,7 @@ ul, li {
   font-size: 1.4rem;
 }
 
-/* line 1, ../../../Documents/GitHub/supermercado/scss/_alimentos.scss */
+/* line 1, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_alimentos.scss */
 .alimentos {
   background-image: url("../img/background-section.png");
   background-position: center;
@@ -379,12 +379,12 @@ ul, li {
   /***** SWIPER CONFIG *****/
 }
 
-/* line 7, ../../../Documents/GitHub/supermercado/scss/_alimentos.scss */
+/* line 7, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_alimentos.scss */
 .alimentos .js-conteudo-alimentos {
   display: none;
 }
 
-/* line 11, ../../../Documents/GitHub/supermercado/scss/_alimentos.scss */
+/* line 11, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_alimentos.scss */
 .alimentos .js-conteudo-alimentos.ativo {
   display: block;
   animation: show .5s forwards;
@@ -401,7 +401,7 @@ ul, li {
   }
 }
 
-/* line 27, ../../../Documents/GitHub/supermercado/scss/_alimentos.scss */
+/* line 27, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_alimentos.scss */
 .alimentos .alimentos__titulo {
   display: flex;
   justify-content: center;
@@ -412,32 +412,32 @@ ul, li {
 }
 
 @media (max-width: 480px) {
-  /* line 27, ../../../Documents/GitHub/supermercado/scss/_alimentos.scss */
+  /* line 27, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_alimentos.scss */
   .alimentos .alimentos__titulo {
     gap: 1rem;
   }
 }
 
 @media (min-width: 480px) and (max-width: 768px) {
-  /* line 27, ../../../Documents/GitHub/supermercado/scss/_alimentos.scss */
+  /* line 27, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_alimentos.scss */
   .alimentos .alimentos__titulo {
     gap: 1.4rem;
   }
 }
 
-/* line 39, ../../../Documents/GitHub/supermercado/scss/_alimentos.scss */
+/* line 39, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_alimentos.scss */
 .alimentos .img__alimentos {
   width: 12.5rem;
 }
 
 @media (max-width: 480px) {
-  /* line 39, ../../../Documents/GitHub/supermercado/scss/_alimentos.scss */
+  /* line 39, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_alimentos.scss */
   .alimentos .img__alimentos {
     width: 8rem;
   }
 }
 
-/* line 47, ../../../Documents/GitHub/supermercado/scss/_alimentos.scss */
+/* line 47, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_alimentos.scss */
 .alimentos .titulo {
   font-family: "Marcellus SC", serif;
   font-size: 4rem;
@@ -446,20 +446,20 @@ ul, li {
 }
 
 @media (max-width: 480px) {
-  /* line 47, ../../../Documents/GitHub/supermercado/scss/_alimentos.scss */
+  /* line 47, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_alimentos.scss */
   .alimentos .titulo {
     font-size: 2rem;
   }
 }
 
 @media (min-width: 480px) and (max-width: 768px) {
-  /* line 47, ../../../Documents/GitHub/supermercado/scss/_alimentos.scss */
+  /* line 47, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_alimentos.scss */
   .alimentos .titulo {
     font-size: 2.8rem;
   }
 }
 
-/* line 62, ../../../Documents/GitHub/supermercado/scss/_alimentos.scss */
+/* line 62, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_alimentos.scss */
 .alimentos .menu__alimentos {
   display: flex;
   flex-wrap: wrap;
@@ -470,14 +470,14 @@ ul, li {
 }
 
 @media (max-width: 480px) {
-  /* line 62, ../../../Documents/GitHub/supermercado/scss/_alimentos.scss */
+  /* line 62, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_alimentos.scss */
   .alimentos .menu__alimentos {
     gap: 1rem;
     padding: 2rem 0.5rem;
   }
 }
 
-/* line 78, ../../../Documents/GitHub/supermercado/scss/_alimentos.scss */
+/* line 78, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_alimentos.scss */
 .alimentos .menu__item {
   color: #fff;
   font-family: "Marcellus SC", serif;
@@ -490,25 +490,25 @@ ul, li {
 }
 
 @media (max-width: 480px) {
-  /* line 78, ../../../Documents/GitHub/supermercado/scss/_alimentos.scss */
+  /* line 78, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_alimentos.scss */
   .alimentos .menu__item {
     font-size: 1.2rem;
   }
 }
 
-/* line 93, ../../../Documents/GitHub/supermercado/scss/_alimentos.scss */
+/* line 93, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_alimentos.scss */
 .alimentos .menu__item:hover {
   box-shadow: 0px 0px 2px 1px #fff;
   color: #000;
   transition: .4s;
 }
 
-/* line 101, ../../../Documents/GitHub/supermercado/scss/_alimentos.scss */
+/* line 101, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_alimentos.scss */
 .alimentos .arroz__box {
   padding: 3rem 0rem;
 }
 
-/* line 105, ../../../Documents/GitHub/supermercado/scss/_alimentos.scss */
+/* line 105, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_alimentos.scss */
 .alimentos .arroz__titulo {
   font-family: "Marcellus SC", serif;
   text-align: center;
@@ -517,7 +517,7 @@ ul, li {
   text-decoration: underline;
 }
 
-/* line 109, ../../../Documents/GitHub/supermercado/scss/_alimentos.scss */
+/* line 109, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_alimentos.scss */
 .alimentos .arroz__cards {
   display: flex;
   flex-wrap: wrap;
@@ -526,7 +526,7 @@ ul, li {
   align-items: center;
 }
 
-/* line 117, ../../../Documents/GitHub/supermercado/scss/_alimentos.scss */
+/* line 117, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_alimentos.scss */
 .alimentos .arroz__item {
   text-align: center;
   padding: 1rem;
@@ -536,32 +536,32 @@ ul, li {
   width: 300px;
 }
 
-/* line 52, ../../../Documents/GitHub/supermercado/scss/main.scss */
+/* line 52, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/main.scss */
 .alimentos .arroz__item:hover {
   box-shadow: 1px 1px 1px 1px #000;
   transition: all .4s;
 }
 
-/* line 121, ../../../Documents/GitHub/supermercado/scss/_alimentos.scss */
+/* line 121, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_alimentos.scss */
 .alimentos .arroz__img {
   width: 180px;
 }
 
-/* line 125, ../../../Documents/GitHub/supermercado/scss/_alimentos.scss */
+/* line 125, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_alimentos.scss */
 .alimentos .arroz__desc {
   font-family: "Marcellus SC", serif;
   font-size: 1.2rem;
   margin-bottom: 0.5rem;
 }
 
-/* line 131, ../../../Documents/GitHub/supermercado/scss/_alimentos.scss */
+/* line 131, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_alimentos.scss */
 .alimentos .arroz__peso {
   font-family: "Marcellus SC", serif;
   font-size: 1.2rem;
   margin-bottom: 0.5rem;
 }
 
-/* line 137, ../../../Documents/GitHub/supermercado/scss/_alimentos.scss */
+/* line 137, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_alimentos.scss */
 .alimentos .arroz__preco {
   font-family: "Thasadith", sans-serif;
   font-weight: bold;
@@ -572,12 +572,12 @@ ul, li {
   font-size: 1.4rem;
 }
 
-/* line 142, ../../../Documents/GitHub/supermercado/scss/_alimentos.scss */
+/* line 142, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_alimentos.scss */
 .alimentos .feijao__box {
   padding: 3rem 0rem;
 }
 
-/* line 146, ../../../Documents/GitHub/supermercado/scss/_alimentos.scss */
+/* line 146, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_alimentos.scss */
 .alimentos .feijao__titulo {
   font-family: "Marcellus SC", serif;
   text-align: center;
@@ -586,7 +586,7 @@ ul, li {
   text-decoration: underline;
 }
 
-/* line 154, ../../../Documents/GitHub/supermercado/scss/_alimentos.scss */
+/* line 154, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_alimentos.scss */
 .alimentos .feijao__cards {
   display: flex;
   flex-wrap: wrap;
@@ -595,7 +595,7 @@ ul, li {
   align-items: center;
 }
 
-/* line 162, ../../../Documents/GitHub/supermercado/scss/_alimentos.scss */
+/* line 162, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_alimentos.scss */
 .alimentos .feijao__item {
   text-align: center;
   padding: 1rem;
@@ -605,32 +605,32 @@ ul, li {
   width: 300px;
 }
 
-/* line 52, ../../../Documents/GitHub/supermercado/scss/main.scss */
+/* line 52, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/main.scss */
 .alimentos .feijao__item:hover {
   box-shadow: 1px 1px 1px 1px #000;
   transition: all .4s;
 }
 
-/* line 166, ../../../Documents/GitHub/supermercado/scss/_alimentos.scss */
+/* line 166, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_alimentos.scss */
 .alimentos .feijao__img {
   width: 180px;
 }
 
-/* line 170, ../../../Documents/GitHub/supermercado/scss/_alimentos.scss */
+/* line 170, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_alimentos.scss */
 .alimentos .feijao__desc {
   font-family: "Marcellus SC", serif;
   font-size: 1.2rem;
   margin-bottom: 0.5rem;
 }
 
-/* line 176, ../../../Documents/GitHub/supermercado/scss/_alimentos.scss */
+/* line 176, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_alimentos.scss */
 .alimentos .feijao__peso {
   font-family: "Marcellus SC", serif;
   font-size: 1.2rem;
   margin-bottom: 0.5rem;
 }
 
-/* line 182, ../../../Documents/GitHub/supermercado/scss/_alimentos.scss */
+/* line 182, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_alimentos.scss */
 .alimentos .feijao__preco {
   font-family: "Thasadith", sans-serif;
   font-weight: bold;
@@ -641,12 +641,12 @@ ul, li {
   font-size: 1.4rem;
 }
 
-/* line 187, ../../../Documents/GitHub/supermercado/scss/_alimentos.scss */
+/* line 187, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_alimentos.scss */
 .alimentos .biscoito__box {
   padding: 3rem 0rem;
 }
 
-/* line 191, ../../../Documents/GitHub/supermercado/scss/_alimentos.scss */
+/* line 191, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_alimentos.scss */
 .alimentos .biscoito__titulo {
   font-family: "Marcellus SC", serif;
   text-align: center;
@@ -655,7 +655,7 @@ ul, li {
   text-decoration: underline;
 }
 
-/* line 199, ../../../Documents/GitHub/supermercado/scss/_alimentos.scss */
+/* line 199, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_alimentos.scss */
 .alimentos .biscoito__cards {
   display: flex;
   flex-wrap: wrap;
@@ -664,7 +664,7 @@ ul, li {
   align-items: center;
 }
 
-/* line 207, ../../../Documents/GitHub/supermercado/scss/_alimentos.scss */
+/* line 207, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_alimentos.scss */
 .alimentos .biscoito__item {
   text-align: center;
   padding: 1rem;
@@ -674,25 +674,25 @@ ul, li {
   width: 300px;
 }
 
-/* line 52, ../../../Documents/GitHub/supermercado/scss/main.scss */
+/* line 52, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/main.scss */
 .alimentos .biscoito__item:hover {
   box-shadow: 1px 1px 1px 1px #000;
   transition: all .4s;
 }
 
-/* line 211, ../../../Documents/GitHub/supermercado/scss/_alimentos.scss */
+/* line 211, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_alimentos.scss */
 .alimentos .biscoito__img {
   width: 180px;
 }
 
-/* line 215, ../../../Documents/GitHub/supermercado/scss/_alimentos.scss */
+/* line 215, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_alimentos.scss */
 .alimentos .biscoito__desc {
   font-family: "Marcellus SC", serif;
   font-size: 1.2rem;
   margin-bottom: 0.5rem;
 }
 
-/* line 221, ../../../Documents/GitHub/supermercado/scss/_alimentos.scss */
+/* line 221, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_alimentos.scss */
 .alimentos .biscoito__preco {
   font-family: "Thasadith", sans-serif;
   font-weight: bold;
@@ -703,12 +703,12 @@ ul, li {
   font-size: 1.4rem;
 }
 
-/* line 226, ../../../Documents/GitHub/supermercado/scss/_alimentos.scss */
+/* line 226, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_alimentos.scss */
 .alimentos .frutas__box {
   padding: 3rem 0rem;
 }
 
-/* line 230, ../../../Documents/GitHub/supermercado/scss/_alimentos.scss */
+/* line 230, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_alimentos.scss */
 .alimentos .frutas__titulo {
   font-family: "Marcellus SC", serif;
   text-align: center;
@@ -717,7 +717,7 @@ ul, li {
   text-decoration: underline;
 }
 
-/* line 238, ../../../Documents/GitHub/supermercado/scss/_alimentos.scss */
+/* line 238, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_alimentos.scss */
 .alimentos .frutas__cards {
   display: flex;
   flex-wrap: wrap;
@@ -726,7 +726,7 @@ ul, li {
   align-items: center;
 }
 
-/* line 246, ../../../Documents/GitHub/supermercado/scss/_alimentos.scss */
+/* line 246, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_alimentos.scss */
 .alimentos .fruta__item {
   text-align: center;
   padding: 1rem;
@@ -736,25 +736,25 @@ ul, li {
   width: 300px;
 }
 
-/* line 52, ../../../Documents/GitHub/supermercado/scss/main.scss */
+/* line 52, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/main.scss */
 .alimentos .fruta__item:hover {
   box-shadow: 1px 1px 1px 1px #000;
   transition: all .4s;
 }
 
-/* line 250, ../../../Documents/GitHub/supermercado/scss/_alimentos.scss */
+/* line 250, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_alimentos.scss */
 .alimentos .fruta__img {
   width: 180px;
 }
 
-/* line 254, ../../../Documents/GitHub/supermercado/scss/_alimentos.scss */
+/* line 254, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_alimentos.scss */
 .alimentos .fruta__desc {
   font-family: "Marcellus SC", serif;
   font-size: 1.2rem;
   margin-bottom: 0.5rem;
 }
 
-/* line 260, ../../../Documents/GitHub/supermercado/scss/_alimentos.scss */
+/* line 260, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_alimentos.scss */
 .alimentos .fruta__preco {
   font-family: "Thasadith", sans-serif;
   font-weight: bold;
@@ -765,12 +765,12 @@ ul, li {
   font-size: 1.4rem;
 }
 
-/* line 265, ../../../Documents/GitHub/supermercado/scss/_alimentos.scss */
+/* line 265, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_alimentos.scss */
 .alimentos .enlatados__box {
   padding: 3rem 0rem;
 }
 
-/* line 269, ../../../Documents/GitHub/supermercado/scss/_alimentos.scss */
+/* line 269, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_alimentos.scss */
 .alimentos .enlatados__titulo {
   font-family: "Marcellus SC", serif;
   text-align: center;
@@ -779,7 +779,7 @@ ul, li {
   text-decoration: underline;
 }
 
-/* line 277, ../../../Documents/GitHub/supermercado/scss/_alimentos.scss */
+/* line 277, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_alimentos.scss */
 .alimentos .enlatados__cards {
   display: flex;
   flex-wrap: wrap;
@@ -788,7 +788,7 @@ ul, li {
   align-items: center;
 }
 
-/* line 285, ../../../Documents/GitHub/supermercado/scss/_alimentos.scss */
+/* line 285, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_alimentos.scss */
 .alimentos .enlatados__item {
   text-align: center;
   padding: 1rem;
@@ -798,25 +798,25 @@ ul, li {
   width: 300px;
 }
 
-/* line 52, ../../../Documents/GitHub/supermercado/scss/main.scss */
+/* line 52, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/main.scss */
 .alimentos .enlatados__item:hover {
   box-shadow: 1px 1px 1px 1px #000;
   transition: all .4s;
 }
 
-/* line 289, ../../../Documents/GitHub/supermercado/scss/_alimentos.scss */
+/* line 289, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_alimentos.scss */
 .alimentos .enlatado__img {
   width: 180px;
 }
 
-/* line 293, ../../../Documents/GitHub/supermercado/scss/_alimentos.scss */
+/* line 293, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_alimentos.scss */
 .alimentos .enlatado__desc {
   font-family: "Marcellus SC", serif;
   font-size: 1.2rem;
   margin-bottom: 0.5rem;
 }
 
-/* line 299, ../../../Documents/GitHub/supermercado/scss/_alimentos.scss */
+/* line 299, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_alimentos.scss */
 .alimentos .enlatado__preco {
   font-family: "Thasadith", sans-serif;
   font-weight: bold;
@@ -827,14 +827,14 @@ ul, li {
   font-size: 1.4rem;
 }
 
-/* line 305, ../../../Documents/GitHub/supermercado/scss/_alimentos.scss */
+/* line 305, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_alimentos.scss */
 .alimentos .swiper {
   width: 100%;
   padding-top: 50px;
   padding-bottom: 50px;
 }
 
-/* line 311, ../../../Documents/GitHub/supermercado/scss/_alimentos.scss */
+/* line 311, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_alimentos.scss */
 .alimentos .swiper-slide {
   background-position: center;
   background-size: cover;
@@ -842,7 +842,7 @@ ul, li {
   height: 300px;
 }
 
-/* line 1, ../../../Documents/GitHub/supermercado/scss/_bebidas.scss */
+/* line 1, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_bebidas.scss */
 .bebidas {
   background-image: url("../img/background-section.png");
   background-position: center;
@@ -854,12 +854,12 @@ ul, li {
   /***** SWIPER CONFIG *****/
 }
 
-/* line 7, ../../../Documents/GitHub/supermercado/scss/_bebidas.scss */
+/* line 7, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_bebidas.scss */
 .bebidas .js-conteudo-bebidas {
   display: none;
 }
 
-/* line 11, ../../../Documents/GitHub/supermercado/scss/_bebidas.scss */
+/* line 11, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_bebidas.scss */
 .bebidas .js-conteudo-bebidas.ativo {
   display: block;
   animation: show .5s forwards;
@@ -876,7 +876,7 @@ ul, li {
   }
 }
 
-/* line 28, ../../../Documents/GitHub/supermercado/scss/_bebidas.scss */
+/* line 28, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_bebidas.scss */
 .bebidas .bebidas__titulo {
   display: flex;
   justify-content: center;
@@ -887,32 +887,32 @@ ul, li {
 }
 
 @media (max-width: 480px) {
-  /* line 28, ../../../Documents/GitHub/supermercado/scss/_bebidas.scss */
+  /* line 28, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_bebidas.scss */
   .bebidas .bebidas__titulo {
     gap: 1rem;
   }
 }
 
 @media (min-width: 480px) and (max-width: 768px) {
-  /* line 28, ../../../Documents/GitHub/supermercado/scss/_bebidas.scss */
+  /* line 28, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_bebidas.scss */
   .bebidas .bebidas__titulo {
     gap: 1.4rem;
   }
 }
 
-/* line 40, ../../../Documents/GitHub/supermercado/scss/_bebidas.scss */
+/* line 40, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_bebidas.scss */
 .bebidas .img__bebidas {
   width: 12.5rem;
 }
 
 @media (max-width: 480px) {
-  /* line 40, ../../../Documents/GitHub/supermercado/scss/_bebidas.scss */
+  /* line 40, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_bebidas.scss */
   .bebidas .img__bebidas {
     width: 8rem;
   }
 }
 
-/* line 48, ../../../Documents/GitHub/supermercado/scss/_bebidas.scss */
+/* line 48, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_bebidas.scss */
 .bebidas .titulo {
   font-family: "Marcellus SC", serif;
   font-size: 4rem;
@@ -921,20 +921,20 @@ ul, li {
 }
 
 @media (max-width: 480px) {
-  /* line 48, ../../../Documents/GitHub/supermercado/scss/_bebidas.scss */
+  /* line 48, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_bebidas.scss */
   .bebidas .titulo {
     font-size: 2rem;
   }
 }
 
 @media (min-width: 480px) and (max-width: 768px) {
-  /* line 48, ../../../Documents/GitHub/supermercado/scss/_bebidas.scss */
+  /* line 48, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_bebidas.scss */
   .bebidas .titulo {
     font-size: 2.8rem;
   }
 }
 
-/* line 63, ../../../Documents/GitHub/supermercado/scss/_bebidas.scss */
+/* line 63, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_bebidas.scss */
 .bebidas .menu__bebidas {
   display: flex;
   flex-wrap: wrap;
@@ -945,14 +945,14 @@ ul, li {
 }
 
 @media (max-width: 480px) {
-  /* line 63, ../../../Documents/GitHub/supermercado/scss/_bebidas.scss */
+  /* line 63, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_bebidas.scss */
   .bebidas .menu__bebidas {
     gap: 1rem;
     padding: 2rem 0.5rem;
   }
 }
 
-/* line 77, ../../../Documents/GitHub/supermercado/scss/_bebidas.scss */
+/* line 77, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_bebidas.scss */
 .bebidas .menu__item {
   color: #fff;
   font-family: "Marcellus SC", serif;
@@ -965,25 +965,25 @@ ul, li {
 }
 
 @media (max-width: 480px) {
-  /* line 77, ../../../Documents/GitHub/supermercado/scss/_bebidas.scss */
+  /* line 77, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_bebidas.scss */
   .bebidas .menu__item {
     font-size: 1.2rem;
   }
 }
 
-/* line 92, ../../../Documents/GitHub/supermercado/scss/_bebidas.scss */
+/* line 92, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_bebidas.scss */
 .bebidas .menu__item:hover {
   box-shadow: 0px 0px 2px 1px #fff;
   color: #000;
   transition: .4s;
 }
 
-/* line 100, ../../../Documents/GitHub/supermercado/scss/_bebidas.scss */
+/* line 100, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_bebidas.scss */
 .bebidas .agua__box {
   padding: 3rem 0rem;
 }
 
-/* line 104, ../../../Documents/GitHub/supermercado/scss/_bebidas.scss */
+/* line 104, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_bebidas.scss */
 .bebidas .agua__titulo {
   font-family: "Marcellus SC", serif;
   text-align: center;
@@ -992,7 +992,7 @@ ul, li {
   text-decoration: underline;
 }
 
-/* line 108, ../../../Documents/GitHub/supermercado/scss/_bebidas.scss */
+/* line 108, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_bebidas.scss */
 .bebidas .agua__cards {
   display: flex;
   flex-wrap: wrap;
@@ -1001,7 +1001,7 @@ ul, li {
   align-items: center;
 }
 
-/* line 116, ../../../Documents/GitHub/supermercado/scss/_bebidas.scss */
+/* line 116, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_bebidas.scss */
 .bebidas .agua__item {
   text-align: center;
   padding: 1rem;
@@ -1011,32 +1011,32 @@ ul, li {
   width: 300px;
 }
 
-/* line 52, ../../../Documents/GitHub/supermercado/scss/main.scss */
+/* line 52, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/main.scss */
 .bebidas .agua__item:hover {
   box-shadow: 1px 1px 1px 1px #000;
   transition: all .4s;
 }
 
-/* line 120, ../../../Documents/GitHub/supermercado/scss/_bebidas.scss */
+/* line 120, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_bebidas.scss */
 .bebidas .agua__img {
   width: 180px;
 }
 
-/* line 124, ../../../Documents/GitHub/supermercado/scss/_bebidas.scss */
+/* line 124, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_bebidas.scss */
 .bebidas .agua__desc {
   font-family: "Marcellus SC", serif;
   font-size: 1.2rem;
   margin-bottom: 0.5rem;
 }
 
-/* line 130, ../../../Documents/GitHub/supermercado/scss/_bebidas.scss */
+/* line 130, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_bebidas.scss */
 .bebidas .agua__peso {
   font-family: "Marcellus SC", serif;
   font-size: 1.2rem;
   margin-bottom: 0.5rem;
 }
 
-/* line 136, ../../../Documents/GitHub/supermercado/scss/_bebidas.scss */
+/* line 136, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_bebidas.scss */
 .bebidas .agua__preco {
   font-family: "Thasadith", sans-serif;
   font-weight: bold;
@@ -1047,12 +1047,12 @@ ul, li {
   font-size: 1.4rem;
 }
 
-/* line 141, ../../../Documents/GitHub/supermercado/scss/_bebidas.scss */
+/* line 141, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_bebidas.scss */
 .bebidas .refri__box {
   padding: 3rem 0rem;
 }
 
-/* line 145, ../../../Documents/GitHub/supermercado/scss/_bebidas.scss */
+/* line 145, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_bebidas.scss */
 .bebidas .refri__titulo {
   font-family: "Marcellus SC", serif;
   text-align: center;
@@ -1061,7 +1061,7 @@ ul, li {
   text-decoration: underline;
 }
 
-/* line 149, ../../../Documents/GitHub/supermercado/scss/_bebidas.scss */
+/* line 149, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_bebidas.scss */
 .bebidas .refri__cards {
   display: flex;
   flex-wrap: wrap;
@@ -1070,7 +1070,7 @@ ul, li {
   align-items: center;
 }
 
-/* line 157, ../../../Documents/GitHub/supermercado/scss/_bebidas.scss */
+/* line 157, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_bebidas.scss */
 .bebidas .refri__item {
   text-align: center;
   padding: 1rem;
@@ -1080,32 +1080,32 @@ ul, li {
   width: 300px;
 }
 
-/* line 52, ../../../Documents/GitHub/supermercado/scss/main.scss */
+/* line 52, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/main.scss */
 .bebidas .refri__item:hover {
   box-shadow: 1px 1px 1px 1px #000;
   transition: all .4s;
 }
 
-/* line 161, ../../../Documents/GitHub/supermercado/scss/_bebidas.scss */
+/* line 161, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_bebidas.scss */
 .bebidas .refri__img {
   width: 180px;
 }
 
-/* line 165, ../../../Documents/GitHub/supermercado/scss/_bebidas.scss */
+/* line 165, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_bebidas.scss */
 .bebidas .refri__desc {
   font-family: "Marcellus SC", serif;
   font-size: 1.2rem;
   margin-bottom: 0.5rem;
 }
 
-/* line 171, ../../../Documents/GitHub/supermercado/scss/_bebidas.scss */
+/* line 171, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_bebidas.scss */
 .bebidas .refri__peso {
   font-family: "Marcellus SC", serif;
   font-size: 1.2rem;
   margin-bottom: 0.5rem;
 }
 
-/* line 177, ../../../Documents/GitHub/supermercado/scss/_bebidas.scss */
+/* line 177, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_bebidas.scss */
 .bebidas .refri__preco {
   font-family: "Thasadith", sans-serif;
   font-weight: bold;
@@ -1116,12 +1116,12 @@ ul, li {
   font-size: 1.4rem;
 }
 
-/* line 182, ../../../Documents/GitHub/supermercado/scss/_bebidas.scss */
+/* line 182, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_bebidas.scss */
 .bebidas .cerveja__box {
   padding: 3rem 0rem;
 }
 
-/* line 186, ../../../Documents/GitHub/supermercado/scss/_bebidas.scss */
+/* line 186, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_bebidas.scss */
 .bebidas .cerveja__titulo {
   font-family: "Marcellus SC", serif;
   text-align: center;
@@ -1130,7 +1130,7 @@ ul, li {
   text-decoration: underline;
 }
 
-/* line 190, ../../../Documents/GitHub/supermercado/scss/_bebidas.scss */
+/* line 190, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_bebidas.scss */
 .bebidas .cerveja__cards {
   display: flex;
   flex-wrap: wrap;
@@ -1139,7 +1139,7 @@ ul, li {
   align-items: center;
 }
 
-/* line 198, ../../../Documents/GitHub/supermercado/scss/_bebidas.scss */
+/* line 198, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_bebidas.scss */
 .bebidas .cerveja__item {
   text-align: center;
   padding: 1rem;
@@ -1149,32 +1149,32 @@ ul, li {
   width: 300px;
 }
 
-/* line 52, ../../../Documents/GitHub/supermercado/scss/main.scss */
+/* line 52, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/main.scss */
 .bebidas .cerveja__item:hover {
   box-shadow: 1px 1px 1px 1px #000;
   transition: all .4s;
 }
 
-/* line 202, ../../../Documents/GitHub/supermercado/scss/_bebidas.scss */
+/* line 202, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_bebidas.scss */
 .bebidas .cerveja__img {
   width: 180px;
 }
 
-/* line 206, ../../../Documents/GitHub/supermercado/scss/_bebidas.scss */
+/* line 206, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_bebidas.scss */
 .bebidas .cerveja__desc {
   font-family: "Marcellus SC", serif;
   font-size: 1.2rem;
   margin-bottom: 0.5rem;
 }
 
-/* line 212, ../../../Documents/GitHub/supermercado/scss/_bebidas.scss */
+/* line 212, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_bebidas.scss */
 .bebidas .cerveja__peso {
   font-family: "Marcellus SC", serif;
   font-size: 1.2rem;
   margin-bottom: 0.5rem;
 }
 
-/* line 218, ../../../Documents/GitHub/supermercado/scss/_bebidas.scss */
+/* line 218, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_bebidas.scss */
 .bebidas .cerveja__preco {
   font-family: "Thasadith", sans-serif;
   font-weight: bold;
@@ -1185,14 +1185,14 @@ ul, li {
   font-size: 1.4rem;
 }
 
-/* line 225, ../../../Documents/GitHub/supermercado/scss/_bebidas.scss */
+/* line 225, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_bebidas.scss */
 .bebidas .swiper {
   width: 100%;
   padding-top: 50px;
   padding-bottom: 50px;
 }
 
-/* line 231, ../../../Documents/GitHub/supermercado/scss/_bebidas.scss */
+/* line 231, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_bebidas.scss */
 .bebidas .swiper-slide {
   background-position: center;
   background-size: cover;
@@ -1200,7 +1200,7 @@ ul, li {
   height: 300px;
 }
 
-/* line 1, ../../../Documents/GitHub/supermercado/scss/_limpeza.scss */
+/* line 1, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_limpeza.scss */
 .limpeza {
   background-image: url("../img/background-section.png");
   background-position: center;
@@ -1212,12 +1212,12 @@ ul, li {
   /***** SWIPER CONFIG *****/
 }
 
-/* line 8, ../../../Documents/GitHub/supermercado/scss/_limpeza.scss */
+/* line 8, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_limpeza.scss */
 .limpeza .js-conteudo-limpeza {
   display: none;
 }
 
-/* line 12, ../../../Documents/GitHub/supermercado/scss/_limpeza.scss */
+/* line 12, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_limpeza.scss */
 .limpeza .js-conteudo-limpeza.ativo {
   display: block;
   animation: show .5s forwards;
@@ -1234,7 +1234,7 @@ ul, li {
   }
 }
 
-/* line 28, ../../../Documents/GitHub/supermercado/scss/_limpeza.scss */
+/* line 28, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_limpeza.scss */
 .limpeza .limpeza__titulo {
   display: flex;
   justify-content: center;
@@ -1245,32 +1245,32 @@ ul, li {
 }
 
 @media (max-width: 480px) {
-  /* line 28, ../../../Documents/GitHub/supermercado/scss/_limpeza.scss */
+  /* line 28, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_limpeza.scss */
   .limpeza .limpeza__titulo {
     gap: 1rem;
   }
 }
 
 @media (min-width: 480px) and (max-width: 768px) {
-  /* line 28, ../../../Documents/GitHub/supermercado/scss/_limpeza.scss */
+  /* line 28, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_limpeza.scss */
   .limpeza .limpeza__titulo {
     gap: 1.4rem;
   }
 }
 
-/* line 40, ../../../Documents/GitHub/supermercado/scss/_limpeza.scss */
+/* line 40, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_limpeza.scss */
 .limpeza .img__limpeza {
   width: 12.5rem;
 }
 
 @media (max-width: 480px) {
-  /* line 40, ../../../Documents/GitHub/supermercado/scss/_limpeza.scss */
+  /* line 40, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_limpeza.scss */
   .limpeza .img__limpeza {
     width: 8rem;
   }
 }
 
-/* line 48, ../../../Documents/GitHub/supermercado/scss/_limpeza.scss */
+/* line 48, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_limpeza.scss */
 .limpeza .titulo {
   font-family: "Marcellus SC", serif;
   font-size: 4rem;
@@ -1279,20 +1279,20 @@ ul, li {
 }
 
 @media (max-width: 480px) {
-  /* line 48, ../../../Documents/GitHub/supermercado/scss/_limpeza.scss */
+  /* line 48, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_limpeza.scss */
   .limpeza .titulo {
     font-size: 2rem;
   }
 }
 
 @media (min-width: 480px) and (max-width: 768px) {
-  /* line 48, ../../../Documents/GitHub/supermercado/scss/_limpeza.scss */
+  /* line 48, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_limpeza.scss */
   .limpeza .titulo {
     font-size: 2.8rem;
   }
 }
 
-/* line 63, ../../../Documents/GitHub/supermercado/scss/_limpeza.scss */
+/* line 63, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_limpeza.scss */
 .limpeza .menu__limpeza {
   display: flex;
   flex-wrap: wrap;
@@ -1303,14 +1303,14 @@ ul, li {
 }
 
 @media (max-width: 480px) {
-  /* line 63, ../../../Documents/GitHub/supermercado/scss/_limpeza.scss */
+  /* line 63, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_limpeza.scss */
   .limpeza .menu__limpeza {
     gap: 1rem;
     padding: 2rem 0.5rem;
   }
 }
 
-/* line 77, ../../../Documents/GitHub/supermercado/scss/_limpeza.scss */
+/* line 77, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_limpeza.scss */
 .limpeza .menu__item {
   color: #fff;
   font-family: "Marcellus SC", serif;
@@ -1323,25 +1323,25 @@ ul, li {
 }
 
 @media (max-width: 480px) {
-  /* line 77, ../../../Documents/GitHub/supermercado/scss/_limpeza.scss */
+  /* line 77, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_limpeza.scss */
   .limpeza .menu__item {
     font-size: 1.2rem;
   }
 }
 
-/* line 92, ../../../Documents/GitHub/supermercado/scss/_limpeza.scss */
+/* line 92, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_limpeza.scss */
 .limpeza .menu__item:hover {
   box-shadow: 0px 0px 2px 1px #fff;
   color: #000;
   transition: .4s;
 }
 
-/* line 100, ../../../Documents/GitHub/supermercado/scss/_limpeza.scss */
+/* line 100, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_limpeza.scss */
 .limpeza .sabao__box {
   padding: 3rem 0rem;
 }
 
-/* line 104, ../../../Documents/GitHub/supermercado/scss/_limpeza.scss */
+/* line 104, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_limpeza.scss */
 .limpeza .sabao__titulo {
   font-family: "Marcellus SC", serif;
   text-align: center;
@@ -1350,7 +1350,7 @@ ul, li {
   text-decoration: underline;
 }
 
-/* line 108, ../../../Documents/GitHub/supermercado/scss/_limpeza.scss */
+/* line 108, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_limpeza.scss */
 .limpeza .sabao__cards {
   display: flex;
   flex-wrap: wrap;
@@ -1359,7 +1359,7 @@ ul, li {
   align-items: center;
 }
 
-/* line 116, ../../../Documents/GitHub/supermercado/scss/_limpeza.scss */
+/* line 116, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_limpeza.scss */
 .limpeza .sabao__item {
   text-align: center;
   padding: 1rem;
@@ -1369,32 +1369,32 @@ ul, li {
   width: 300px;
 }
 
-/* line 52, ../../../Documents/GitHub/supermercado/scss/main.scss */
+/* line 52, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/main.scss */
 .limpeza .sabao__item:hover {
   box-shadow: 1px 1px 1px 1px #000;
   transition: all .4s;
 }
 
-/* line 120, ../../../Documents/GitHub/supermercado/scss/_limpeza.scss */
+/* line 120, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_limpeza.scss */
 .limpeza .sabao__img {
   width: 180px;
 }
 
-/* line 124, ../../../Documents/GitHub/supermercado/scss/_limpeza.scss */
+/* line 124, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_limpeza.scss */
 .limpeza .sabao__desc {
   font-family: "Marcellus SC", serif;
   font-size: 1.2rem;
   margin-bottom: 0.5rem;
 }
 
-/* line 130, ../../../Documents/GitHub/supermercado/scss/_limpeza.scss */
+/* line 130, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_limpeza.scss */
 .limpeza .sabao__peso {
   font-family: "Marcellus SC", serif;
   font-size: 1.2rem;
   margin-bottom: 0.5rem;
 }
 
-/* line 136, ../../../Documents/GitHub/supermercado/scss/_limpeza.scss */
+/* line 136, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_limpeza.scss */
 .limpeza .sabao__preco {
   font-family: "Thasadith", sans-serif;
   font-weight: bold;
@@ -1405,12 +1405,12 @@ ul, li {
   font-size: 1.4rem;
 }
 
-/* line 141, ../../../Documents/GitHub/supermercado/scss/_limpeza.scss */
+/* line 141, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_limpeza.scss */
 .limpeza .cozinha__box {
   padding: 3rem 0rem;
 }
 
-/* line 145, ../../../Documents/GitHub/supermercado/scss/_limpeza.scss */
+/* line 145, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_limpeza.scss */
 .limpeza .cozinha__titulo {
   font-family: "Marcellus SC", serif;
   text-align: center;
@@ -1419,7 +1419,7 @@ ul, li {
   text-decoration: underline;
 }
 
-/* line 149, ../../../Documents/GitHub/supermercado/scss/_limpeza.scss */
+/* line 149, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_limpeza.scss */
 .limpeza .cozinha__cards {
   display: flex;
   flex-wrap: wrap;
@@ -1428,7 +1428,7 @@ ul, li {
   align-items: center;
 }
 
-/* line 157, ../../../Documents/GitHub/supermercado/scss/_limpeza.scss */
+/* line 157, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_limpeza.scss */
 .limpeza .cozinha__item {
   text-align: center;
   padding: 1rem;
@@ -1438,32 +1438,32 @@ ul, li {
   width: 300px;
 }
 
-/* line 52, ../../../Documents/GitHub/supermercado/scss/main.scss */
+/* line 52, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/main.scss */
 .limpeza .cozinha__item:hover {
   box-shadow: 1px 1px 1px 1px #000;
   transition: all .4s;
 }
 
-/* line 161, ../../../Documents/GitHub/supermercado/scss/_limpeza.scss */
+/* line 161, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_limpeza.scss */
 .limpeza .cozinha__img {
   width: 180px;
 }
 
-/* line 165, ../../../Documents/GitHub/supermercado/scss/_limpeza.scss */
+/* line 165, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_limpeza.scss */
 .limpeza .cozinha__desc {
   font-family: "Marcellus SC", serif;
   font-size: 1.2rem;
   margin-bottom: 0.5rem;
 }
 
-/* line 171, ../../../Documents/GitHub/supermercado/scss/_limpeza.scss */
+/* line 171, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_limpeza.scss */
 .limpeza .cozinha__peso {
   font-family: "Marcellus SC", serif;
   font-size: 1.2rem;
   margin-bottom: 0.5rem;
 }
 
-/* line 177, ../../../Documents/GitHub/supermercado/scss/_limpeza.scss */
+/* line 177, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_limpeza.scss */
 .limpeza .cozinha__preco {
   font-family: "Thasadith", sans-serif;
   font-weight: bold;
@@ -1474,12 +1474,12 @@ ul, li {
   font-size: 1.4rem;
 }
 
-/* line 183, ../../../Documents/GitHub/supermercado/scss/_limpeza.scss */
+/* line 183, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_limpeza.scss */
 .limpeza .limpeza-geral__box {
   padding: 3rem 0rem;
 }
 
-/* line 187, ../../../Documents/GitHub/supermercado/scss/_limpeza.scss */
+/* line 187, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_limpeza.scss */
 .limpeza .limpeza-geral__titulo {
   font-family: "Marcellus SC", serif;
   text-align: center;
@@ -1488,7 +1488,7 @@ ul, li {
   text-decoration: underline;
 }
 
-/* line 191, ../../../Documents/GitHub/supermercado/scss/_limpeza.scss */
+/* line 191, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_limpeza.scss */
 .limpeza .limpeza-geral__cards {
   display: flex;
   flex-wrap: wrap;
@@ -1497,7 +1497,7 @@ ul, li {
   align-items: center;
 }
 
-/* line 199, ../../../Documents/GitHub/supermercado/scss/_limpeza.scss */
+/* line 199, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_limpeza.scss */
 .limpeza .limpeza-geral__item {
   text-align: center;
   padding: 1rem;
@@ -1507,32 +1507,32 @@ ul, li {
   width: 300px;
 }
 
-/* line 52, ../../../Documents/GitHub/supermercado/scss/main.scss */
+/* line 52, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/main.scss */
 .limpeza .limpeza-geral__item:hover {
   box-shadow: 1px 1px 1px 1px #000;
   transition: all .4s;
 }
 
-/* line 203, ../../../Documents/GitHub/supermercado/scss/_limpeza.scss */
+/* line 203, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_limpeza.scss */
 .limpeza .limpeza-geral__img {
   width: 180px;
 }
 
-/* line 207, ../../../Documents/GitHub/supermercado/scss/_limpeza.scss */
+/* line 207, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_limpeza.scss */
 .limpeza .limpeza-geral__desc {
   font-family: "Marcellus SC", serif;
   font-size: 1.2rem;
   margin-bottom: 0.5rem;
 }
 
-/* line 213, ../../../Documents/GitHub/supermercado/scss/_limpeza.scss */
+/* line 213, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_limpeza.scss */
 .limpeza .limpeza-geral__peso {
   font-family: "Marcellus SC", serif;
   font-size: 1.2rem;
   margin-bottom: 0.5rem;
 }
 
-/* line 219, ../../../Documents/GitHub/supermercado/scss/_limpeza.scss */
+/* line 219, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_limpeza.scss */
 .limpeza .limpeza-geral__preco {
   font-family: "Thasadith", sans-serif;
   font-weight: bold;
@@ -1543,19 +1543,30 @@ ul, li {
   font-size: 1.4rem;
 }
 
-/* line 233, ../../../Documents/GitHub/supermercado/scss/_limpeza.scss */
+/* line 233, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_limpeza.scss */
 .limpeza .swiper {
   width: 100%;
   padding-top: 50px;
   padding-bottom: 50px;
 }
 
-/* line 239, ../../../Documents/GitHub/supermercado/scss/_limpeza.scss */
+/* line 239, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_limpeza.scss */
 .limpeza .swiper-slide {
   background-position: center;
   background-size: cover;
   width: 300px;
   height: 300px;
+}
+
+/* line 1, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_footer.scss */
+.footer {
+  background-color: #042A8F;
+  height: 80vh;
+}
+
+/* line 5, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_footer.scss */
+.footer .footer__img {
+  width: 28rem;
 }
 
 /*# sourceMappingURL=main.css.map */
