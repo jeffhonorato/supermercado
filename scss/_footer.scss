@@ -1,10 +1,33 @@
 .footer {
     background-color: $cor-header;
-    height: 80vh;
+    height: 70vh;
+
+        .footer__box {
+            display: flex;
+            align-items: center;
+        }
+
+        .footer__logo {
+            width: 400px;
+        }
 
         .footer__img {
-            width: 300px;
-            background-color: chartreuse;
+            width: 360px;
+            padding: 2rem 2rem;
+        }
+
+        .footer__titulo {
+            font-family: $fonte-titulo;
+            color: #fff;
+            text-align: center;
+            
+        }
+
+        .footer__sociais {
+            display: flex;
+            justify-content: center;
+            gap: .5rem;
+            margin-top: 1rem;
         }
 
         .footer__icone {
