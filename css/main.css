@@ -1637,16 +1637,18 @@ ul, li {
   padding: 1rem;
   text-align: center;
   margin: .4rem;
+  border-radius: 4px;
+  box-shadow: 4px 4px 8px 0px #fff;
 }
 
-/* line 58, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_footer.scss */
+/* line 60, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_footer.scss */
 .footer .footer__end .footer__end__titulo {
   font-family: "Marcellus SC", serif;
   font-size: 2.4rem;
   padding-bottom: .8rem;
 }
 
-/* line 64, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_footer.scss */
+/* line 66, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_footer.scss */
 .footer .footer__end .footer__rua,
 .footer .footer__end .footer__numero,
 .footer .footer__end .footer__bairro,
@@ -1656,18 +1658,18 @@ ul, li {
   font-size: 1.5rem;
 }
 
-/* line 74, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_footer.scss */
+/* line 76, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_footer.scss */
 .footer .footer__maps {
   padding: 2rem;
 }
 
-/* line 77, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_footer.scss */
+/* line 79, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_footer.scss */
 .footer .footer__maps .maps {
   width: 300px;
   height: 400px;
 }
 
-/* line 83, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_footer.scss */
+/* line 85, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_footer.scss */
 .footer .desenvolvedor {
   display: flex;
   justify-items: center;
@@ -1676,31 +1678,31 @@ ul, li {
   border-top: 2px solid #fff;
 }
 
-/* line 91, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_footer.scss */
+/* line 93, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_footer.scss */
 .footer .dev__ico {
   width: 36px;
 }
 
-/* line 95, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_footer.scss */
+/* line 97, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_footer.scss */
 .footer .dev__titulo {
   font-family: "Gurajada", serif;
   font-size: 1.5rem;
 }
 
-/* line 107, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_footer.scss */
+/* line 109, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_footer.scss */
 .footer .dev__name {
   color: #fff;
   text-decoration: underline;
 }
 
-/* line 111, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_footer.scss */
+/* line 113, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_footer.scss */
 .footer .dev__name:hover {
   text-decoration: none;
   transition: all .6s;
 }
 
 @media (max-width: 480px) {
-  /* line 107, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_footer.scss */
+  /* line 109, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_footer.scss */
   .footer .dev__name {
     color: #fff;
   }
