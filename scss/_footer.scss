@@ -1,18 +1,18 @@
 .footer {
     background-color: $cor-header;
-    height: 70vh;
+    // height: 70vh;
 
-        @include mobile {
-            height: 200vh;
-        }
+    //     @include mobile {
+    //         height: 200vh;
+    //     }
 
-        @include tablet {
-            height: 200vh;
-        }
+    //     @include tablet {
+    //         height: 200vh;
+    //     }
 
-        @include desktop {
-            height: 150vh;
-        }
+    //     @include desktop {
+    //         height: 150vh;
+    //     }
 
         .footer__box {
             display: flex;
@@ -53,6 +53,7 @@
             background-color: $cor-section1;
             padding: 1rem;
             text-align: center;
+            margin: .4rem;
 
                 .footer__end__titulo {
                     font-family: $fonte-titulo;
@@ -84,16 +85,32 @@
             justify-items: center;
             justify-content: center;
             gap: .5rem;
-            padding: 0.3rem;
+            border-top: 2px solid #fff ;
         }
 
         .dev__ico {
-            width: 40px;
+            width: 36px;
         }
 
         .dev__titulo {
             font-family: $fonte-menu;
             font-size: 1.5rem;
+            
+        }
+
+        // .dev__link {
+        //     background-color: #fff;
+            
+        // }
+
+        .dev__name {
+            color: #fff;
+            text-decoration: underline;
+
+                &:hover {
+                    text-decoration: none;
+                    transition: all .6s;
+                }
         }
 
 }
