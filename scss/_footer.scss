@@ -4,6 +4,8 @@
 
         .footer__box {
             display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
             align-items: center;
         }
 
@@ -32,6 +34,27 @@
 
         .footer__icone {
             width: 40px;
+        }
+
+        .footer__end {
+            background-color: $cor-section1;
+            padding: 1rem;
+            text-align: center;
+
+                .footer__end__titulo {
+                    font-family: $fonte-titulo;
+                    font-size: 2rem;
+                    padding-bottom: .8rem;
+                }
+
+                .footer__rua,
+                .footer__numero,
+                .footer__bairro,
+                .footer__cidade {
+                    font-family: $fonte-corpo;
+                    font-weight: bold;
+                    font-size: 1.5rem;
+                }
         }
 }
 

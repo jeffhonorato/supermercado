@@ -1595,28 +1595,30 @@ ul, li {
 /* line 5, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_footer.scss */
 .footer .footer__box {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   align-items: center;
 }
 
-/* line 10, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_footer.scss */
+/* line 12, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_footer.scss */
 .footer .footer__logo {
   width: 400px;
 }
 
-/* line 14, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_footer.scss */
+/* line 16, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_footer.scss */
 .footer .footer__img {
   width: 360px;
   padding: 2rem 2rem;
 }
 
-/* line 19, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_footer.scss */
+/* line 21, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_footer.scss */
 .footer .footer__titulo {
   font-family: "Marcellus SC", serif;
   color: #fff;
   text-align: center;
 }
 
-/* line 26, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_footer.scss */
+/* line 28, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_footer.scss */
 .footer .footer__sociais {
   display: flex;
   justify-content: center;
@@ -1624,9 +1626,33 @@ ul, li {
   margin-top: 1rem;
 }
 
-/* line 33, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_footer.scss */
+/* line 35, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_footer.scss */
 .footer .footer__icone {
   width: 40px;
+}
+
+/* line 39, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_footer.scss */
+.footer .footer__end {
+  background-color: #778DA9;
+  padding: 1rem;
+  text-align: center;
+}
+
+/* line 44, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_footer.scss */
+.footer .footer__end .footer__end__titulo {
+  font-family: "Marcellus SC", serif;
+  font-size: 2rem;
+  padding-bottom: .8rem;
+}
+
+/* line 50, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_footer.scss */
+.footer .footer__end .footer__rua,
+.footer .footer__end .footer__numero,
+.footer .footer__end .footer__bairro,
+.footer .footer__end .footer__cidade {
+  font-family: "Thasadith", sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
 }
 
 /*# sourceMappingURL=main.css.map */
