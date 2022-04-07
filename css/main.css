@@ -1688,4 +1688,24 @@ ul, li {
   height: 400px;
 }
 
+/* line 82, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_footer.scss */
+.footer .desenvolvedor {
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+  gap: .5rem;
+  padding: 0.3rem;
+}
+
+/* line 90, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_footer.scss */
+.footer .dev__ico {
+  width: 40px;
+}
+
+/* line 94, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_footer.scss */
+.footer .dev__titulo {
+  font-family: "Gurajada", serif;
+  font-size: 1.5rem;
+}
+
 /*# sourceMappingURL=main.css.map */
