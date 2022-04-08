@@ -328,7 +328,7 @@ ul, li {
 .promocao .card {
   text-align: center;
   padding: 1rem;
-  box-shadow: 2px 4px 10px #000;
+  box-shadow: 2px 4px 10px #fff;
   background: rgba(255, 255, 255, 0.3);
   border-radius: 6px;
   width: 300px;
@@ -382,6 +382,7 @@ ul, li {
   font-family: "Thasadith", sans-serif;
   font-weight: bold;
   background-color: #042A8F;
+  box-shadow: 2px 4px 10px #000;
   padding: 0.5rem;
   color: #fff;
   border-radius: 4px;
@@ -553,7 +554,7 @@ ul, li {
 .alimentos .arroz__item {
   text-align: center;
   padding: 1rem;
-  box-shadow: 2px 4px 10px #000;
+  box-shadow: 2px 4px 10px #fff;
   background: rgba(255, 255, 255, 0.3);
   border-radius: 6px;
   width: 300px;
@@ -583,6 +584,7 @@ ul, li {
   font-family: "Thasadith", sans-serif;
   font-weight: bold;
   background-color: #042A8F;
+  box-shadow: 2px 4px 10px #000;
   padding: 0.5rem;
   color: #fff;
   border-radius: 4px;
@@ -616,7 +618,7 @@ ul, li {
 .alimentos .feijao__item {
   text-align: center;
   padding: 1rem;
-  box-shadow: 2px 4px 10px #000;
+  box-shadow: 2px 4px 10px #fff;
   background: rgba(255, 255, 255, 0.3);
   border-radius: 6px;
   width: 300px;
@@ -646,6 +648,7 @@ ul, li {
   font-family: "Thasadith", sans-serif;
   font-weight: bold;
   background-color: #042A8F;
+  box-shadow: 2px 4px 10px #000;
   padding: 0.5rem;
   color: #fff;
   border-radius: 4px;
@@ -679,7 +682,7 @@ ul, li {
 .alimentos .biscoito__item {
   text-align: center;
   padding: 1rem;
-  box-shadow: 2px 4px 10px #000;
+  box-shadow: 2px 4px 10px #fff;
   background: rgba(255, 255, 255, 0.3);
   border-radius: 6px;
   width: 300px;
@@ -702,6 +705,7 @@ ul, li {
   font-family: "Thasadith", sans-serif;
   font-weight: bold;
   background-color: #042A8F;
+  box-shadow: 2px 4px 10px #000;
   padding: 0.5rem;
   color: #fff;
   border-radius: 4px;
@@ -735,7 +739,7 @@ ul, li {
 .alimentos .fruta__item {
   text-align: center;
   padding: 1rem;
-  box-shadow: 2px 4px 10px #000;
+  box-shadow: 2px 4px 10px #fff;
   background: rgba(255, 255, 255, 0.3);
   border-radius: 6px;
   width: 300px;
@@ -758,6 +762,7 @@ ul, li {
   font-family: "Thasadith", sans-serif;
   font-weight: bold;
   background-color: #042A8F;
+  box-shadow: 2px 4px 10px #000;
   padding: 0.5rem;
   color: #fff;
   border-radius: 4px;
@@ -791,7 +796,7 @@ ul, li {
 .alimentos .enlatados__item {
   text-align: center;
   padding: 1rem;
-  box-shadow: 2px 4px 10px #000;
+  box-shadow: 2px 4px 10px #fff;
   background: rgba(255, 255, 255, 0.3);
   border-radius: 6px;
   width: 300px;
@@ -814,6 +819,7 @@ ul, li {
   font-family: "Thasadith", sans-serif;
   font-weight: bold;
   background-color: #042A8F;
+  box-shadow: 2px 4px 10px #000;
   padding: 0.5rem;
   color: #fff;
   border-radius: 4px;
@@ -998,7 +1004,7 @@ ul, li {
 .bebidas .agua__item {
   text-align: center;
   padding: 1rem;
-  box-shadow: 2px 4px 10px #000;
+  box-shadow: 2px 4px 10px #fff;
   background: rgba(255, 255, 255, 0.3);
   border-radius: 6px;
   width: 300px;
@@ -1028,6 +1034,7 @@ ul, li {
   font-family: "Thasadith", sans-serif;
   font-weight: bold;
   background-color: #042A8F;
+  box-shadow: 2px 4px 10px #000;
   padding: 0.5rem;
   color: #fff;
   border-radius: 4px;
@@ -1061,7 +1068,7 @@ ul, li {
 .bebidas .refri__item {
   text-align: center;
   padding: 1rem;
-  box-shadow: 2px 4px 10px #000;
+  box-shadow: 2px 4px 10px #fff;
   background: rgba(255, 255, 255, 0.3);
   border-radius: 6px;
   width: 300px;
@@ -1091,6 +1098,7 @@ ul, li {
   font-family: "Thasadith", sans-serif;
   font-weight: bold;
   background-color: #042A8F;
+  box-shadow: 2px 4px 10px #000;
   padding: 0.5rem;
   color: #fff;
   border-radius: 4px;
@@ -1124,7 +1132,7 @@ ul, li {
 .bebidas .cerveja__item {
   text-align: center;
   padding: 1rem;
-  box-shadow: 2px 4px 10px #000;
+  box-shadow: 2px 4px 10px #fff;
   background: rgba(255, 255, 255, 0.3);
   border-radius: 6px;
   width: 300px;
@@ -1154,6 +1162,7 @@ ul, li {
   font-family: "Thasadith", sans-serif;
   font-weight: bold;
   background-color: #042A8F;
+  box-shadow: 2px 4px 10px #000;
   padding: 0.5rem;
   color: #fff;
   border-radius: 4px;
@@ -1338,7 +1347,7 @@ ul, li {
 .limpeza .sabao__item {
   text-align: center;
   padding: 1rem;
-  box-shadow: 2px 4px 10px #000;
+  box-shadow: 2px 4px 10px #fff;
   background: rgba(255, 255, 255, 0.3);
   border-radius: 6px;
   width: 300px;
@@ -1368,6 +1377,7 @@ ul, li {
   font-family: "Thasadith", sans-serif;
   font-weight: bold;
   background-color: #042A8F;
+  box-shadow: 2px 4px 10px #000;
   padding: 0.5rem;
   color: #fff;
   border-radius: 4px;
@@ -1401,7 +1411,7 @@ ul, li {
 .limpeza .cozinha__item {
   text-align: center;
   padding: 1rem;
-  box-shadow: 2px 4px 10px #000;
+  box-shadow: 2px 4px 10px #fff;
   background: rgba(255, 255, 255, 0.3);
   border-radius: 6px;
   width: 300px;
@@ -1431,6 +1441,7 @@ ul, li {
   font-family: "Thasadith", sans-serif;
   font-weight: bold;
   background-color: #042A8F;
+  box-shadow: 2px 4px 10px #000;
   padding: 0.5rem;
   color: #fff;
   border-radius: 4px;
@@ -1464,7 +1475,7 @@ ul, li {
 .limpeza .limpeza-geral__item {
   text-align: center;
   padding: 1rem;
-  box-shadow: 2px 4px 10px #000;
+  box-shadow: 2px 4px 10px #fff;
   background: rgba(255, 255, 255, 0.3);
   border-radius: 6px;
   width: 300px;
@@ -1494,6 +1505,7 @@ ul, li {
   font-family: "Thasadith", sans-serif;
   font-weight: bold;
   background-color: #042A8F;
+  box-shadow: 2px 4px 10px #000;
   padding: 0.5rem;
   color: #fff;
   border-radius: 4px;
