@@ -132,7 +132,7 @@ ul, li {
 .header .nav__bloco {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 2rem;
+  gap: 1rem;
   justify-content: center;
 }
 
@@ -153,7 +153,7 @@ ul, li {
   justify-content: center;
   gap: .1rem;
   box-shadow: 0px 1px 10px 1px #000;
-  padding: .2rem .4rem;
+  padding: 0 .4rem;
   border-radius: 8px;
 }
 
@@ -200,7 +200,7 @@ ul, li {
 .header .nav__item {
   color: #000;
   font-family: "Gurajada", serif;
-  font-size: 2rem;
+  font-size: 1.2rem;
 }
 
 @media (max-width: 480px) {
