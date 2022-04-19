@@ -4,11 +4,11 @@
     padding-bottom: 2rem;
 
         @include mobile {
-            height: 115vh;
+            height: 100vh;
         }
 
         @include tablet {
-            height: 100vh;
+            height: 80vh;
         }
 
         @include desktop {
@@ -42,21 +42,26 @@
 
         }
 
-        // .icone__mobile {
-        //     display: flex;
-        //     justify-content: center;
-        //     width: 60px;
-        //     margin: 0 auto;
-        //     display: none;
+        .icone__mobile {
+            display: flex;
+            justify-content: center;
+            width: 60px;
+            margin: 0 auto;
+            display: none;
 
-        //         @include mobile {
-        //             display: flex;
-        //             justify-content: center;
-        //             width: 60px;
-        //             padding-bottom: 1rem;
-        //             display: block;
-        //         }
-        // }
+                @include mobile {
+                    display: flex;
+                    justify-content: center;
+                    width: 60px;
+                    padding-bottom: 1rem;
+                    display: block;
+                }
+        }
+
+        .icone__mobile.ativo {
+
+        }
+
 
         .nav {
             margin-top: 4rem;
@@ -81,7 +86,7 @@
             align-items: center;
             gap: .2rem;
             box-shadow: 0px 1px 10px 1px #fff;
-            padding: 0rem .4rem;
+            padding: .2rem .4rem;
             border-radius: 8px;
 
                 &:hover {
