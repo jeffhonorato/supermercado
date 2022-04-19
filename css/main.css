@@ -34,30 +34,8 @@ ul, li {
 /* PÁGINA - ARQUITETURA */
 /* line 1, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_header.scss */
 .header {
-  height: 80vh;
   background-color: #042A8F;
   padding-bottom: 2rem;
-}
-
-@media (max-width: 480px) {
-  /* line 1, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_header.scss */
-  .header {
-    height: 110vh;
-  }
-}
-
-@media (min-width: 480px) and (max-width: 768px) {
-  /* line 1, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_header.scss */
-  .header {
-    height: 80vh;
-  }
-}
-
-@media (min-width: 768px) and (max-width: 1280px) {
-  /* line 1, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_header.scss */
-  .header {
-    height: 90vh;
-  }
 }
 
 /* line 19, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_header.scss */
@@ -115,32 +93,17 @@ ul, li {
   .header .icone__mobile {
     width: 50px;
     background: rgba(0, 0, 0, 0.1);
-    background-color: aquamarine;
+    background-color: #72CAE1;
   }
 }
 
 /* line 86, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_header.scss */
-.header .menu__mobile__titulo {
-  display: none;
-  color: #000;
-}
-
-@media (max-width: 480px) {
-  /* line 86, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_header.scss */
-  .header .menu__mobile__titulo {
-    font-family: "Gurajada", serif;
-    display: block;
-    font-size: 2.4rem;
-  }
-}
-
-/* line 99, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_header.scss */
 .header .nav {
   margin-top: 4rem;
 }
 
 @media (max-width: 480px) {
-  /* line 99, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_header.scss */
+  /* line 86, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_header.scss */
   .header .nav {
     background-color: #72CAE1;
     width: 55%;
@@ -149,27 +112,27 @@ ul, li {
     box-shadow: 1px 1px 4px 5px #fff;
     opacity: 1;
     margin-top: 1rem;
-    animation: show;
+    animation: show 2s;
   }
 }
 
 @keyframes show {
   from {
     opacity: 0;
-    margin-left: -20px;
+    left: -40px;
   }
   to {
     opacity: 1;
-    margin-left: 0px;
+    left: 0px;
   }
 }
 
-/* line 126, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_header.scss */
+/* line 113, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_header.scss */
 .header .nav.ativo {
   opacity: 0;
 }
 
-/* line 130, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_header.scss */
+/* line 117, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_header.scss */
 .header .nav__bloco {
   display: flex;
   flex-wrap: wrap;
@@ -178,7 +141,7 @@ ul, li {
 }
 
 @media (max-width: 480px) {
-  /* line 130, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_header.scss */
+  /* line 117, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_header.scss */
   .header .nav__bloco {
     gap: .5rem;
     display: grid;
@@ -187,7 +150,7 @@ ul, li {
   }
 }
 
-/* line 146, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_header.scss */
+/* line 133, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_header.scss */
 .header .nav__link {
   display: flex;
   align-items: center;
@@ -197,24 +160,24 @@ ul, li {
   border-radius: 8px;
 }
 
-/* line 154, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_header.scss */
+/* line 141, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_header.scss */
 .header .nav__link:hover {
   background-color: #fff;
   transition: all .8s;
 }
 
-/* line 159, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_header.scss */
+/* line 146, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_header.scss */
 .header .nav__link:hover .nav__item {
   color: #000;
 }
 
-/* line 163, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_header.scss */
+/* line 150, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_header.scss */
 .header .nav__link:hover .nav__icone {
   color: #000;
 }
 
 @media (max-width: 480px) {
-  /* line 146, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_header.scss */
+  /* line 133, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_header.scss */
   .header .nav__link {
     margin-bottom: .7rem;
     width: 150px;
@@ -222,21 +185,21 @@ ul, li {
   }
 }
 
-/* line 175, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_header.scss */
+/* line 162, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_header.scss */
 .header .nav__icone {
   color: #fff;
   font-size: 1.3rem;
 }
 
 @media (max-width: 480px) {
-  /* line 175, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_header.scss */
+  /* line 162, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_header.scss */
   .header .nav__icone {
     font-size: 1.4rem;
     color: #000;
   }
 }
 
-/* line 185, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_header.scss */
+/* line 172, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_header.scss */
 .header .nav__item {
   color: #fff;
   font-family: "Gurajada", serif;
@@ -244,7 +207,7 @@ ul, li {
 }
 
 @media (max-width: 480px) {
-  /* line 185, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_header.scss */
+  /* line 172, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_header.scss */
   .header .nav__item {
     font-size: 1.4rem;
     color: #000;

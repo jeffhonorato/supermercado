@@ -1,19 +1,19 @@
 .header {
-    height: 80vh;
+    // height: 80vh;
     background-color: $cor-header;
     padding-bottom: 2rem;
 
-        @include mobile {
-            height: 110vh;
-        }
+        // @include mobile {
+        //     height: 110vh;
+        // }
 
-        @include tablet {
-            height: 80vh;
-        }
+        // @include tablet {
+        //     height: 80vh;
+        // }
 
-        @include desktop {
-            height: 90vh;
-        }
+        // @include desktop {
+        //     height: 90vh;
+        // }
 
 
         .logo {
@@ -76,25 +76,12 @@
                     width: 50px;
                     // padding-bottom: 1rem;
                     background: rgba(0, 0, 0, 0.1);
-                    background-color: aquamarine;
+                    background-color: $cor-menu-mobile;
                     // border-radius: 60%;
                     // display: block;
                     // margin: 0 auto;
                 }
         }
-
-        .menu__mobile__titulo {
-            display: none;
-            color: #000;
-
-            @include mobile {
-                font-family: $fonte-menu;
-                display: block;
-                font-size: 2.4rem;
-            }
-
-        }
-
 
         .nav {
             margin-top: 4rem;
@@ -107,18 +94,18 @@
                     box-shadow: 1px 1px 4px 5px #fff;
                     opacity: 1;
                     margin-top: 1rem;
-                    animation: show ;
+                    animation: show 2s;
                 }
 
                 @keyframes show {
                     from {
                         opacity: 0;
-                        margin-left: -20px;
+                        left: -40px;
                       }
                     
                       to {
                         opacity: 1;
-                        margin-left: 0px;
+                        left: 0px;
                       }
                 }
         }
