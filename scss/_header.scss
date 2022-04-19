@@ -94,7 +94,9 @@
                     box-shadow: 1px 1px 4px 5px #fff;
                     opacity: 1;
                     margin-top: 1rem;
-                    animation: show 2s;
+                    animation: show;
+                    transition: all .6s;
+                    
                 }
 
                 @keyframes show {
@@ -125,6 +127,7 @@
                     display: grid;
                     grid-template-columns: 1fr;
                     padding-left: 1rem;
+                   
                 }
         }
 
