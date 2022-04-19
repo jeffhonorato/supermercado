@@ -72,7 +72,27 @@
                     background-color: $cor-menu-mobile;
                     width: 50%;
                     padding: .5rem;
+                    border-radius: 6px;
+                    box-shadow: 1px 1px 4px 5px #fff;
                 }
+        }
+
+        .menu__mobile {
+            display: flex;
+            align-items: center;
+            background: rgba(0,0,0,0.3);
+            backdrop-filter: blur(10px);
+        }
+
+        .menu__mobile__titulo {
+            display: none;
+
+            @include mobile {
+                font-family: $fonte-menu;
+                display: block;
+                font-size: 2rem;
+            }
+
         }
 
         .nav__bloco {
