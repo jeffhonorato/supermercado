@@ -15,37 +15,6 @@
         //     height: 90vh;
         // }
 
-
-        .logo {
-            width: 400px;
-            margin: 0 auto;
-            display: flex;
-            justify-content: center;
-            padding-top: 40px;
-
-            @include mobile {
-                width: 18rem;
-                margin: 0 auto;
-                display: flex;
-                justify-content: center;
-            }
-
-            @include tablet {
-                width: 24rem;
-                margin: 0 auto;
-                display: flex;
-                justify-content: center;
-                padding-bottom: 2rem;
-            }
-
-            @include desktop {
-                padding-bottom: 2rem;
-            }
-
-        }
-
-        
-
         .menu__mobile {
             // display: flex;
             // align-items: flex-start;
@@ -93,7 +62,7 @@
                     border-top-right-radius: 6px;
                     border-bottom-right-radius: 6px;
                     box-shadow: 1px 1px 4px 5px #fff;
-                    opacity: 1;
+                    display: none;
                     margin-top: 1rem;
                     animation: show;
                     transition: all .4s;
@@ -114,7 +83,7 @@
         }
 
         .nav.ativo {
-            opacity: 0;
+            display: block;
         }
 
         .nav__bloco {
@@ -131,8 +100,6 @@
                    
                 }
         }
-
-        
 
         .nav__link {
             display: flex;
@@ -184,6 +151,37 @@
             }
         }
 
+        .logo {
+            width: 400px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: center;
+            padding-top: 40px;
+
+            @include mobile {
+                width: 18rem;
+                margin: 0 auto;
+                display: flex;
+                justify-content: center;
+            }
+
+            @include tablet {
+                width: 24rem;
+                margin: 0 auto;
+                display: flex;
+                justify-content: center;
+                padding-bottom: 2rem;
+            }
+
+            @include desktop {
+                padding-bottom: 2rem;
+            }
+
+        }
+
+        
+
+        
         
 
 }
