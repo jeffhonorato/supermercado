@@ -90,12 +90,13 @@
                     background-color: $cor-menu-mobile;
                     width: 55%;
                     padding: .5rem;
-                    border-radius: 6px;
+                    border-top-right-radius: 6px;
+                    border-bottom-right-radius: 6px;
                     box-shadow: 1px 1px 4px 5px #fff;
                     opacity: 1;
                     margin-top: 1rem;
                     animation: show;
-                    transition: all .6s;
+                    transition: all .4s;
                     
                 }
 
