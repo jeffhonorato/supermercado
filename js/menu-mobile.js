@@ -1,7 +1,7 @@
 let menuMobile = document.querySelector(".icone__mobile");
 
 const toggleMenu = () => {
-    let nav = document.querySelector(".nav__bloco");
+    let nav = document.querySelector(".nav");
     nav.classList.toggle("ativo");
 
 } 
