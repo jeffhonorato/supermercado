@@ -101,6 +101,10 @@
                     transition: all .5s;
                 }
 
+                @include landscape {
+                    width: 100%;
+                }
+
                 @keyframes show {
                     from {
                         opacity: 1;
@@ -130,6 +134,10 @@
                     grid-template-columns: 1fr;
                     padding-left: 1rem;
                    
+                }
+
+                @include landscape {
+                    gap: .4rem;
                 }
         }
 
@@ -181,6 +189,10 @@
             @include mobile {
                 font-size: 1rem;
                 color: #000;
+            }
+
+            @include landscape {
+                font-size: .6rem;
             }
         }
 

@@ -107,6 +107,12 @@ ul, li {
         @content;
     }
 }
+@mixin landscape {
+    @media screen and (orientation:landscape) {
+        @content;
+    }
+}
+
 
 
 /* PÁGINA - ARQUITETURA */
