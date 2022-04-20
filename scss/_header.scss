@@ -60,9 +60,13 @@
                     // margin: 0 auto;
                 }
 
-                // @include landscape {
-                //     width: 35px;
-                // }
+                @include landscape {
+                    width: 35px;
+                }
+
+                @include desktop {
+                    width: 50px;
+                }
         }
 
         .nav {
@@ -173,6 +177,8 @@
                     box-shadow: 0px 1px 10px 1px #000;
                 }
 
+                
+
         }
 
         .nav__icone {
@@ -182,6 +188,14 @@
             @include mobile {
                 font-size: 1.4rem;
                 color: #000;
+            }
+
+            @include landscape {
+                font-size: .8rem;
+            }
+
+            @include desktop {
+                font-size: 1.3rem;
             }
         }
 
@@ -195,9 +209,13 @@
                     color: #000;
                 }
 
-                // @include landscape {
-                //     font-size: .6rem;
-                // }
+                @include landscape {
+                    font-size: .6rem;
+                }
+
+                @include desktop {
+                    font-size: 1.2rem;
+                }
         }
 
         // .logo__cabecalho {
