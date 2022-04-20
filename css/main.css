@@ -396,7 +396,6 @@ ul, li {
   justify-content: center;
   align-items: center;
   margin-top: 3rem;
-  backdrop-filter: blur(1px);
 }
 
 /* line 57, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_promocao.scss */
@@ -404,8 +403,10 @@ ul, li {
   text-align: center;
   padding: 1rem;
   box-shadow: 2px 4px 10px #fff;
-  background: rgba(255, 255, 255, 0.3);
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(70px);
   border-radius: 6px;
+  border: 1px solid #000;
   width: 300px;
   position: relative;
 }
@@ -630,8 +631,10 @@ ul, li {
   text-align: center;
   padding: 1rem;
   box-shadow: 2px 4px 10px #fff;
-  background: rgba(255, 255, 255, 0.3);
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(70px);
   border-radius: 6px;
+  border: 1px solid #000;
   width: 300px;
 }
 
@@ -694,8 +697,10 @@ ul, li {
   text-align: center;
   padding: 1rem;
   box-shadow: 2px 4px 10px #fff;
-  background: rgba(255, 255, 255, 0.3);
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(70px);
   border-radius: 6px;
+  border: 1px solid #000;
   width: 300px;
 }
 
@@ -758,8 +763,10 @@ ul, li {
   text-align: center;
   padding: 1rem;
   box-shadow: 2px 4px 10px #fff;
-  background: rgba(255, 255, 255, 0.3);
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(70px);
   border-radius: 6px;
+  border: 1px solid #000;
   width: 300px;
 }
 
@@ -815,8 +822,10 @@ ul, li {
   text-align: center;
   padding: 1rem;
   box-shadow: 2px 4px 10px #fff;
-  background: rgba(255, 255, 255, 0.3);
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(70px);
   border-radius: 6px;
+  border: 1px solid #000;
   width: 300px;
 }
 
@@ -872,8 +881,10 @@ ul, li {
   text-align: center;
   padding: 1rem;
   box-shadow: 2px 4px 10px #fff;
-  background: rgba(255, 255, 255, 0.3);
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(70px);
   border-radius: 6px;
+  border: 1px solid #000;
   width: 300px;
 }
 
@@ -1080,8 +1091,10 @@ ul, li {
   text-align: center;
   padding: 1rem;
   box-shadow: 2px 4px 10px #fff;
-  background: rgba(255, 255, 255, 0.3);
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(70px);
   border-radius: 6px;
+  border: 1px solid #000;
   width: 300px;
 }
 
@@ -1144,8 +1157,10 @@ ul, li {
   text-align: center;
   padding: 1rem;
   box-shadow: 2px 4px 10px #fff;
-  background: rgba(255, 255, 255, 0.3);
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(70px);
   border-radius: 6px;
+  border: 1px solid #000;
   width: 300px;
 }
 
@@ -1208,8 +1223,10 @@ ul, li {
   text-align: center;
   padding: 1rem;
   box-shadow: 2px 4px 10px #fff;
-  background: rgba(255, 255, 255, 0.3);
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(70px);
   border-radius: 6px;
+  border: 1px solid #000;
   width: 300px;
 }
 
@@ -1423,8 +1440,10 @@ ul, li {
   text-align: center;
   padding: 1rem;
   box-shadow: 2px 4px 10px #fff;
-  background: rgba(255, 255, 255, 0.3);
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(70px);
   border-radius: 6px;
+  border: 1px solid #000;
   width: 300px;
 }
 
@@ -1487,8 +1506,10 @@ ul, li {
   text-align: center;
   padding: 1rem;
   box-shadow: 2px 4px 10px #fff;
-  background: rgba(255, 255, 255, 0.3);
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(70px);
   border-radius: 6px;
+  border: 1px solid #000;
   width: 300px;
 }
 
@@ -1551,8 +1572,10 @@ ul, li {
   text-align: center;
   padding: 1rem;
   box-shadow: 2px 4px 10px #fff;
-  background: rgba(255, 255, 255, 0.3);
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(70px);
   border-radius: 6px;
+  border: 1px solid #000;
   width: 300px;
 }
 
