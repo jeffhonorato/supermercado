@@ -59,6 +59,10 @@
                     // display: block;
                     // margin: 0 auto;
                 }
+
+                @include landscape {
+                    width: 35px;
+                }
         }
 
         .nav {
