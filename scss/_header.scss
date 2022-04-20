@@ -28,10 +28,9 @@
             display: flex;
             align-items: flex-start;
             background-color: $cor-menu-mobile;
-            
             padding: 2px 6px;
             border-radius: 6px;
-            box-shadow: 1px 1px 4px 5px #fff;
+            border: 2px solid #000;
             margin-top: 1.5rem;
 
             @include mobile {
@@ -45,9 +44,8 @@
         }
 
         .icone__mobile {
-            width: 50px;
-            // margin: 0 auto;
-            background-color: $cor-menu-mobile;
+            cursor: pointer;
+            width: 40px;
             
 
                 @include mobile {
@@ -68,6 +66,14 @@
                     width: 50px;
                 }
         }
+
+        // .icone__mobile__close {
+        //     display: none;
+        //     width: 30px;
+        //     cursor: pointer;
+        // }
+
+
 
         .nav {
             margin-top: 4rem;
