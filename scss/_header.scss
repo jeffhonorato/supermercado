@@ -88,6 +88,19 @@
                     transition: all .5s;
                 }
 
+                @include tablet {
+                    background-color: $cor-menu-mobile;
+                    width: 100%;
+                    padding: .5rem;
+                    border-top-right-radius: 6px;
+                    border-bottom-right-radius: 6px;
+                    box-shadow: 1px 1px 4px 5px #fff;
+                    display: none;
+                    margin-top: 1rem;
+                    animation: show .8s;
+                    transition: all .5s;
+                }
+
                 @keyframes show {
                     from {
                         opacity: 1;
