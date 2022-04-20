@@ -7,6 +7,7 @@
 
         .promo__titulo {
             @include titulo-section;
+            box-shadow: 1px 4px 8px 1px #fff;
             
 
                 @include mobile {

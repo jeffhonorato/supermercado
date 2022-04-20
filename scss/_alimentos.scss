@@ -26,6 +26,7 @@
     
         .alimentos__titulo {
             @include titulo-section;
+            
 
                 @include mobile {
                     gap: 1rem;
