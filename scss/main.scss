@@ -52,6 +52,10 @@ ul, li {
     border-radius: 4px;
     box-shadow: 1px 1px 8px 1px #fff;
     cursor: pointer;
+
+        &:hover {
+            background-color: $cor-menu-mobile;
+        }
 }
 
 @mixin card-config {
@@ -107,12 +111,12 @@ ul, li {
         @content;
     }
 }
+
 @mixin landscape {
     @media screen and (orientation:landscape) {
         @content;
     }
 }
-
 
 
 /* PÁGINA - ARQUITETURA */

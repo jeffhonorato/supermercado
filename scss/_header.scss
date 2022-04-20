@@ -45,13 +45,13 @@
         }
 
         .icone__mobile {
-            width: 60px;
+            width: 50px;
             // margin: 0 auto;
             background-color: $cor-menu-mobile;
             
 
                 @include mobile {
-                    width: 50px;
+                    width: 40px;
                     // padding-bottom: 1rem;
                     background: rgba(0, 0, 0, 0.1);
                     background-color: $cor-menu-mobile;
@@ -60,9 +60,9 @@
                     // margin: 0 auto;
                 }
 
-                @include landscape {
-                    width: 35px;
-                }
+                // @include landscape {
+                //     width: 35px;
+                // }
         }
 
         .nav {
@@ -190,14 +190,14 @@
             font-family: $fonte-menu;
             font-size: 1.2rem;
 
-            @include mobile {
-                font-size: 1rem;
-                color: #000;
-            }
+                @include mobile {
+                    font-size: 1rem;
+                    color: #000;
+                }
 
-            @include landscape {
-                font-size: .6rem;
-            }
+                // @include landscape {
+                //     font-size: .6rem;
+                // }
         }
 
         // .logo__cabecalho {

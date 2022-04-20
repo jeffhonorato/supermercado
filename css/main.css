@@ -67,23 +67,16 @@ ul, li {
 
 /* line 47, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_header.scss */
 .header .icone__mobile {
-  width: 60px;
+  width: 50px;
   background-color: #72CAE1;
 }
 
 @media (max-width: 480px) {
   /* line 47, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_header.scss */
   .header .icone__mobile {
-    width: 50px;
+    width: 40px;
     background: rgba(0, 0, 0, 0.1);
     background-color: #72CAE1;
-  }
-}
-
-@media screen and (orientation: landscape) {
-  /* line 47, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_header.scss */
-  .header .icone__mobile {
-    width: 35px;
   }
 }
 
@@ -245,13 +238,6 @@ ul, li {
   .header .nav__item {
     font-size: 1rem;
     color: #000;
-  }
-}
-
-@media screen and (orientation: landscape) {
-  /* line 188, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_header.scss */
-  .header .nav__item {
-    font-size: .6rem;
   }
 }
 
@@ -455,7 +441,7 @@ ul, li {
   position: relative;
 }
 
-/* line 67, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/main.scss */
+/* line 71, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/main.scss */
 .promocao .card:hover {
   box-shadow: 1px 2px 5px #fff;
   transition: all .5s;
@@ -648,6 +634,11 @@ ul, li {
   cursor: pointer;
 }
 
+/* line 56, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/main.scss */
+.alimentos .menu__item:hover {
+  background-color: #72CAE1;
+}
+
 @media (max-width: 480px) {
   /* line 83, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_alimentos.scss */
   .alimentos .menu__item {
@@ -704,7 +695,7 @@ ul, li {
   width: 300px;
 }
 
-/* line 67, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/main.scss */
+/* line 71, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/main.scss */
 .alimentos .arroz__item:hover {
   box-shadow: 1px 2px 5px #fff;
   transition: all .5s;
@@ -776,7 +767,7 @@ ul, li {
   width: 300px;
 }
 
-/* line 67, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/main.scss */
+/* line 71, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/main.scss */
 .alimentos .feijao__item:hover {
   box-shadow: 1px 2px 5px #fff;
   transition: all .5s;
@@ -848,7 +839,7 @@ ul, li {
   width: 300px;
 }
 
-/* line 67, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/main.scss */
+/* line 71, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/main.scss */
 .alimentos .biscoito__item:hover {
   box-shadow: 1px 2px 5px #fff;
   transition: all .5s;
@@ -913,7 +904,7 @@ ul, li {
   width: 300px;
 }
 
-/* line 67, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/main.scss */
+/* line 71, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/main.scss */
 .alimentos .fruta__item:hover {
   box-shadow: 1px 2px 5px #fff;
   transition: all .5s;
@@ -978,7 +969,7 @@ ul, li {
   width: 300px;
 }
 
-/* line 67, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/main.scss */
+/* line 71, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/main.scss */
 .alimentos .enlatados__item:hover {
   box-shadow: 1px 2px 5px #fff;
   transition: all .5s;
@@ -1154,6 +1145,11 @@ ul, li {
   cursor: pointer;
 }
 
+/* line 56, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/main.scss */
+.bebidas .menu__item:hover {
+  background-color: #72CAE1;
+}
+
 @media (max-width: 480px) {
   /* line 82, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_bebidas.scss */
   .bebidas .menu__item {
@@ -1203,7 +1199,7 @@ ul, li {
   width: 300px;
 }
 
-/* line 67, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/main.scss */
+/* line 71, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/main.scss */
 .bebidas .agua__item:hover {
   box-shadow: 1px 2px 5px #fff;
   transition: all .5s;
@@ -1275,7 +1271,7 @@ ul, li {
   width: 300px;
 }
 
-/* line 67, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/main.scss */
+/* line 71, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/main.scss */
 .bebidas .refri__item:hover {
   box-shadow: 1px 2px 5px #fff;
   transition: all .5s;
@@ -1347,7 +1343,7 @@ ul, li {
   width: 300px;
 }
 
-/* line 67, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/main.scss */
+/* line 71, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/main.scss */
 .bebidas .cerveja__item:hover {
   box-shadow: 1px 2px 5px #fff;
   transition: all .5s;
@@ -1530,6 +1526,11 @@ ul, li {
   cursor: pointer;
 }
 
+/* line 56, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/main.scss */
+.limpeza .menu__item:hover {
+  background-color: #72CAE1;
+}
+
 @media (max-width: 480px) {
   /* line 82, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_limpeza.scss */
   .limpeza .menu__item {
@@ -1579,7 +1580,7 @@ ul, li {
   width: 300px;
 }
 
-/* line 67, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/main.scss */
+/* line 71, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/main.scss */
 .limpeza .sabao__item:hover {
   box-shadow: 1px 2px 5px #fff;
   transition: all .5s;
@@ -1651,7 +1652,7 @@ ul, li {
   width: 300px;
 }
 
-/* line 67, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/main.scss */
+/* line 71, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/main.scss */
 .limpeza .cozinha__item:hover {
   box-shadow: 1px 2px 5px #fff;
   transition: all .5s;
@@ -1723,7 +1724,7 @@ ul, li {
   width: 300px;
 }
 
-/* line 67, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/main.scss */
+/* line 71, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/main.scss */
 .limpeza .limpeza-geral__item:hover {
   box-shadow: 1px 2px 5px #fff;
   transition: all .5s;
