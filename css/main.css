@@ -1912,14 +1912,14 @@ ul, li {
   padding: 2rem 2rem;
 }
 
-/* line 34, ../../../Documents/GitHub/supermercado/scss/_footer.scss */
+/* line 35, ../../../Documents/GitHub/supermercado/scss/_footer.scss */
 .footer .footer__titulo {
   font-family: "Marcellus SC", serif;
   color: #fff;
   text-align: center;
 }
 
-/* line 41, ../../../Documents/GitHub/supermercado/scss/_footer.scss */
+/* line 42, ../../../Documents/GitHub/supermercado/scss/_footer.scss */
 .footer .footer__sociais {
   display: flex;
   justify-content: center;
@@ -1927,12 +1927,12 @@ ul, li {
   margin-top: 1rem;
 }
 
-/* line 48, ../../../Documents/GitHub/supermercado/scss/_footer.scss */
+/* line 49, ../../../Documents/GitHub/supermercado/scss/_footer.scss */
 .footer .footer__icone {
   width: 40px;
 }
 
-/* line 52, ../../../Documents/GitHub/supermercado/scss/_footer.scss */
+/* line 53, ../../../Documents/GitHub/supermercado/scss/_footer.scss */
 .footer .footer__end {
   background-color: #778DA9;
   padding: 1rem;
@@ -1942,14 +1942,14 @@ ul, li {
   box-shadow: 4px 4px 8px 0px #fff;
 }
 
-/* line 60, ../../../Documents/GitHub/supermercado/scss/_footer.scss */
+/* line 61, ../../../Documents/GitHub/supermercado/scss/_footer.scss */
 .footer .footer__end .footer__end__titulo {
   font-family: "Marcellus SC", serif;
   font-size: 2.4rem;
   padding-bottom: .8rem;
 }
 
-/* line 66, ../../../Documents/GitHub/supermercado/scss/_footer.scss */
+/* line 67, ../../../Documents/GitHub/supermercado/scss/_footer.scss */
 .footer .footer__end .footer__rua,
 .footer .footer__end .footer__numero,
 .footer .footer__end .footer__bairro,
@@ -1959,18 +1959,18 @@ ul, li {
   font-size: 1.5rem;
 }
 
-/* line 76, ../../../Documents/GitHub/supermercado/scss/_footer.scss */
+/* line 77, ../../../Documents/GitHub/supermercado/scss/_footer.scss */
 .footer .footer__maps {
   padding: 2rem;
 }
 
-/* line 79, ../../../Documents/GitHub/supermercado/scss/_footer.scss */
+/* line 80, ../../../Documents/GitHub/supermercado/scss/_footer.scss */
 .footer .footer__maps .maps {
   width: 300px;
   height: 400px;
 }
 
-/* line 85, ../../../Documents/GitHub/supermercado/scss/_footer.scss */
+/* line 86, ../../../Documents/GitHub/supermercado/scss/_footer.scss */
 .footer .desenvolvedor {
   display: flex;
   justify-items: center;
@@ -1979,31 +1979,31 @@ ul, li {
   border-top: 2px solid #fff;
 }
 
-/* line 93, ../../../Documents/GitHub/supermercado/scss/_footer.scss */
+/* line 94, ../../../Documents/GitHub/supermercado/scss/_footer.scss */
 .footer .dev__ico {
   width: 36px;
 }
 
-/* line 97, ../../../Documents/GitHub/supermercado/scss/_footer.scss */
+/* line 98, ../../../Documents/GitHub/supermercado/scss/_footer.scss */
 .footer .dev__titulo {
   font-family: "Gurajada", serif;
   font-size: 1.5rem;
 }
 
-/* line 109, ../../../Documents/GitHub/supermercado/scss/_footer.scss */
+/* line 110, ../../../Documents/GitHub/supermercado/scss/_footer.scss */
 .footer .dev__name {
   color: #fff;
   text-decoration: underline;
 }
 
-/* line 113, ../../../Documents/GitHub/supermercado/scss/_footer.scss */
+/* line 114, ../../../Documents/GitHub/supermercado/scss/_footer.scss */
 .footer .dev__name:hover {
   text-decoration: none;
   transition: all .6s;
 }
 
 @media (max-width: 480px) {
-  /* line 109, ../../../Documents/GitHub/supermercado/scss/_footer.scss */
+  /* line 110, ../../../Documents/GitHub/supermercado/scss/_footer.scss */
   .footer .dev__name {
     color: #fff;
   }
