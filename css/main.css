@@ -534,21 +534,71 @@ ul, li {
 
 /* line 94, ../../../Documents/GitHub/supermercado/scss/_promocao.scss */
 .promocao .card__preco {
-  font-family: "Marcellus SC", serif;
-  font-size: 1.2rem;
-  margin-bottom: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: .8rem;
+  background: rgba(4, 42, 143, 0.89);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(4.4px);
+  padding: .5rem;
 }
 
-/* line 101, ../../../Documents/GitHub/supermercado/scss/_promocao.scss */
-.promocao .preco__strong {
+/* line 108, ../../../Documents/GitHub/supermercado/scss/_promocao.scss */
+.promocao .card__preco--real {
+  color: #fff;
+  font-size: 1.4rem;
+}
+
+/* line 113, ../../../Documents/GitHub/supermercado/scss/_promocao.scss */
+.promocao .card__preco--strong {
+  color: #fff;
+  font-size: 1.5rem;
+  font-family: "Thasadith", sans-serif;
+}
+
+/* line 119, ../../../Documents/GitHub/supermercado/scss/_promocao.scss */
+.promocao .card__contato {
   font-family: "Thasadith", sans-serif;
   font-weight: bold;
   background-color: #042A8F;
-  box-shadow: 2px 4px 10px #000;
+  box-shadow: 2px 4px 5px #000;
   padding: 0.5rem;
   color: #fff;
   border-radius: 4px;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
+  background-color: #30e868;
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: .4rem;
+  width: 160px;
+  margin: .8rem auto;
+  font-family: "Marcellus SC", serif;
+}
+
+/* line 131, ../../../Documents/GitHub/supermercado/scss/_promocao.scss */
+.promocao .card__contato:hover {
+  background-color: #C33C54;
+  transition: all .5s;
+}
+
+/* line 136, ../../../Documents/GitHub/supermercado/scss/_promocao.scss */
+.promocao .card__contato:hover .card__pedido {
+  color: #fff;
+}
+
+/* line 141, ../../../Documents/GitHub/supermercado/scss/_promocao.scss */
+.promocao .ico-pedido {
+  outline: #000;
+}
+
+/* line 145, ../../../Documents/GitHub/supermercado/scss/_promocao.scss */
+.promocao .card__pedido {
+  color: #000;
+  font-weight: bold;
 }
 
 /* line 1, ../../../Documents/GitHub/supermercado/scss/_alimentos.scss */
@@ -775,11 +825,11 @@ ul, li {
   font-family: "Thasadith", sans-serif;
   font-weight: bold;
   background-color: #042A8F;
-  box-shadow: 2px 4px 10px #000;
+  box-shadow: 2px 4px 5px #000;
   padding: 0.5rem;
   color: #fff;
   border-radius: 4px;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
 }
 
 /* line 144, ../../../Documents/GitHub/supermercado/scss/_alimentos.scss */
@@ -847,11 +897,11 @@ ul, li {
   font-family: "Thasadith", sans-serif;
   font-weight: bold;
   background-color: #042A8F;
-  box-shadow: 2px 4px 10px #000;
+  box-shadow: 2px 4px 5px #000;
   padding: 0.5rem;
   color: #fff;
   border-radius: 4px;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
 }
 
 /* line 189, ../../../Documents/GitHub/supermercado/scss/_alimentos.scss */
@@ -912,11 +962,11 @@ ul, li {
   font-family: "Thasadith", sans-serif;
   font-weight: bold;
   background-color: #042A8F;
-  box-shadow: 2px 4px 10px #000;
+  box-shadow: 2px 4px 5px #000;
   padding: 0.5rem;
   color: #fff;
   border-radius: 4px;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
 }
 
 /* line 228, ../../../Documents/GitHub/supermercado/scss/_alimentos.scss */
@@ -977,11 +1027,11 @@ ul, li {
   font-family: "Thasadith", sans-serif;
   font-weight: bold;
   background-color: #042A8F;
-  box-shadow: 2px 4px 10px #000;
+  box-shadow: 2px 4px 5px #000;
   padding: 0.5rem;
   color: #fff;
   border-radius: 4px;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
 }
 
 /* line 267, ../../../Documents/GitHub/supermercado/scss/_alimentos.scss */
@@ -1042,11 +1092,11 @@ ul, li {
   font-family: "Thasadith", sans-serif;
   font-weight: bold;
   background-color: #042A8F;
-  box-shadow: 2px 4px 10px #000;
+  box-shadow: 2px 4px 5px #000;
   padding: 0.5rem;
   color: #fff;
   border-radius: 4px;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
 }
 
 /* line 307, ../../../Documents/GitHub/supermercado/scss/_alimentos.scss */
@@ -1279,11 +1329,11 @@ ul, li {
   font-family: "Thasadith", sans-serif;
   font-weight: bold;
   background-color: #042A8F;
-  box-shadow: 2px 4px 10px #000;
+  box-shadow: 2px 4px 5px #000;
   padding: 0.5rem;
   color: #fff;
   border-radius: 4px;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
 }
 
 /* line 139, ../../../Documents/GitHub/supermercado/scss/_bebidas.scss */
@@ -1351,11 +1401,11 @@ ul, li {
   font-family: "Thasadith", sans-serif;
   font-weight: bold;
   background-color: #042A8F;
-  box-shadow: 2px 4px 10px #000;
+  box-shadow: 2px 4px 5px #000;
   padding: 0.5rem;
   color: #fff;
   border-radius: 4px;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
 }
 
 /* line 180, ../../../Documents/GitHub/supermercado/scss/_bebidas.scss */
@@ -1423,11 +1473,11 @@ ul, li {
   font-family: "Thasadith", sans-serif;
   font-weight: bold;
   background-color: #042A8F;
-  box-shadow: 2px 4px 10px #000;
+  box-shadow: 2px 4px 5px #000;
   padding: 0.5rem;
   color: #fff;
   border-radius: 4px;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
 }
 
 /* line 223, ../../../Documents/GitHub/supermercado/scss/_bebidas.scss */
@@ -1660,11 +1710,11 @@ ul, li {
   font-family: "Thasadith", sans-serif;
   font-weight: bold;
   background-color: #042A8F;
-  box-shadow: 2px 4px 10px #000;
+  box-shadow: 2px 4px 5px #000;
   padding: 0.5rem;
   color: #fff;
   border-radius: 4px;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
 }
 
 /* line 138, ../../../Documents/GitHub/supermercado/scss/_limpeza.scss */
@@ -1732,11 +1782,11 @@ ul, li {
   font-family: "Thasadith", sans-serif;
   font-weight: bold;
   background-color: #042A8F;
-  box-shadow: 2px 4px 10px #000;
+  box-shadow: 2px 4px 5px #000;
   padding: 0.5rem;
   color: #fff;
   border-radius: 4px;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
 }
 
 /* line 180, ../../../Documents/GitHub/supermercado/scss/_limpeza.scss */
@@ -1804,11 +1854,11 @@ ul, li {
   font-family: "Thasadith", sans-serif;
   font-weight: bold;
   background-color: #042A8F;
-  box-shadow: 2px 4px 10px #000;
+  box-shadow: 2px 4px 5px #000;
   padding: 0.5rem;
   color: #fff;
   border-radius: 4px;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
 }
 
 /* line 230, ../../../Documents/GitHub/supermercado/scss/_limpeza.scss */

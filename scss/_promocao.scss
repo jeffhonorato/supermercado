@@ -92,13 +92,58 @@
         }
 
         .card__preco {
-            font-family: $fonte-titulo;
-            font-size: 1.2rem;
-            margin-bottom: 0.5rem;
-            // @include card-preco;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: .8rem;
+            background: rgba(4, 42, 143, 0.89);
+            border-radius: 16px;
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(4.4px);
+            padding: .5rem;
+         
+            
         }
 
-        .preco__strong {
+        .card__preco--real {
+            color: #fff;
+            font-size: 1.4rem;
+        }
+
+        .card__preco--strong {
+            color: #fff;
+            font-size: 1.5rem;
+            font-family: $fonte-corpo;
+        }
+
+        .card__contato {
             @include card-preco;
+            background-color: #30e868;
+            margin-top: 1rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: .4rem;
+            width: 160px;
+            margin: .8rem auto;
+            font-family: $fonte-titulo;
+
+            &:hover {
+                background-color: $cor-botoes;
+                transition: all .5s;
+            } 
+
+            &:hover .card__pedido {
+                color: #fff;
+            }
+        }
+
+        .ico-pedido {
+            outline: #000;
+        }
+
+        .card__pedido {
+           color: #000;
+           font-weight: bold;
         }
 }
