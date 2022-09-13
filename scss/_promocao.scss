@@ -107,13 +107,18 @@
 
         .card__preco--real {
             color: #fff;
-            font-size: 1.4rem;
+            font-size: 1rem;
+            font-family: $fonte-corpo;
         }
 
         .card__preco--strong {
             color: #fff;
-            font-size: 1.5rem;
+            font-size: 1.4rem;
             font-family: $fonte-corpo;
+        }
+
+        .card__preco--strong strong {
+            font-size: 1.5rem;
         }
 
         .card__contato {

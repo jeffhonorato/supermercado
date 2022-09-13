@@ -548,17 +548,23 @@ ul, li {
 /* line 108, ../../../Documents/GitHub/supermercado/scss/_promocao.scss */
 .promocao .card__preco--real {
   color: #fff;
-  font-size: 1.4rem;
-}
-
-/* line 113, ../../../Documents/GitHub/supermercado/scss/_promocao.scss */
-.promocao .card__preco--strong {
-  color: #fff;
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-family: "Thasadith", sans-serif;
 }
 
-/* line 119, ../../../Documents/GitHub/supermercado/scss/_promocao.scss */
+/* line 114, ../../../Documents/GitHub/supermercado/scss/_promocao.scss */
+.promocao .card__preco--strong {
+  color: #fff;
+  font-size: 1.4rem;
+  font-family: "Thasadith", sans-serif;
+}
+
+/* line 120, ../../../Documents/GitHub/supermercado/scss/_promocao.scss */
+.promocao .card__preco--strong strong {
+  font-size: 1.5rem;
+}
+
+/* line 124, ../../../Documents/GitHub/supermercado/scss/_promocao.scss */
 .promocao .card__contato {
   font-family: "Thasadith", sans-serif;
   font-weight: bold;
@@ -579,28 +585,28 @@ ul, li {
   font-family: "Marcellus SC", serif;
 }
 
-/* line 131, ../../../Documents/GitHub/supermercado/scss/_promocao.scss */
+/* line 136, ../../../Documents/GitHub/supermercado/scss/_promocao.scss */
 .promocao .card__contato:hover {
   background-color: #C33C54;
   transition: all .5s;
 }
 
-/* line 136, ../../../Documents/GitHub/supermercado/scss/_promocao.scss */
+/* line 141, ../../../Documents/GitHub/supermercado/scss/_promocao.scss */
 .promocao .card__contato:hover .card__pedido {
   color: #fff;
 }
 
-/* line 140, ../../../Documents/GitHub/supermercado/scss/_promocao.scss */
+/* line 145, ../../../Documents/GitHub/supermercado/scss/_promocao.scss */
 .promocao .card__contato:hover .ico-pedido {
   color: #fff;
 }
 
-/* line 145, ../../../Documents/GitHub/supermercado/scss/_promocao.scss */
+/* line 150, ../../../Documents/GitHub/supermercado/scss/_promocao.scss */
 .promocao .ico-pedido {
   color: #000;
 }
 
-/* line 149, ../../../Documents/GitHub/supermercado/scss/_promocao.scss */
+/* line 154, ../../../Documents/GitHub/supermercado/scss/_promocao.scss */
 .promocao .card__pedido {
   color: #000;
   font-weight: bold;
