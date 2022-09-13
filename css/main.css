@@ -590,12 +590,17 @@ ul, li {
   color: #fff;
 }
 
-/* line 141, ../../../Documents/GitHub/supermercado/scss/_promocao.scss */
-.promocao .ico-pedido {
-  outline: #000;
+/* line 140, ../../../Documents/GitHub/supermercado/scss/_promocao.scss */
+.promocao .card__contato:hover .ico-pedido {
+  color: #fff;
 }
 
 /* line 145, ../../../Documents/GitHub/supermercado/scss/_promocao.scss */
+.promocao .ico-pedido {
+  color: #000;
+}
+
+/* line 149, ../../../Documents/GitHub/supermercado/scss/_promocao.scss */
 .promocao .card__pedido {
   color: #000;
   font-weight: bold;

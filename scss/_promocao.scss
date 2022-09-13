@@ -136,10 +136,14 @@
             &:hover .card__pedido {
                 color: #fff;
             }
+
+            &:hover .ico-pedido {
+                color: #fff;
+            }
         }
 
         .ico-pedido {
-            outline: #000;
+            color: #000;
         }
 
         .card__pedido {
