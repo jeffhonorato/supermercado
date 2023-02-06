@@ -396,14 +396,11 @@ ul, li {
 
 /* line 1, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_promocao.scss */
 .promocao {
-  background-image: url("../img/background-section.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background: linear-gradient(40deg, #3E92CC, #042A8F);
   padding-bottom: 4rem;
 }
 
-/* line 8, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_promocao.scss */
+/* line 5, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_promocao.scss */
 .promocao .promo__titulo {
   display: flex;
   justify-content: center;
@@ -415,39 +412,39 @@ ul, li {
 }
 
 @media (max-width: 480px) {
-  /* line 8, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_promocao.scss */
+  /* line 5, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_promocao.scss */
   .promocao .promo__titulo {
     gap: 1rem;
   }
 }
 
 @media (min-width: 480px) and (max-width: 768px) {
-  /* line 8, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_promocao.scss */
+  /* line 5, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_promocao.scss */
   .promocao .promo__titulo {
     gap: 2rem;
   }
 }
 
-/* line 22, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_promocao.scss */
+/* line 19, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_promocao.scss */
 .promocao .img__titulo {
   width: 12.5rem;
 }
 
 @media (max-width: 480px) {
-  /* line 22, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_promocao.scss */
+  /* line 19, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_promocao.scss */
   .promocao .img__titulo {
     width: 8rem;
   }
 }
 
 @media (min-width: 480px) and (max-width: 768px) {
-  /* line 22, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_promocao.scss */
+  /* line 19, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_promocao.scss */
   .promocao .img__titulo {
     width: 10rem;
   }
 }
 
-/* line 34, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_promocao.scss */
+/* line 31, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_promocao.scss */
 .promocao .titulo {
   color: #fff;
   font-size: 3rem;
@@ -455,20 +452,20 @@ ul, li {
 }
 
 @media (max-width: 480px) {
-  /* line 34, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_promocao.scss */
+  /* line 31, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_promocao.scss */
   .promocao .titulo {
     font-size: 1.5rem;
   }
 }
 
 @media (min-width: 480px) and (max-width: 768px) {
-  /* line 34, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_promocao.scss */
+  /* line 31, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_promocao.scss */
   .promocao .titulo {
     font-size: 2rem;
   }
 }
 
-/* line 48, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_promocao.scss */
+/* line 45, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_promocao.scss */
 .promocao .card__itens {
   display: flex;
   flex-wrap: wrap;
@@ -478,7 +475,7 @@ ul, li {
   margin-top: 3rem;
 }
 
-/* line 58, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_promocao.scss */
+/* line 55, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_promocao.scss */
 .promocao .card {
   text-align: center;
   padding: 1rem;
@@ -497,7 +494,7 @@ ul, li {
   transition: all .5s;
 }
 
-/* line 63, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_promocao.scss */
+/* line 60, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_promocao.scss */
 .promocao .card__etiqueta__promo {
   background-color: #C33C54;
   font-family: "Thasadith", sans-serif;
@@ -513,26 +510,26 @@ ul, li {
   text-transform: uppercase;
 }
 
-/* line 78, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_promocao.scss */
+/* line 75, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_promocao.scss */
 .promocao .card__img {
   width: 180px;
 }
 
-/* line 82, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_promocao.scss */
+/* line 79, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_promocao.scss */
 .promocao .card__desc {
   font-family: "Marcellus SC", serif;
   font-size: 1.5rem;
   margin-bottom: 0.5rem;
 }
 
-/* line 88, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_promocao.scss */
+/* line 85, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_promocao.scss */
 .promocao .card__peso {
   font-family: "Marcellus SC", serif;
   font-size: 1.3rem;
   margin-bottom: 0.5rem;
 }
 
-/* line 94, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_promocao.scss */
+/* line 91, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_promocao.scss */
 .promocao .card__preco {
   display: flex;
   align-items: center;
@@ -545,26 +542,26 @@ ul, li {
   padding: .5rem;
 }
 
-/* line 108, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_promocao.scss */
+/* line 105, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_promocao.scss */
 .promocao .card__preco--real {
   color: #fff;
   font-size: 1rem;
   font-family: "Thasadith", sans-serif;
 }
 
-/* line 114, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_promocao.scss */
+/* line 111, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_promocao.scss */
 .promocao .card__preco--strong {
   color: #fff;
   font-size: 1.4rem;
   font-family: "Thasadith", sans-serif;
 }
 
-/* line 120, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_promocao.scss */
+/* line 117, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_promocao.scss */
 .promocao .card__preco--strong strong {
   font-size: 1.5rem;
 }
 
-/* line 124, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_promocao.scss */
+/* line 121, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_promocao.scss */
 .promocao .card__contato {
   font-family: "Thasadith", sans-serif;
   font-weight: bold;
@@ -585,28 +582,28 @@ ul, li {
   font-family: "Marcellus SC", serif;
 }
 
-/* line 136, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_promocao.scss */
+/* line 133, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_promocao.scss */
 .promocao .card__contato:hover {
   background-color: #C33C54;
   transition: all .5s;
 }
 
-/* line 141, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_promocao.scss */
+/* line 138, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_promocao.scss */
 .promocao .card__contato:hover .card__pedido {
   color: #fff;
 }
 
-/* line 145, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_promocao.scss */
+/* line 142, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_promocao.scss */
 .promocao .card__contato:hover .ico-pedido {
   color: #fff;
 }
 
-/* line 150, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_promocao.scss */
+/* line 147, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_promocao.scss */
 .promocao .ico-pedido {
   color: #000;
 }
 
-/* line 154, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_promocao.scss */
+/* line 151, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_promocao.scss */
 .promocao .card__pedido {
   color: #000;
   font-weight: bold;
@@ -1934,7 +1931,7 @@ ul, li {
 
 /* line 53, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/_footer.scss */
 .footer .footer__end {
-  background-color: #778DA9;
+  background-color: #3E92CC;
   padding: 1rem;
   text-align: center;
   margin: .4rem;
