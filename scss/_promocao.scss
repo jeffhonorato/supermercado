@@ -62,10 +62,6 @@
         .card {
             @include card-config;
             position: relative;
-
-            &:hover {
-                box-shadow: 2px 4px 10px #000;
-            }
         }
 
         .card__etiqueta__promo {

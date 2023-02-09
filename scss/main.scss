@@ -63,7 +63,7 @@ ul, li {
 @mixin card-config {
     text-align: center;
     padding: 1rem;
-    box-shadow: 2px 4px 10px #fff;
+    box-shadow: 2px 4px 10px #000;
     background: #fff;
     backdrop-filter: blur(40px);
     border-radius: 6px;
