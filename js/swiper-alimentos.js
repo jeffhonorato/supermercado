@@ -9,7 +9,7 @@ var swiper = new Swiper(".arrox-box", {
       stretch: 0,
       depth: 100,
       modifier: 1,
-      slideShadows: true,
+      slideShadows: false,
     },
     navigation: {
         nextEl: ".swiper-button-next",

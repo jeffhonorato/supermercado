@@ -12,6 +12,10 @@
 
                 @include mobile {
                     gap: 1rem;
+                    display: flex;
+                    flex-direction: column-reverse;
+                    justify-content: center;
+                    align-items: center;
                 }
 
                 @include tablet {
@@ -35,9 +39,10 @@
             color: #000;
             font-size: 3rem;
             font-family: $fonte-titulo;
+            text-align: center;
 
                 @include mobile {
-                    font-size: 1.5rem;
+                    font-size: 2rem;
                 }
 
                 @include tablet {
@@ -52,12 +57,15 @@
             justify-content: center;
             align-items: center;
             margin-top: 3rem;
-            
         }
 
         .card {
             @include card-config;
             position: relative;
+
+            &:hover {
+                box-shadow: 2px 4px 10px #000;
+            }
         }
 
         .card__etiqueta__promo {

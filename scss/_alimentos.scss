@@ -39,6 +39,10 @@
 
                 @include mobile {
                     gap: 1rem;
+                    display: flex;
+                    flex-direction: column-reverse;
+                    justify-content: center;
+                    align-items: center;
                 }
 
                 @include tablet {
@@ -61,7 +65,7 @@
             text-align: center;
 
                 @include mobile {
-                    font-size: 2rem;    
+                    font-size: 3.2rem;    
                 }
 
                 @include tablet {
@@ -116,6 +120,7 @@
 
         .arroz__titulo {
             @include card-titulo;
+            color: #fff;
         }
 
         .arroz__cards {
