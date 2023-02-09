@@ -133,6 +133,10 @@
 
         .arroz__item {
             @include card-config;
+
+            &:hover .arroz__preco {
+                box-shadow: 7px 7px 0px 0px $cor-menu-mobile;
+            }
         }
 
         .arroz__img {
