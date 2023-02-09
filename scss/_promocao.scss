@@ -1,5 +1,6 @@
 .promocao {
-    background: linear-gradient(40deg, #dfdddd, #bfbfbf);
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
     padding-bottom: 4rem;
 
         .promo__titulo {
@@ -111,12 +112,14 @@
         }
 
         .card__preco--strong strong {
-            font-size: 1.5rem;
+            font-size: 1.6rem;
+            font-weight: bold
         }
 
         .card__contato {
             @include card-preco;
-            background-color: #30e868;
+            background: rgb(2,0,36);
+            background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, #00d4ff 100%);
             margin-top: 1rem;
             display: flex;
             align-items: center;
@@ -127,25 +130,25 @@
             font-family: $fonte-titulo;
 
             &:hover {
-                background-color: $cor-botoes;
+                background: #00d4ff;
                 transition: all .5s;
             } 
 
             &:hover .card__pedido {
-                color: #fff;
+                color: #000;
             }
 
             &:hover .ico-pedido {
-                color: #fff;
+                color: #000;
             }
         }
 
         .ico-pedido {
-            color: #000;
+            color: #fff;
         }
 
         .card__pedido {
-           color: #000;
+           color: #fff;
            font-weight: bold;
         }
 }
