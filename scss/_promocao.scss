@@ -62,6 +62,22 @@
         .card {
             @include card-config;
             position: relative;
+
+            &:hover .card__preco {
+                transition: all .5s;
+                background-color: rgba(223,221,221,1);
+                box-shadow: 7px 7px 0px 0px rgba(0,0,0,1);
+            }
+
+            &:hover .card__preco--real {
+                transition: all .5s;
+                color: #000;  
+            }
+
+            &:hover .card__preco--strong {
+                transition: all .5s;
+                color: #000;  
+             }
         }
 
         .card__etiqueta__promo {
@@ -105,7 +121,6 @@
         }
 
         .card__preco--real {
-            color: #000;
             font-size: 1rem;
             font-family: $fonte-corpo;
         }
