@@ -167,6 +167,7 @@
 
         /***** SESSÂO FEIJÃO *****/
         .feijao__box {
+            background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(9,9,121,1) 35%, rgba(2,0,36,1) 100%);
             padding: 3rem 0rem;
         }
 
@@ -176,6 +177,7 @@
             margin-bottom: 2rem;
             font-size: 3rem;
             text-decoration: underline;
+            color: #fff;
         }
         
         .feijao__cards {
@@ -188,6 +190,10 @@
 
         .feijao__item {
             @include card-config;
+
+            &:hover .feijao__item {
+                box-shadow: 7px 7px 0px 0px $cor-menu-mobile;
+            }
         }
 
         .feijao__img {
@@ -196,7 +202,7 @@
 
         .feijao__desc {
             font-family: $fonte-titulo;
-            font-size: 1.2rem;
+            font-size: 1.4rem;
             margin-bottom: 0.5rem;
         }
 
@@ -208,6 +214,12 @@
 
         .feijao__preco {
             @include card-preco;
+            background-color: rgba(223,221,221,1);
+            box-shadow: 7px 7px 0px 0px rgba(0,0,0,1);
+            color: #000;
+            font-size: 2rem;
+            max-width: 140px;
+            margin: 0 auto;
         }
 
         /***** SESSÂO BISCOITOS *****/
