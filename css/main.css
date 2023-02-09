@@ -487,16 +487,14 @@ ul, li {
 .promocao .card {
   text-align: center;
   padding: 1rem;
-  box-shadow: 2px 4px 10px #000;
+  box-shadow: 10px 13px 5px 0px rgba(0, 0, 0, 0.75);
   background: #fff;
-  backdrop-filter: blur(40px);
   border-radius: 6px;
-  border: 1px solid #000;
   width: 300px;
   position: relative;
 }
 
-/* line 73, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/main.scss */
+/* line 71, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/main.scss */
 .promocao .card:hover {
   box-shadow: 2px 4px 10px #fff;
   transition: all .5s;
@@ -813,15 +811,13 @@ ul, li {
 .alimentos .arroz__item {
   text-align: center;
   padding: 1rem;
-  box-shadow: 2px 4px 10px #000;
+  box-shadow: 10px 13px 5px 0px rgba(0, 0, 0, 0.75);
   background: #fff;
-  backdrop-filter: blur(40px);
   border-radius: 6px;
-  border: 1px solid #000;
   width: 300px;
 }
 
-/* line 73, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/main.scss */
+/* line 71, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/main.scss */
 .alimentos .arroz__item:hover {
   box-shadow: 2px 4px 10px #fff;
   transition: all .5s;
@@ -885,15 +881,13 @@ ul, li {
 .alimentos .feijao__item {
   text-align: center;
   padding: 1rem;
-  box-shadow: 2px 4px 10px #000;
+  box-shadow: 10px 13px 5px 0px rgba(0, 0, 0, 0.75);
   background: #fff;
-  backdrop-filter: blur(40px);
   border-radius: 6px;
-  border: 1px solid #000;
   width: 300px;
 }
 
-/* line 73, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/main.scss */
+/* line 71, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/main.scss */
 .alimentos .feijao__item:hover {
   box-shadow: 2px 4px 10px #fff;
   transition: all .5s;
@@ -957,15 +951,13 @@ ul, li {
 .alimentos .biscoito__item {
   text-align: center;
   padding: 1rem;
-  box-shadow: 2px 4px 10px #000;
+  box-shadow: 10px 13px 5px 0px rgba(0, 0, 0, 0.75);
   background: #fff;
-  backdrop-filter: blur(40px);
   border-radius: 6px;
-  border: 1px solid #000;
   width: 300px;
 }
 
-/* line 73, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/main.scss */
+/* line 71, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/main.scss */
 .alimentos .biscoito__item:hover {
   box-shadow: 2px 4px 10px #fff;
   transition: all .5s;
@@ -1022,15 +1014,13 @@ ul, li {
 .alimentos .fruta__item {
   text-align: center;
   padding: 1rem;
-  box-shadow: 2px 4px 10px #000;
+  box-shadow: 10px 13px 5px 0px rgba(0, 0, 0, 0.75);
   background: #fff;
-  backdrop-filter: blur(40px);
   border-radius: 6px;
-  border: 1px solid #000;
   width: 300px;
 }
 
-/* line 73, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/main.scss */
+/* line 71, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/main.scss */
 .alimentos .fruta__item:hover {
   box-shadow: 2px 4px 10px #fff;
   transition: all .5s;
@@ -1087,15 +1077,13 @@ ul, li {
 .alimentos .enlatados__item {
   text-align: center;
   padding: 1rem;
-  box-shadow: 2px 4px 10px #000;
+  box-shadow: 10px 13px 5px 0px rgba(0, 0, 0, 0.75);
   background: #fff;
-  backdrop-filter: blur(40px);
   border-radius: 6px;
-  border: 1px solid #000;
   width: 300px;
 }
 
-/* line 73, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/main.scss */
+/* line 71, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/main.scss */
 .alimentos .enlatados__item:hover {
   box-shadow: 2px 4px 10px #fff;
   transition: all .5s;
@@ -1319,15 +1307,13 @@ ul, li {
 .bebidas .agua__item {
   text-align: center;
   padding: 1rem;
-  box-shadow: 2px 4px 10px #000;
+  box-shadow: 10px 13px 5px 0px rgba(0, 0, 0, 0.75);
   background: #fff;
-  backdrop-filter: blur(40px);
   border-radius: 6px;
-  border: 1px solid #000;
   width: 300px;
 }
 
-/* line 73, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/main.scss */
+/* line 71, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/main.scss */
 .bebidas .agua__item:hover {
   box-shadow: 2px 4px 10px #fff;
   transition: all .5s;
@@ -1391,15 +1377,13 @@ ul, li {
 .bebidas .refri__item {
   text-align: center;
   padding: 1rem;
-  box-shadow: 2px 4px 10px #000;
+  box-shadow: 10px 13px 5px 0px rgba(0, 0, 0, 0.75);
   background: #fff;
-  backdrop-filter: blur(40px);
   border-radius: 6px;
-  border: 1px solid #000;
   width: 300px;
 }
 
-/* line 73, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/main.scss */
+/* line 71, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/main.scss */
 .bebidas .refri__item:hover {
   box-shadow: 2px 4px 10px #fff;
   transition: all .5s;
@@ -1463,15 +1447,13 @@ ul, li {
 .bebidas .cerveja__item {
   text-align: center;
   padding: 1rem;
-  box-shadow: 2px 4px 10px #000;
+  box-shadow: 10px 13px 5px 0px rgba(0, 0, 0, 0.75);
   background: #fff;
-  backdrop-filter: blur(40px);
   border-radius: 6px;
-  border: 1px solid #000;
   width: 300px;
 }
 
-/* line 73, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/main.scss */
+/* line 71, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/main.scss */
 .bebidas .cerveja__item:hover {
   box-shadow: 2px 4px 10px #fff;
   transition: all .5s;
@@ -1702,15 +1684,13 @@ ul, li {
 .limpeza .sabao__item {
   text-align: center;
   padding: 1rem;
-  box-shadow: 2px 4px 10px #000;
+  box-shadow: 10px 13px 5px 0px rgba(0, 0, 0, 0.75);
   background: #fff;
-  backdrop-filter: blur(40px);
   border-radius: 6px;
-  border: 1px solid #000;
   width: 300px;
 }
 
-/* line 73, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/main.scss */
+/* line 71, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/main.scss */
 .limpeza .sabao__item:hover {
   box-shadow: 2px 4px 10px #fff;
   transition: all .5s;
@@ -1774,15 +1754,13 @@ ul, li {
 .limpeza .cozinha__item {
   text-align: center;
   padding: 1rem;
-  box-shadow: 2px 4px 10px #000;
+  box-shadow: 10px 13px 5px 0px rgba(0, 0, 0, 0.75);
   background: #fff;
-  backdrop-filter: blur(40px);
   border-radius: 6px;
-  border: 1px solid #000;
   width: 300px;
 }
 
-/* line 73, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/main.scss */
+/* line 71, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/main.scss */
 .limpeza .cozinha__item:hover {
   box-shadow: 2px 4px 10px #fff;
   transition: all .5s;
@@ -1846,15 +1824,13 @@ ul, li {
 .limpeza .limpeza-geral__item {
   text-align: center;
   padding: 1rem;
-  box-shadow: 2px 4px 10px #000;
+  box-shadow: 10px 13px 5px 0px rgba(0, 0, 0, 0.75);
   background: #fff;
-  backdrop-filter: blur(40px);
   border-radius: 6px;
-  border: 1px solid #000;
   width: 300px;
 }
 
-/* line 73, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/main.scss */
+/* line 71, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/supermercado/scss/main.scss */
 .limpeza .limpeza-geral__item:hover {
   box-shadow: 2px 4px 10px #fff;
   transition: all .5s;

@@ -63,11 +63,9 @@ ul, li {
 @mixin card-config {
     text-align: center;
     padding: 1rem;
-    box-shadow: 2px 4px 10px #000;
+    box-shadow: 10px 13px 5px 0px rgba(0,0,0,0.75);
     background: #fff;
-    backdrop-filter: blur(40px);
     border-radius: 6px;
-    border: 1px solid #000;
     width: 300px;
 
         &:hover {
