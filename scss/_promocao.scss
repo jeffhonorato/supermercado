@@ -1,9 +1,10 @@
 .promocao {
-    background: linear-gradient(40deg, #3E92CC, #042A8F);
+    background: linear-gradient(40deg, #dfdddd, #bfbfbf);
     padding-bottom: 4rem;
 
         .promo__titulo {
             @include titulo-section;
+            background-color: $cor-section1;
             box-shadow: 1px 4px 8px 1px #fff;
             
 
@@ -29,7 +30,7 @@
         }
 
         .titulo {
-            color: #fff;
+            color: #000;
             font-size: 3rem;
             font-family: $fonte-titulo;
 
@@ -93,24 +94,19 @@
             align-items: center;
             justify-content: center;
             gap: .8rem;
-            background: rgba(4, 42, 143, 0.89);
-            border-radius: 16px;
-            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-            backdrop-filter: blur(4.4px);
             padding: .5rem;
-         
-            
+            color: #000;
         }
 
         .card__preco--real {
-            color: #fff;
+            color: #000;
             font-size: 1rem;
             font-family: $fonte-corpo;
         }
 
         .card__preco--strong {
-            color: #fff;
-            font-size: 1.4rem;
+            color: #000;
+            font-size: 1rem;
             font-family: $fonte-corpo;
         }
 
