@@ -24,8 +24,17 @@
         }
     }
     
+        .alimentos__cabecalho {
+            background: rgb(255,188,66);
+            background: linear-gradient(0deg, rgba(255,188,66,1) 0%, rgba(223,221,221,1) 100%);
+        }
+
         .alimentos__titulo {
-            @include titulo-section;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 5rem;
+            padding: 1rem;
             
 
                 @include mobile {
@@ -48,7 +57,7 @@
         .titulo {
             font-family: $fonte-titulo;
             font-size: 4rem;
-            color: #fff;
+            color: #000;
             text-align: center;
 
                 @include mobile {
@@ -64,8 +73,7 @@
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
-            gap: 2rem;
-            background-color: $cor-header;
+            gap: 1.5rem;
             padding: 2rem 0rem;
 
                 @include mobile {
@@ -93,16 +101,18 @@
                 }
 
                 &:hover {
-                    box-shadow: 0px 0px 2px 1px #fff;
                     color: #000;
-                    transition: .4s;
+                    transition: all .5s;
                 }    
         }
 
         /***** SESSÂO ARROZ *****/
         .arroz__box {
             padding: 3rem 0rem;
+            background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(9,9,121,1) 35%, rgba(2,0,36,1) 100%);
         }
+
+           
 
         .arroz__titulo {
             @include card-titulo;

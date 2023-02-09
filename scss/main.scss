@@ -46,15 +46,17 @@ ul, li {
     color: #fff;
     font-family: $fonte-titulo;
     font-size: 1.7rem;
-    background-color: $cor-botoes;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, #00d4ff 100%);
     padding: .5rem;
     border: 1px solid #fff;
     border-radius: 4px;
-    box-shadow: 1px 1px 8px 1px #fff;
+    box-shadow: 2px 4px 5px #000;
     cursor: pointer;
 
         &:hover {
-            background-color: $cor-menu-mobile;
+            background: $cor-menu-mobile;
+            box-shadow: 2px 4px 5px #000;
         }
 }
 

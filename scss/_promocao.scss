@@ -5,7 +5,8 @@
 
         .promo__titulo {
             @include titulo-section;
-            background-color: $cor-section1;
+            background: rgb(255,188,66);
+            background: linear-gradient(0deg, rgba(255,188,66,1) 0%, rgba(223,221,221,1) 100%);
             box-shadow: 1px 4px 8px 1px #fff;
             
 
