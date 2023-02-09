@@ -81,7 +81,7 @@
             padding: 2rem 0rem;
 
                 @include mobile {
-                    gap: 1rem;
+                    gap: .6rem;
                     padding: 2rem 0.5rem;
                 }
 
@@ -191,9 +191,10 @@
         .feijao__item {
             @include card-config;
 
-            &:hover .feijao__item {
+            &:hover .feijao__preco {
                 box-shadow: 7px 7px 0px 0px $cor-menu-mobile;
             }
+            
         }
 
         .feijao__img {
@@ -224,6 +225,7 @@
 
         /***** SESSÂO BISCOITOS *****/
         .biscoito__box {
+            background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(9,9,121,1) 35%, rgba(2,0,36,1) 100%);
             padding: 3rem 0rem;
         }
 
@@ -233,6 +235,7 @@
             margin-bottom: 2rem;
             font-size: 3rem;
             text-decoration: underline;
+            color: #fff;
         }
 
         .biscoito__cards {
