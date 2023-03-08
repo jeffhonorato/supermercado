@@ -62,22 +62,6 @@
         .card {
             @include card-config;
             position: relative;
-
-            &:hover .card__preco {
-                transition: all .5s;
-                background-color: rgba(223,221,221,1);
-                box-shadow: 7px 7px 0px 0px rgba(0,0,0,1);
-            }
-
-            &:hover .card__preco--real {
-                transition: all .5s;
-                color: #000;  
-            }
-
-            &:hover .card__preco--strong {
-                transition: all .5s;
-                color: #000;  
-             }
         }
 
         .card__etiqueta__promo {
@@ -111,6 +95,11 @@
             margin-bottom: 0.5rem;
         }
 
+        .card__preco--info {
+            background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+            padding: 1rem 0rem;
+        }
+
         .card__preco {
             display: flex;
             align-items: center;
@@ -123,12 +112,14 @@
         .card__preco--real {
             font-size: 1rem;
             font-family: $fonte-corpo;
+            color: #fff;
         }
 
         .card__preco--strong {
             color: #000;
             font-size: 1rem;
             font-family: $fonte-corpo;
+            color: #fff;
         }
 
         .card__preco--strong strong {
@@ -138,8 +129,7 @@
 
         .card__contato {
             @include card-preco;
-            background: rgb(2,0,36);
-            background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, #00d4ff 100%);
+            background-color: #00d4ff;
             margin-top: 1rem;
             display: flex;
             align-items: center;
@@ -148,6 +138,7 @@
             width: 160px;
             margin: .8rem auto;
             font-family: $fonte-titulo;
+            border-radius: 20px;
 
             &:hover {
                 background: #00d4ff;
